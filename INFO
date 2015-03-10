@@ -1,0 +1,26 @@
+Project: High Availability for OPNFV (availability)
+Repo: availability
+Project Creation Date:
+Project Category: Requirements
+Lifecycle State:
+Primary Contact:fuqiao@chinamobile.com
+Project Lead: fuqiao@chinamobile.com
+Jira Project Name: High Availability project
+Jira Project Prefix: HA
+mailing list tag [ha]
+
+Submitters:
+fuqiao@chinamobile.com
+pals@cisco.com
+huailin@arraynetworks.net
+zhang.jun3g@zte.com.cn
+stefan.arntzen@huawei.com
+yuyijun@huawei.com
+xueyifei@huawei.com
+gil.hellmann@windriver.com
+jonas.bjurel@ericsson.com
+maria.toeroe@ericsson.com
+tamas.zsiros@ericsson.com
+
+Link to TSC approval: http://meetbot.opnfv.org/meetings/
+Link to approval of additional submitters:
