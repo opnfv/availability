@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_ba304457",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-05-25T20:07:22Z",
+      "side": 1,
+      "message": "Can we wrap the text at 100-120 characters, it is very hard to read without CR.  I thought Jenkins would have failed for that reason",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 0
+      },
+      "revId": "7d1d86ec2842bdf30693f817cef4cca293e2435f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_9a358848",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-05-25T20:07:22Z",
+      "side": 1,
+      "message": "(End to End)",
+      "range": {
+        "startLine": 20,
+        "startChar": 7,
+        "endLine": 20,
+        "endChar": 10
+      },
+      "revId": "7d1d86ec2842bdf30693f817cef4cca293e2435f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_7a3abc37",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-05-25T20:07:22Z",
+      "side": 1,
+      "message": "In the review I can see red blocks, not sure why, in this table, perhaps this is due to some tags.",
+      "revId": "7d1d86ec2842bdf30693f817cef4cca293e2435f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
