@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_a9afe1e2",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-05-28T07:44:20Z",
+      "side": 1,
+      "message": "I have talked with Stephen from REL WG in ETSI NFV. It seems the recovery time they give here is just some example. And it actually only refers to dataplane recovery time. for the control plane, I think the discussion within the mailing list about the recovery time should continue. From our testing, as far as I know, we normally require the recovery time to be less than 1s. Otherwise the control plane may lose the session and lead to a service suspension.",
+      "revId": "9da82e3feaf8f4ed3472ffac5fce16c9236942dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
