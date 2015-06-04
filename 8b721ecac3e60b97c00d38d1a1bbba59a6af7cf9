@@ -1,0 +1,285 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_c7fe916b",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "Can we reformulate this paragarph something like the following: Among the OPNFV projects the OPNFV-HA project\u0027s focus is on requirements related to service high availability. This is complemented by other projects such as the OPNFV - Doctor project, whose focus is reporting and management of faults along with maintenance, the OPNFV-Escalator project that considers the upgrade of the NFVI and VIM, or the OPNFV-Multisite that adds geographical redundancy to the picture.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 45
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_67f57d82",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "Considering our use cases, I think it would be good to distinguish the application layer from the VM-layer. Primarily because of the manager responsible for the failure handling is different in these layers. VM is recovered by the VIM, which the VNF is by the VNFM or by a built in availability solution.",
+      "range": {
+        "startLine": 42,
+        "startChar": 1,
+        "endLine": 42,
+        "endChar": 67
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_47f2819b",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "I know I\u0027m picky, but I think we can make the terms appear as bold by putting stars around them:\n**Availability**: Availability of...",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 12
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_27ef75b2",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "Instead of the comment maybe we could connect the two definitions as:\nAccoring to the ETSI GS NFV-REL 001 V1.1.1 (2015-01) document service availability in the context of NFV is defined as End-to-End Service availability...",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 52
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_072c7901",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "Assuming that the agreement applies not only the modified text but also the entire comment I would modify this definition as: \nService failover is when the instance providing a service becomes unavailable\ndue to a fault or a failure and another healthy instance  takes over in providing the service. In the HA context this should be an automatic action and this whole process should be transparent to the user. It is possible that\nan entire VNF instance becomes unavailble while providing its service.",
+      "range": {
+        "startLine": 105,
+        "startChar": 18,
+        "endLine": 108,
+        "endChar": 70
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_e7306d58",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "I think this should be \"to\"",
+      "range": {
+        "startLine": 127,
+        "startChar": 39,
+        "endLine": 127,
+        "endChar": 41
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_c7357147",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "Based on the discussion above I would rephrase it as:\nFailure detection time is the time interval from the moment the failure occurs till it is reported as a detected failure.",
+      "range": {
+        "startLine": 135,
+        "startChar": 24,
+        "endLine": 136,
+        "endChar": 40
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_a73a6534",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "I would add \"threshold\", i.e. \"alarm threshold condition detection\"\nAccordingly the definition would change as well:\nAlarm threshold conditions are detected by the component in charge of evaluating such conditions.",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_873f6925",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "I\u0027d insert \"threshold\"",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_673c5d30",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "I think this list is not exhaustive, i.e. an upgrade may not be manual neither it\u0027s a fault, so I\u0027d add \"e.g.\"",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_474961cf",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "These are bullets, so you may want to add \"* \" in front of each paragraph and indent the subsequent lines.",
+      "range": {
+        "startLine": 184,
+        "startChar": 0,
+        "endLine": 190,
+        "endChar": 18
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_071359b9",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "I think SAL needs to be spelled out somewhere before the table. Also SAL already includes \"L\" for \"level\", so there\u0027s no need to spell that out.\nSame for the other rows below",
+      "range": {
+        "startLine": 205,
+        "startChar": 27,
+        "endLine": 205,
+        "endChar": 38
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_274655c0",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-04T23:45:43Z",
+      "side": 1,
+      "message": "We could say that this is an example break out of the failure detection times considering the service recovery times presented as examples for the different service availability levels in the ETSI GS NFV-REL 001 V1.1.1 (2015-01) document.",
+      "range": {
+        "startLine": 197,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 78
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
