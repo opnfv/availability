@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_8a6890bb",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-07T18:13:50Z",
+      "side": 1,
+      "message": "Further storage-related requirements:\n* Large deployments using distributed software-based storage shall separate storage and compute nodes (non-hyperconverged deployment).\n* Distributed software-based storage services shall be deployed redundantly.\n* Data shall be stored redundantly in distributed storage backends.\n* Upon failures of storage services, automatic repair mechanisms (re-build/re-balance of data) shall be triggered automatically.\n* Storage data path traffic shall be redundant and fail over within 1 second on link failures.\n* Ephemeral storage is not guaranteed to be located on shared storage.\n* The storage backend shall support geo-redundancy.\n* Notifications about the state of the (distributed) storage backends shall be send to the VIM (in-synch/healthy, re-balancing/re-building, degraded).",
+      "revId": "445f0cf36904d59880c6169664b1869006ace64e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
