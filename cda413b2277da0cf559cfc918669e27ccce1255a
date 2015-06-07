@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_4a4ba859",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-07T16:15:14Z",
+      "side": 1,
+      "message": "Further storage requirements:\n* Data shall be stored redundantly in the storage backend (e.g., by means of RAID across disks.)\n* Upon failures of storage hardware components (e.g., disks services, storage nodes) automatic repair mechanisms (re-build/re-balance of data) shall be triggered automatically.\n* Centralized storage arrays shall consist of redundant hardware",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
