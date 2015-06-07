@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "3a045101_0a75a097",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-07T18:37:41Z",
+      "side": 1,
+      "message": "a",
+      "range": {
+        "startLine": 7,
+        "startChar": 62,
+        "endLine": 7,
+        "endChar": 63
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_c7fe916b",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -18,6 +41,29 @@
         "startChar": 0,
         "endLine": 28,
         "endChar": 45
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_2a5f3c10",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-07T18:37:41Z",
+      "side": 1,
+      "message": "Can we rephrase/add this: A layered approach allows to define failure domains (e.g., the networking hardware, the distributed storage system, etc.). If possible, a fault shall be handled at the layer (failure domain) where it occurs. If a failure cannot be handled at its corresponding layer, the next higher layer needs to be able to handle it. In any case, a failure shall not cause cascading failures at other layers.",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 23
       },
       "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
@@ -71,6 +117,29 @@
     },
     {
       "key": {
+        "uuid": "3a045101_0a9c80bf",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-07T18:37:41Z",
+      "side": 1,
+      "message": "insert blank",
+      "range": {
+        "startLine": 60,
+        "startChar": 13,
+        "endLine": 60,
+        "endChar": 14
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_27ef75b2",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -87,6 +156,29 @@
         "startChar": 0,
         "endLine": 82,
         "endChar": 52
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_aa734cb0",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-07T18:37:41Z",
+      "side": 1,
+      "message": "remove whitespace",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 4
       },
       "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
