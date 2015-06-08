@@ -94,6 +94,24 @@
     },
     {
       "key": {
+        "uuid": "3a045101_2a8dfc7b",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T09:45:23Z",
+      "side": 1,
+      "message": "Agree. I myself is a little bit confused here, since I think the NFVI/VIM layer should include the VM. Therefore, the first layer should be rephrased as Application layer which only indicates the VNF. Shall we add a new layer indicates the VM, or shall we put VM in the NFVI/VIM layer?",
+      "parentUuid": "3a045101_67f57d82",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_47f2819b",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -369,6 +387,24 @@
         "endLine": 216,
         "endChar": 78
       },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_4ae72841",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T09:45:23Z",
+      "side": 1,
+      "message": "Agree. We should point out this is just an example. Detail specification of detection time should be defined based on the function of the VNF.",
+      "parentUuid": "3a045101_274655c0",
       "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
