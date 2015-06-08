@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_ca269868",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_0a75a097",
+      "range": {
+        "startLine": 7,
+        "startChar": 62,
+        "endLine": 7,
+        "endChar": 63
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_c7fe916b",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_aa2b4c2f",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_c7fe916b",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 45
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_2a5f3c10",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2015-06-07T18:37:41Z",
       "side": 1,
       "message": "Can we rephrase/add this: A layered approach allows to define failure domains (e.g., the networking hardware, the distributed storage system, etc.). If possible, a fault shall be handled at the layer (failure domain) where it occurs. If a failure cannot be handled at its corresponding layer, the next higher layer needs to be able to handle it. In any case, a failure shall not cause cascading failures at other layers.",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 23
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_8ae77012",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_2a5f3c10",
       "range": {
         "startLine": 30,
         "startChar": 0,
@@ -112,6 +184,48 @@
     },
     {
       "key": {
+        "uuid": "3a045101_4af168cc",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_67f57d82",
+      "range": {
+        "startLine": 42,
+        "startChar": 1,
+        "endLine": 42,
+        "endChar": 67
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_2aee1ced",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_2a8dfc7b",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_47f2819b",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -123,6 +237,30 @@
       "writtenOn": "2015-06-04T23:45:43Z",
       "side": 1,
       "message": "I know I\u0027m picky, but I think we can make the terms appear as bold by putting stars around them:\n**Availability**: Availability of...",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 12
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_2ac5fc5a",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "No, good suggestion, just the line wraps are a pain.",
+      "parentUuid": "3a045101_47f2819b",
       "range": {
         "startLine": 58,
         "startChar": 0,
@@ -158,6 +296,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_0aa240ae",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_0a9c80bf",
+      "range": {
+        "startLine": 60,
+        "startChar": 13,
+        "endLine": 60,
+        "endChar": 14
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_27ef75b2",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -169,6 +331,30 @@
       "writtenOn": "2015-06-04T23:45:43Z",
       "side": 1,
       "message": "Instead of the comment maybe we could connect the two definitions as:\nAccoring to the ETSI GS NFV-REL 001 V1.1.1 (2015-01) document service availability in the context of NFV is defined as End-to-End Service availability...",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 52
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_caab3888",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_27ef75b2",
       "range": {
         "startLine": 82,
         "startChar": 0,
@@ -204,6 +390,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_eaa6f4c0",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_aa734cb0",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 4
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_072c7901",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -215,6 +425,30 @@
       "writtenOn": "2015-06-04T23:45:43Z",
       "side": 1,
       "message": "Assuming that the agreement applies not only the modified text but also the entire comment I would modify this definition as: \nService failover is when the instance providing a service becomes unavailable\ndue to a fault or a failure and another healthy instance  takes over in providing the service. In the HA context this should be an automatic action and this whole process should be transparent to the user. It is possible that\nan entire VNF instance becomes unavailble while providing its service.",
+      "range": {
+        "startLine": 105,
+        "startChar": 18,
+        "endLine": 108,
+        "endChar": 70
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_8a953042",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_072c7901",
       "range": {
         "startLine": 105,
         "startChar": 18,
@@ -250,6 +484,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_aab0ecf4",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Reworked the sentence, hopefully, i have the intent captured.",
+      "parentUuid": "3a045101_e7306d58",
+      "range": {
+        "startLine": 127,
+        "startChar": 39,
+        "endLine": 127,
+        "endChar": 41
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_c7357147",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -261,6 +519,30 @@
       "writtenOn": "2015-06-04T23:45:43Z",
       "side": 1,
       "message": "Based on the discussion above I would rephrase it as:\nFailure detection time is the time interval from the moment the failure occurs till it is reported as a detected failure.",
+      "range": {
+        "startLine": 135,
+        "startChar": 24,
+        "endLine": 136,
+        "endChar": 40
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_4a9f2860",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_c7357147",
       "range": {
         "startLine": 135,
         "startChar": 24,
@@ -290,6 +572,24 @@
     },
     {
       "key": {
+        "uuid": "3a045101_ea8dd432",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "I think I made the requested change, please review.",
+      "parentUuid": "3a045101_a73a6534",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_873f6925",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -307,6 +607,24 @@
     },
     {
       "key": {
+        "uuid": "3a045101_0a892026",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_873f6925",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_673c5d30",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -318,6 +636,24 @@
       "writtenOn": "2015-06-04T23:45:43Z",
       "side": 1,
       "message": "I think this list is not exhaustive, i.e. an upgrade may not be manual neither it\u0027s a fault, so I\u0027d add \"e.g.\"",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_ca821800",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "I am not sure this comment is in the right spot, please let me know.  Maybe I am wrong.",
+      "parentUuid": "3a045101_673c5d30",
       "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -347,6 +683,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_aa87cc0e",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_474961cf",
+      "range": {
+        "startLine": 184,
+        "startChar": 0,
+        "endLine": 190,
+        "endChar": 18
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_071359b9",
         "filename": "Section_1.rst",
         "patchSetId": 3
@@ -358,6 +718,30 @@
       "writtenOn": "2015-06-04T23:45:43Z",
       "side": 1,
       "message": "I think SAL needs to be spelled out somewhere before the table. Also SAL already includes \"L\" for \"level\", so there\u0027s no need to spell that out.\nSame for the other rows below",
+      "range": {
+        "startLine": 205,
+        "startChar": 27,
+        "endLine": 205,
+        "endChar": 38
+      },
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_8a7c1022",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_071359b9",
       "range": {
         "startLine": 205,
         "startChar": 27,
@@ -405,6 +789,48 @@
       "side": 1,
       "message": "Agree. We should point out this is just an example. Detail specification of detection time should be defined based on the function of the VNF.",
       "parentUuid": "3a045101_274655c0",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_4a760840",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_4ae72841",
+      "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_6a79c42e",
+        "filename": "Section_1.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-08T20:22:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_274655c0",
+      "range": {
+        "startLine": 197,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 78
+      },
       "revId": "8b721ecac3e60b97c00d38d1a1bbba59a6af7cf9",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
