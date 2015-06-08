@@ -2,6 +2,244 @@
   "comments": [
     {
       "key": {
+        "uuid": "3a045101_0ad12057",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "I suppose this sentence is not finished:\nHardware failure should be reported to the hypervisor and the VIM instead of directly reporting to the NF in the traditional ATCA architecture.",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_ead5d443",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "I would delete the words after the \"-\", or put it as note.\nI only add this comments when I was talking with Yifei about the gap analysis.",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_6a48a42d",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "this is a note.",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_caca18a1",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "I see the discussion about the time constraint of the hardware failure detection is stopped here. I will check it out and try to modify this requirement. I would also like to see others\u0027 comments about this.",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_aacfccaf",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "Delete the \"(?)\" and the words after \"-\".",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_8ac41093",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "I would change it as follows:\nDirect notification from the hardware to some specific VNF should be possible. Such notification should be within 1s.\nIn the meantime, I see the discussion of this requirement is still open. Maybe we should put this as an optional requirement?",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_6ac1c47f",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "delete words after \"-\"",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_4abe0801",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "I think this is a comments added by Yuan Yue. I would put it as a note.",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_2abbbc0f",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "change \"hw\" to \"Hardware\"",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_0a38009f",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "I think this is also a comment from Yuan Yue. I would put this as a note as well",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_ea3cb495",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "delete 50ms",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_8a4bf02a",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "delete 50ms",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_aa46ac21",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "delete 50ms",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_ca41f80c",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-08T10:25:12Z",
+      "side": 1,
+      "message": "delete 50ms",
+      "revId": "cda413b2277da0cf559cfc918669e27ccce1255a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_4a4ba859",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 3
