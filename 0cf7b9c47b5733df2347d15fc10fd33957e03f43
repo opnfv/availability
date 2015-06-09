@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_8adbf0ec",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-09T08:08:49Z",
+      "side": 1,
+      "message": "I have checked out with several Hardware vendors, and it seems that this time constraint should be different for various hardware failure. However, I do think the immidiate notification of HW failure to the VIM is necessary since timely failover of VNF can be triggered. Maybe we can put this requirement as follows:\nHardware failure should be detected and notified to the VIM within seconds. Specific time constraint should be based on the failure type and the failed instance.",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_6ad8a4ef",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-09T08:08:49Z",
+      "side": 1,
+      "message": "this is also a note.",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
