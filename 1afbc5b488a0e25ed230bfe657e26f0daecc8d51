@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_7d4bcc2b",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-10T01:46:47Z",
+      "side": 1,
+      "message": "Before you put a document here, please make sure to pass self-test first, using rst2pdf, I checked and it fails.",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_3d5544c6",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-10T01:46:47Z",
+      "side": 1,
+      "message": "the style of titles is wrong.",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_5d48102d",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-10T01:46:47Z",
+      "side": 1,
+      "message": "please search how to form a table.",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_1d5288dd",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-10T01:46:47Z",
+      "side": 1,
+      "message": "whitespace\n\nat the end of doc, there should be some tags, please check that of other docs in opnfv.",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
