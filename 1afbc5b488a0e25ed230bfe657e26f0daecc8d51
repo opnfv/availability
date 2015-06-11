@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "3a045101_3d066421",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-11T18:14:05Z",
+      "side": 1,
+      "message": "As you said: on linux.\n\nI\u0027m using Windows and rst2pdf doesn\u0027t install properly.  \nSo I\u0027m using this other tool (restview) and I also checked with http://rst.ninjs.org/ recommended by Victor Laza. Neither of them have issue with the file. Consequently I have no idea what problem you are having.",
+      "parentUuid": "3a045101_3d49c4d0",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_3d5544c6",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -108,6 +126,24 @@
     },
     {
       "key": {
+        "uuid": "3a045101_0000dfff",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-11T18:14:05Z",
+      "side": 1,
+      "message": "This is only a quick reference, not a template. \n\nWith respect to the table the format I\u0027m following is the second alternative provided there.\n\nOn the other hand this rst subset does not provide all the levels of heading I needed hence I used the more complete syntax provided at the link http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html as I indicated below.\n\nThe questions are these then: \n- Is rst2pdf \"The Tool\" used for document generation within OPNFV for all projects? \n- If yes, is it limited to the subset of rst in the above quick reference?  \n\nIf no, and it supports the whole rst, then we should be fine unless the tool is broken in other ways.\n\nIf it\u0027s limited (to what you are hinting at) then  \n\n- there should be more concrete support. For example you can\u0027t expect everyone changing OS for some text files, so there need to be another way to check and get proper feedback.\n- the limitations have to be published and communicated so people can take into consideration in time. In our project, for example, we would need to change all our rst files as they follow this same formatting style.",
+      "parentUuid": "3a045101_7d3f4c26",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_5d48102d",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -137,6 +173,24 @@
       "side": 1,
       "message": "I\u0027m following this guide http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html\nComments like this are not constructive as there\u0027s a lot out there on the internet.",
       "parentUuid": "3a045101_5d48102d",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_404b8759",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-11T18:14:05Z",
+      "side": 1,
+      "message": "It\u0027s the same format as the second alternative for tables in the quick guide you referenced",
+      "parentUuid": "3a045101_3dad4489",
       "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -190,6 +244,24 @@
       "side": 1,
       "message": "e.g. you can git clone octopus repository, and check the end of a doc. If there still some questions you can ping me in IRC channel #opnfv-octopus, Matthew there.",
       "parentUuid": "3a045101_5da01090",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_1d03a810",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-11T18:14:05Z",
+      "side": 1,
+      "message": "As far as I can tell, it\u0027s the same format, but in this case the same document is referenced three times which with tools I\u0027m using results in three links added that allow to navigate back to each referencing location.",
+      "parentUuid": "3a045101_5d3c902f",
       "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
