@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "3a045101_7d250cc1",
+        "filename": "Section_1.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-11T16:23:05Z",
+      "side": 1,
+      "message": "What Qiao is pointing out is here :-)",
+      "range": {
+        "startLine": 115,
+        "startChar": 9,
+        "endLine": 115,
+        "endChar": 15
+      },
+      "revId": "248dee7972b08a9c1d999a5eb3ad14a67b1676e0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_ea65d445",
         "filename": "Section_1.rst",
         "patchSetId": 4
@@ -47,6 +70,24 @@
       "writtenOn": "2015-06-09T07:55:54Z",
       "side": 1,
       "message": "Maybe we should delete the \"?\"",
+      "revId": "248dee7972b08a9c1d999a5eb3ad14a67b1676e0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_5d2250ba",
+        "filename": "Section_1.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-11T16:23:05Z",
+      "side": 1,
+      "message": "I agree. With the added text there is no need for them.\nShould the table have a caption e.g. Example failure detection times?",
+      "parentUuid": "3a045101_6a51c461",
       "revId": "248dee7972b08a9c1d999a5eb3ad14a67b1676e0",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
