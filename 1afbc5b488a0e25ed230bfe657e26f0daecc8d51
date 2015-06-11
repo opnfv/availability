@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "3a045101_3d49c4d0",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-11T03:17:49Z",
+      "side": 1,
+      "message": "I don\u0027t know what system you is using. under linux, it\u0027s easy to install and use, you can search in google.",
+      "parentUuid": "3a045101_fdb6bcdb",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_3d5544c6",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "Well, I\u0027m not aware any kind of template that should be followed in OPNFV. Without that it\u0027s the project\u0027s choice. If there is such a template then please post and communicate it.",
       "parentUuid": "3a045101_3d5544c6",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_7d3f4c26",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-11T03:17:49Z",
+      "side": 1,
+      "message": "http://docutils.sourceforge.net/docs/user/rst/quickref.html\nplease check it for the title and tables.",
+      "parentUuid": "3a045101_1daa8870",
       "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -136,6 +172,24 @@
       "side": 1,
       "message": "Please provide a reference to the doc I should look at. Thanks.",
       "parentUuid": "3a045101_1d5288dd",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_5d3c902f",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-06-11T03:17:49Z",
+      "side": 1,
+      "message": "e.g. you can git clone octopus repository, and check the end of a doc. If there still some questions you can ping me in IRC channel #opnfv-octopus, Matthew there.",
+      "parentUuid": "3a045101_5da01090",
       "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
