@@ -601,6 +601,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_60920359",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-12T08:28:55Z",
+      "side": 1,
+      "message": "Maybe I am a bit picky here, but should we state that the power supply of *all components* instead of *the* power supply shall be redundant? We could then also remove the corresponding statement for the disk array.",
+      "parentUuid": "3a045101_c00f97e0",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 23
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_a05dabeb",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -612,6 +636,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 158,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 72
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_409f0760",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-12T08:28:55Z",
+      "side": 1,
+      "message": "same here: what about power supply of a hardware component.",
+      "parentUuid": "3a045101_a05dabeb",
       "range": {
         "startLine": 158,
         "startChar": 0,
@@ -785,6 +833,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_209cfb68",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-12T08:28:55Z",
+      "side": 1,
+      "message": "I agree. Otherwise we would need to state the same requirements explicitly for switches, servers, ...",
+      "parentUuid": "3a045101_80f98fca",
+      "range": {
+        "startLine": 173,
+        "startChar": 32,
+        "endLine": 173,
+        "endChar": 53
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_400387b8",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -854,6 +926,29 @@
     },
     {
       "key": {
+        "uuid": "3a045101_0089ff25",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-12T08:28:55Z",
+      "side": 1,
+      "message": "the \"support for protected cache\" this is a separate item",
+      "range": {
+        "startLine": 176,
+        "startChar": 40,
+        "endLine": 177,
+        "endChar": 22
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_e03173a3",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -865,6 +960,24 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "I\u0027m not sure what this chevron indicates...",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_c082f7ff",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-06-12T08:28:55Z",
+      "side": 1,
+      "message": "the chevron indidates a tab, which should be removed.",
+      "parentUuid": "3a045101_e03173a3",
       "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
