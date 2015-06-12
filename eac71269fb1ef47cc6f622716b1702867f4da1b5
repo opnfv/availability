@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_5b4b7859",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T20:16:08Z",
+      "side": 1,
+      "message": "Generally, if you can put in CR at 80 to 100 characters, it makes it much easier for a review.  Can you do that and I will review again.",
+      "revId": "eac71269fb1ef47cc6f622716b1702867f4da1b5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_7b3e34ba",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T20:16:08Z",
+      "side": 1,
+      "message": "whitespace - remove",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 1
+      },
+      "revId": "eac71269fb1ef47cc6f622716b1702867f4da1b5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
