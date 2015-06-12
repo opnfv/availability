@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_e06853f7",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_dd1d4075",
+      "range": {
+        "startLine": 6,
+        "startChar": 31,
+        "endLine": 6,
+        "endChar": 47
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_fd18fc85",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -71,6 +95,54 @@
     },
     {
       "key": {
+        "uuid": "3a045101_a0724be3",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_bd127460",
+      "range": {
+        "startLine": 7,
+        "startChar": 42,
+        "endLine": 7,
+        "endChar": 50
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_c06d5706",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_fd18fc85",
+      "range": {
+        "startLine": 7,
+        "startChar": 9,
+        "endLine": 7,
+        "endChar": 32
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_9d17b851",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -82,6 +154,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "I think this should be \"A redundant architecture\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 3
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_80774fd4",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_9d17b851",
       "range": {
         "startLine": 9,
         "startChar": 0,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_607443cf",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "agree",
+      "parentUuid": "3a045101_5d093030",
+      "range": {
+        "startLine": 11,
+        "startChar": 43,
+        "endLine": 11,
+        "endChar": 55
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_7d0cec42",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_4081478e",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_7d0cec42",
+      "range": {
+        "startLine": 10,
+        "startChar": 22,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_e0a053f6",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -151,6 +295,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "I would slightly modify it this way:\n* Any hardware failure should be reported to the hypervisor and the VIM instead of\nreporting it directly to the NF as in the traditional ATCA architecture.\n\nThe paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 66
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_207e3baf",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_e0a053f6",
       "range": {
         "startLine": 31,
         "startChar": 0,
@@ -221,6 +389,66 @@
     },
     {
       "key": {
+        "uuid": "3a045101_c0443776",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "What HW failures were of concern?  What examples did they provide that could not be detected in 1 sec.",
+      "parentUuid": "3a045101_8adbf0ec",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_e04f3391",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "I agree, we need to be specific.  I have put in some proposed text for consideration, referencing SAL in section 6, is the table in section 6 clear enough wrt HW, that is the issue.  Please review.  I am not happy with the wording needs another iteration.",
+      "parentUuid": "3a045101_c0a55705",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_004b3f88",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_c0caf7a0",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 70
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_a0cfebaf",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -244,6 +472,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_a0492b8d",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_a0cfebaf",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 42
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_80c4ef92",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -255,6 +507,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 80,
+        "startChar": 45,
+        "endLine": 82,
+        "endChar": 22
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_805e2f44",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_80c4ef92",
       "range": {
         "startLine": 80,
         "startChar": 45,
@@ -302,6 +578,42 @@
     },
     {
       "key": {
+        "uuid": "3a045101_605b2355",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_6ad8a4ef",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_40582756",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_60c1e37f",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_40bee700",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -313,6 +625,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 38
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_00321f10",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_40bee700",
       "range": {
         "startLine": 97,
         "startChar": 0,
@@ -348,6 +684,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_20551b1d",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_20bbdb0f",
+      "range": {
+        "startLine": 98,
+        "startChar": 39,
+        "endLine": 99,
+        "endChar": 31
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_a046cb21",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -371,6 +731,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_e0361303",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "All good comments, don\u0027t think there is a requested review action.  If there is please let me know, what you would like added.  Section 2 had many contributors and all I did was move it to a Gerrit review.",
+      "parentUuid": "3a045101_a046cb21",
+      "range": {
+        "startLine": 101,
+        "startChar": 3,
+        "endLine": 107,
+        "endChar": 172
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_804bcf2a",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -382,6 +766,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 111,
+        "endChar": 77
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_c03b17ea",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_804bcf2a",
       "range": {
         "startLine": 109,
         "startChar": 0,
@@ -440,6 +848,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_a0400b57",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_e00a93d1",
+      "range": {
+        "startLine": 127,
+        "startChar": 66,
+        "endLine": 127,
+        "endChar": 73
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_4055c7c4",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -451,6 +883,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 8
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_80250fc4",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_4055c7c4",
       "range": {
         "startLine": 127,
         "startChar": 0,
@@ -509,6 +965,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_402f07a2",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_2052bbdd",
+      "range": {
+        "startLine": 144,
+        "startChar": 1,
+        "endLine": 144,
+        "endChar": 74
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_005fbfe6",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -532,6 +1012,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_602203bb",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_005fbfe6",
+      "range": {
+        "startLine": 145,
+        "startChar": 0,
+        "endLine": 145,
+        "endChar": 70
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_e063b3af",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -543,6 +1047,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 150,
+        "startChar": 0,
+        "endLine": 151,
+        "endChar": 25
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_202cfbaa",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "This bullet I don\u0027t think I agree with, QOS reduction doesn\u0027t mean you should switch over, your standby link could also be impacted, QOS is there to protect important traffic during congestion events.  I have edited for a new approach to this requirement.",
+      "parentUuid": "3a045101_e063b3af",
       "range": {
         "startLine": 150,
         "startChar": 0,
@@ -625,6 +1153,78 @@
     },
     {
       "key": {
+        "uuid": "3a045101_800cef43",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_c058b7fc",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 52
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_6009e330",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_c00f97e0",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 23
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_a017eb50",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "added an attempt at additional clarity, please take a look, all comments are good, this section was written by many people over many weeks.",
+      "parentUuid": "3a045101_60920359",
+      "range": {
+        "startLine": 157,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 23
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_a05dabeb",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -672,6 +1272,54 @@
     },
     {
       "key": {
+        "uuid": "3a045101_e01df374",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Are you referring to an on board power supply within the server to provide local voltages.  Would that not be a more generic hw failure.  I think the authors intent was for the power supply at the server level.  Maybe I will add that.  Please take a look",
+      "parentUuid": "3a045101_409f0760",
+      "range": {
+        "startLine": 158,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 72
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_c012f761",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_a05dabeb",
+      "range": {
+        "startLine": 158,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 72
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_8072af7a",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -683,6 +1331,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 73
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_0019ff87",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "I changed the wording as well.",
+      "parentUuid": "3a045101_8072af7a",
       "range": {
         "startLine": 159,
         "startChar": 0,
@@ -718,6 +1390,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_4006e721",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_a0148bf5",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 0
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_606fa393",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -729,6 +1425,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 165,
+        "endChar": 47
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_2003db10",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_606fa393",
       "range": {
         "startLine": 165,
         "startChar": 0,
@@ -764,6 +1484,30 @@
     },
     {
       "key": {
+        "uuid": "3a045101_fb048416",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_406ca79c",
+      "range": {
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 166,
+        "endChar": 67
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_20699b8b",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -775,6 +1519,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 78
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_1b005000",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_20699b8b",
       "range": {
         "startLine": 167,
         "startChar": 0,
@@ -857,6 +1625,78 @@
     },
     {
       "key": {
+        "uuid": "3a045101_5b1db865",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Maria/Georg;  I simplified the approach and aligned with the other sections, please take a look and see if this meets your requested intent.",
+      "parentUuid": "3a045101_209cfb68",
+      "range": {
+        "startLine": 173,
+        "startChar": 32,
+        "endLine": 173,
+        "endChar": 53
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_7b10744e",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_80f98fca",
+      "range": {
+        "startLine": 173,
+        "startChar": 32,
+        "endLine": 173,
+        "endChar": 53
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_9b13405c",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_60f683d9",
+      "range": {
+        "startLine": 173,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 80
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_400387b8",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -891,6 +1731,30 @@
       "writtenOn": "2015-06-11T22:56:35Z",
       "side": 1,
       "message": "The paragraph needs to be formated as a bullet, with a star in fron of it",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 40
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_3b1aec6e",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_20007ba9",
       "range": {
         "startLine": 175,
         "startChar": 0,
@@ -949,6 +1813,54 @@
     },
     {
       "key": {
+        "uuid": "3a045101_1b2730b8",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_0089ff25",
+      "range": {
+        "startLine": 176,
+        "startChar": 40,
+        "endLine": 177,
+        "endChar": 22
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_fb2b6480",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_002d7f46",
+      "range": {
+        "startLine": 176,
+        "startChar": 40,
+        "endLine": 177,
+        "endChar": 21
+      },
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_e03173a3",
         "filename": "Section_2_Hardware_HA.rst",
         "patchSetId": 4
@@ -978,6 +1890,42 @@
       "side": 1,
       "message": "the chevron indidates a tab, which should be removed.",
       "parentUuid": "3a045101_e03173a3",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_bb0efc32",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_e03173a3",
+      "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_db09c82d",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-12T19:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_c082f7ff",
       "revId": "0cf7b9c47b5733df2347d15fc10fd33957e03f43",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
