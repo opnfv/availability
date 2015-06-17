@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_9e16b9f0",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-17T05:02:51Z",
+      "side": 1,
+      "message": "OK, thanks. I will do it later.",
+      "parentUuid": "1a014df3_9eba3909",
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a014df3_fe4a5d26",
         "filename": "gap_analysis/gap_analysis.rst",
         "patchSetId": 3
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_de1c4116",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-17T05:02:51Z",
+      "side": 1,
+      "message": "Currently in OpenStack, two (or more) schedulers cannot communicate or share states.",
+      "parentUuid": "1a014df3_fe4a5d26",
+      "range": {
+        "startLine": 21,
+        "startChar": 6,
+        "endLine": 21,
+        "endChar": 300
+      },
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a014df3_de6e8196",
         "filename": "gap_analysis/gap_analysis.rst",
         "patchSetId": 3
@@ -53,6 +95,24 @@
       "writtenOn": "2015-06-16T23:30:18Z",
       "side": 1,
       "message": "To me the problem seems to be that the compute service can die without notice. If we ensure that the compute service is running all the time (i.e. it\u0027s restarted in case of failure) then it should be able to report the health status.",
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a014df3_5ed83153",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-17T05:02:51Z",
+      "side": 1,
+      "message": "Pacemaker(as you said pacemaker-remote) can be used to manage the compute services(not only) in all nodes, such as stop, start,fence.",
+      "parentUuid": "1a014df3_de6e8196",
       "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -93,6 +153,24 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_7ed3ed38",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-17T05:02:51Z",
+      "side": 1,
+      "message": "Such as use ceilometer agent to monitor the ServiceGroup API,then publish the states to ceilometer.It can be real-time or round robin.",
+      "parentUuid": "1a014df3_be6bb584",
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a014df3_9e68f988",
         "filename": "gap_analysis/gap_analysis.rst",
         "patchSetId": 3
@@ -104,6 +182,24 @@
       "writtenOn": "2015-06-16T23:30:18Z",
       "side": 1,
       "message": "It looks like the implementation had started and then it was abandoned. It\u0027d be good to know the reason.",
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a014df3_be197524",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-17T05:02:51Z",
+      "side": 1,
+      "message": "Seems not yet. It needs approval and code review.",
+      "parentUuid": "1a014df3_9e68f988",
       "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
