@@ -167,6 +167,30 @@
     },
     {
       "key": {
+        "uuid": "5a202591_78ff7d02",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-18T17:43:46Z",
+      "side": 1,
+      "message": "The goal of these bullets isn\u0027t VIM managing the priorities, but to obeying them when they are set. Since the VIM doesn\u0027t know about the network services and their priorities it needs information at the resource level to be able to support the network service level priorities.",
+      "parentUuid": "5a202591_b533e0f5",
+      "range": {
+        "startLine": 41,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 58
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_5d48102d",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -231,6 +255,30 @@
       "writtenOn": "2015-06-18T09:16:34Z",
       "side": 1,
       "message": "What does example mean here? To me \"example\" means here we have different service recovery time threshold. You can define the threshold yourself, like the example. Or you can chose other values as you like.",
+      "range": {
+        "startLine": 170,
+        "startChar": 11,
+        "endLine": 170,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a202591_5804c114",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-18T17:43:46Z",
+      "side": 1,
+      "message": "The example means just that what you say.\n\nFu Qiao had this comment to an earlier version:\nI have talked with Stephen from REL WG in ETSI NFV. It seems the recovery time they give here is just some example. And it actually only refers to dataplane recovery time. for the control plane, I think the discussion within the mailing list about the recovery time should continue. From our testing, as far as I know, we normally require the recovery time to be less than 1s. Otherwise the control plane may lose the session and lead to a service suspension",
+      "parentUuid": "5a202591_9530e4e9",
       "range": {
         "startLine": 170,
         "startChar": 11,
