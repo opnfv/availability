@@ -144,6 +144,29 @@
     },
     {
       "key": {
+        "uuid": "5a202591_b533e0f5",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-18T09:16:34Z",
+      "side": 1,
+      "message": "According to ETSI NFV reference architecture, Resource Orchestrator(RO) may be applied for this purpose. All resource in NFVI managed by VIM should be reported to RO, RO allocates resource for specific vNFs. It will be overlap if we let VIM to manage the priority of resource request from vNF.",
+      "range": {
+        "startLine": 41,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 58
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_5d48102d",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -191,6 +214,52 @@
       "side": 1,
       "message": "It\u0027s the same format as the second alternative for tables in the quick guide you referenced",
       "parentUuid": "3a045101_3dad4489",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a202591_9530e4e9",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-18T09:16:34Z",
+      "side": 1,
+      "message": "What does example mean here? To me \"example\" means here we have different service recovery time threshold. You can define the threshold yourself, like the example. Or you can chose other values as you like.",
+      "range": {
+        "startLine": 170,
+        "startChar": 11,
+        "endLine": 170,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a202591_754d4872",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-18T09:16:34Z",
+      "side": 1,
+      "message": "Does this mean NFVI should keep network availability? The failure of network should not cause any disturbing of VNFs?  \nThis may not be applicable. What I see is that SR-IOV port failure may cause vNIC port down in VM. In this case VNF should react to this kind of failure itself.",
+      "range": {
+        "startLine": 303,
+        "startChar": 2,
+        "endLine": 303,
+        "endChar": 81
+      },
       "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
