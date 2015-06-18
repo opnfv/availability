@@ -84,6 +84,29 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_5e8dd130",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-18T09:15:52Z",
+      "side": 1,
+      "message": "I am agree with Maria.\"Pacemaker is a choice ...\" could be removed. The problem is nova computing agent is not stable,and may misleading us about the health status of whole host. Many approach may be applicable. What is the best one, we can left the choice work to development stage instead of propose now.",
+      "range": {
+        "startLine": 35,
+        "startChar": 54,
+        "endLine": 35,
+        "endChar": 63
+      },
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a014df3_de6e8196",
         "filename": "gap_analysis/gap_analysis.rst",
         "patchSetId": 3
@@ -200,6 +223,29 @@
       "side": 1,
       "message": "Seems not yet. It needs approval and code review.",
       "parentUuid": "1a014df3_9e68f988",
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a014df3_be75f533",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-18T09:15:52Z",
+      "side": 1,
+      "message": "We discussed a lot in requirement doc about how to accelerate fault report to VNFs. Can we add some gaps here?\nOne proposal is that let the Qemu set down a virtual NIC port when ovs is down or all related host NIC ports are down.",
+      "range": {
+        "startLine": 218,
+        "startChar": 5,
+        "endLine": 218,
+        "endChar": 6
+      },
       "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
