@@ -107,6 +107,30 @@
     },
     {
       "key": {
+        "uuid": "5a202591_f5f838c6",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-18T09:37:12Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "1a014df3_5e8dd130",
+      "range": {
+        "startLine": 35,
+        "startChar": 54,
+        "endLine": 35,
+        "endChar": 63
+      },
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a014df3_de6e8196",
         "filename": "gap_analysis/gap_analysis.rst",
         "patchSetId": 3
@@ -240,6 +264,30 @@
       "writtenOn": "2015-06-18T09:15:52Z",
       "side": 1,
       "message": "We discussed a lot in requirement doc about how to accelerate fault report to VNFs. Can we add some gaps here?\nOne proposal is that let the Qemu set down a virtual NIC port when ovs is down or all related host NIC ports are down.",
+      "range": {
+        "startLine": 218,
+        "startChar": 5,
+        "endLine": 218,
+        "endChar": 6
+      },
+      "revId": "b31a932389ed58527bbf58ff8ca5ec06c6f09d6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a202591_b519a024",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-18T09:37:12Z",
+      "side": 1,
+      "message": "From my side, I don\u0027t agree that reporting NFVI fault to VNFs. This violates the original architecture design of NFV. I support the use case of doctor in which notifying NFVI fault to VIM to VIM consumer and consumer triggers the switchover.Time is not a problem. Any way, this proposal is not defined in the use cases of our project.",
+      "parentUuid": "1a014df3_be75f533",
       "range": {
         "startLine": 218,
         "startChar": 5,
