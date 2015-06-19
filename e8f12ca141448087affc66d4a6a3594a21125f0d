@@ -16,6 +16,305 @@
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_b461a0d5",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "In my opinion, not all of the components in control nodes of OpenStack can be  included in VIM.",
+      "range": {
+        "startLine": 7,
+        "startChar": 44,
+        "endLine": 7,
+        "endChar": 74
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_945ea411",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "\"single points of failure\" (SPoF) maybe more appropriate.",
+      "range": {
+        "startLine": 12,
+        "startChar": 53,
+        "endLine": 12,
+        "endChar": 73
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_749b08ca",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "It is \"bonding\" or \"binding\"?",
+      "range": {
+        "startLine": 23,
+        "startChar": 130,
+        "endLine": 23,
+        "endChar": 136
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_54a00cf4",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "SDN controller or control node?",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 13
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_34a59004",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "We cannot make sure how to deal with failures in upper layer, so I suggest to use \"VIM consumer\" to replace these words.",
+      "range": {
+        "startLine": 30,
+        "startChar": 177,
+        "endLine": 30,
+        "endChar": 195
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_14aa94d4",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "Shall we define where the alarms should be kept in?",
+      "range": {
+        "startLine": 44,
+        "startChar": 1,
+        "endLine": 44,
+        "endChar": 60
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_94b58433",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "Shall we define several levels for anti-affinity policy?",
+      "range": {
+        "startLine": 56,
+        "startChar": 2,
+        "endLine": 56,
+        "endChar": 127
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_7482e853",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "description",
+      "range": {
+        "startLine": 58,
+        "startChar": 86,
+        "endLine": 58,
+        "endChar": 97
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_5487ec61",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "It seems that this bullet is similar to the one in line 58.",
+      "range": {
+        "startLine": 75,
+        "startChar": 2,
+        "endLine": 75,
+        "endChar": 86
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_347c7072",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "pairs",
+      "range": {
+        "startLine": 83,
+        "startChar": 47,
+        "endLine": 83,
+        "endChar": 51
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_f495d888",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "Shall we define some time limitations about membership management? I am not sure.",
+      "range": {
+        "startLine": 84,
+        "startChar": 2,
+        "endLine": 84,
+        "endChar": 95
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_948c6481",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "Also time limitation, need to be discussed.",
+      "range": {
+        "startLine": 86,
+        "startChar": 2,
+        "endLine": 86,
+        "endChar": 35
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_74e9c819",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T08:10:33Z",
+      "side": 1,
+      "message": "Maybe \"management capability\" is more appropriate.",
+      "range": {
+        "startLine": 95,
+        "startChar": 34,
+        "endLine": 95,
+        "endChar": 44
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
