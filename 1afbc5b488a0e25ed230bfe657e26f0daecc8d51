@@ -267,6 +267,30 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_b46be084",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-19T18:15:41Z",
+      "side": 1,
+      "message": "Defining them, I think, is a whole study by itself, so in this requirements document I wouldn\u0027t do that. It could be a next work item. Also it would be an \"example\" (not quite a requirement) in relation to the \"example\" SALs that were given in the ETSI-NFV REL document.\n\nRegarding the placement of the requirement I think almost all requirements come from the VNF and they are percolated down to the level(s)/layer(s) then that take care of them. In the process they may also get more refined, more elaborated and more concrete according to the layer in question. In this sense if we numbered the requrements per section, we could probably come up with a table that correlate the requirements. Or each refined lower layer requirement could just reference the higher layer requirement it is addressing. This could even be a good exercise if the requirements are complete :-)\n\nAccordingly I would keep both and add a reference. But this is just my idea and I\u0027m fine if you prefer a different approach.",
+      "parentUuid": "3a1d315d_f4dcb876",
+      "range": {
+        "startLine": 130,
+        "startChar": 2,
+        "endLine": 131,
+        "endChar": 27
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_d4d9bc84",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -290,6 +314,30 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_9468e488",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-19T18:15:41Z",
+      "side": 1,
+      "message": "I\u0027ve got this text more or less from the ETSI-NFV-REL document. For me the restoration time and the failover time are more less the same. The difference is that failover assumes that another provider entity (standby or spare) takes over the service. Restoration also allows for restart of the failed entity(s) as a service recovery.\nAlso often and in this case particularly failover also means switchover. The difference is that failover hapens after a failure of the active provider, while switchover is a graceful takeover of the service from the active to the standby/spare provider entity. \nI guess I need to tell how I see the difference between these two as well: Standby has the state, so it can take over gracefully only for the active whose state it knows. Spare doesn\u0027t have any state, so it can replace any active, but the state if there\u0027s any would be lost. They could also be referred as hot and cold standby, but that becomes confusing with respect to stateful and stateless.\n\nI add this clarification.\n\nOur terminology section could be much more extent if we wanted :-)",
+      "parentUuid": "3a1d315d_d4d9bc84",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 25
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_b4e64043",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -301,6 +349,30 @@
       "writtenOn": "2015-06-19T09:29:01Z",
       "side": 1,
       "message": "Does the failure here refer to VNF failure? Is this bullet suitable for OpenSAF? (Personal question)",
+      "range": {
+        "startLine": 162,
+        "startChar": 2,
+        "endLine": 162,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_740548c1",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-19T18:15:41Z",
+      "side": 1,
+      "message": "No, this is to detect failures in the NFVI as the VNF itself is outside of our scope currently. I\u0027m considering both when the VNF does and doesn\u0027t have an HA mechanism. This is of course important when it has no HA mechanism and relies on the NFVI/VIM.\n\nWith respect to OpenSAF, it offers different error detection mechanism, some of which can be part of the code, e.g. to check functionality, or use tools offered by OpenSAF. For node failure the OpenSAF CLM service has a timer for communication based failure detection (for TIPC or TCP) as we discussed in the email thread. These are configurable.\n\nWhen we set up OpenSAF to manage VMs this CLM timer was used to detect host failure, while the so called passive monitoring offered by OpenSAF AMF for VM failure detection. The passive monitor monitors the process id provided at start. I don\u0027t think you can configure for this the period. \nThere\u0027s also an error report AMF API, so one can use their own failure detection mechanism and report an error on an AMF managed component.",
+      "parentUuid": "3a1d315d_b4e64043",
       "range": {
         "startLine": 162,
         "startChar": 2,
@@ -384,6 +456,30 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_540a4cd3",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-19T18:15:41Z",
+      "side": 1,
+      "message": "I agree that failure in the control plane does not have to impact the user plane. The main concern should be simultaneous failures in the control and user planes as the user plane won\u0027t be able to recovery without the control plane. Now if we consider that the VNF itself is HA, then the risk is further mitigated. \n\nBut there are also opinions that the impact on the user plane depends on the control plane service experiencing the failure. I.e. different OpenStack services have different impact and some of them are critical. I don\u0027t have enough experience with the different services (e.g. storage, networking related) to be able to tell, so more input would be good. \n\nHere I add something along these lines, and in the VIM part may go into more details on classifying the services. In Escalator there was such a discussion and there is a plan to add related details.",
+      "parentUuid": "3a1d315d_94e34433",
+      "range": {
+        "startLine": 170,
+        "startChar": 11,
+        "endLine": 170,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a202591_754d4872",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -395,6 +491,30 @@
       "writtenOn": "2015-06-18T09:16:34Z",
       "side": 1,
       "message": "Does this mean NFVI should keep network availability? The failure of network should not cause any disturbing of VNFs?  \nThis may not be applicable. What I see is that SR-IOV port failure may cause vNIC port down in VM. In this case VNF should react to this kind of failure itself.",
+      "range": {
+        "startLine": 303,
+        "startChar": 2,
+        "endLine": 303,
+        "endChar": 81
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_54312ca1",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-06-19T18:15:41Z",
+      "side": 1,
+      "message": "This does not necessarily mean network high availability, but it does mean that changes in the network, failovers should not require actions in the VNF, e.g. the IP address the VNF uses should be virtual/floating.\nI would put it this way: The state of the network as the VNF knows it is preseved even after failures.",
+      "parentUuid": "5a202591_754d4872",
       "range": {
         "startLine": 303,
         "startChar": 2,
