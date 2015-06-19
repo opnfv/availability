@@ -244,6 +244,75 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_f4dcb876",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T09:29:01Z",
+      "side": 1,
+      "message": "Shall we define the classification levels of virtual resources as service availability levels? And these bullets also exist in the VIM part, is it needed to keep them both?",
+      "range": {
+        "startLine": 130,
+        "startChar": 2,
+        "endLine": 131,
+        "endChar": 27
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_d4d9bc84",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T09:29:01Z",
+      "side": 1,
+      "message": "As the description here, failure recovery time includes detection, failover and restoration time. I am not sure this is taken into consideration by Qiao when defined time parameters in other parts.@ Qiao",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 25
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_b4e64043",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T09:29:01Z",
+      "side": 1,
+      "message": "Does the failure here refer to VNF failure? Is this bullet suitable for OpenSAF? (Personal question)",
+      "range": {
+        "startLine": 162,
+        "startChar": 2,
+        "endLine": 162,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a202591_9530e4e9",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -279,6 +348,30 @@
       "side": 1,
       "message": "The example means just that what you say.\n\nFu Qiao had this comment to an earlier version:\nI have talked with Stephen from REL WG in ETSI NFV. It seems the recovery time they give here is just some example. And it actually only refers to dataplane recovery time. for the control plane, I think the discussion within the mailing list about the recovery time should continue. From our testing, as far as I know, we normally require the recovery time to be less than 1s. Otherwise the control plane may lose the session and lead to a service suspension",
       "parentUuid": "5a202591_9530e4e9",
+      "range": {
+        "startLine": 170,
+        "startChar": 11,
+        "endLine": 170,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_94e34433",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-19T09:29:01Z",
+      "side": 1,
+      "message": "I understand the service here refers to E2E service. If the control plane runs inside the NF chain, I think the service recovery time must have covered control plane. If it means the mano plane,I do not think a failure occurs in control plane will affect the running services. Then why we take the control plane into consideration? So is there anybody can explain the control plane here?",
+      "parentUuid": "5a202591_5804c114",
       "range": {
         "startLine": 170,
         "startChar": 11,
