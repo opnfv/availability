@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_fbdcaf76",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_db6e68c9",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_bb739cb0",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a separate bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 20
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a014df3_bbe62743",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_bb739cb0",
       "range": {
         "startLine": 15,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_9be36b33",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_9b68e0bb",
+      "range": {
+        "startLine": 17,
+        "startChar": 21,
+        "endLine": 19,
+        "endChar": 18
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_7b6514e0",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "1a014df3_7bd09f53",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_7b6514e0",
+      "range": {
+        "startLine": 19,
+        "startChar": 19,
+        "endLine": 21,
+        "endChar": 16
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_5b6258d9",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -105,6 +201,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a separate bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 43
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_f3c9705b",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_5b6258d9",
       "range": {
         "startLine": 47,
         "startChar": 0,
@@ -163,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_d3c67449",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_fba004f6",
+      "range": {
+        "startLine": 53,
+        "startChar": 3,
+        "endLine": 53,
+        "endChar": 157
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_dba54805",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -174,6 +318,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "I think this is a requirement on our work not on the virtual infrastructure. This should be a comment.",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 12
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_b3c3f837",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_dba54805",
       "range": {
         "startLine": 57,
         "startChar": 0,
@@ -209,6 +377,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_93c0fc2b",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done.  Would welcome wording suggestions, seems like there is something missing here.  I have reworked the sentence.",
+      "parentUuid": "3a045101_bbaa7cd2",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 73
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_9bafc0e3",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -220,6 +412,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 68
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_73dd6014",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_9bafc0e3",
       "range": {
         "startLine": 76,
         "startChar": 0,
@@ -278,6 +494,54 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_53e264d6",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_5bb9382d",
+      "range": {
+        "startLine": 88,
+        "startChar": 27,
+        "endLine": 88,
+        "endChar": 61
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_33e7e8e6",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_7bacf4ed",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 26
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_3bb66c3e",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -289,6 +553,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "Do you mean this watchdog? https://libvirt.org/formatdomain.html#elementsWatchdog",
+      "range": {
+        "startLine": 99,
+        "startChar": 361,
+        "endLine": 99,
+        "endChar": 489
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_13ececc6",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Not sure what is requested as this is a comment on a comment.  I have added this comment to the document.",
+      "parentUuid": "3a045101_3bb66c3e",
       "range": {
         "startLine": 99,
         "startChar": 361,
@@ -324,6 +612,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_f3d050f9",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Yes, storage is covered elsewhere in the document, no longer in this section, left the comments in for history.",
+      "parentUuid": "3a045101_1b83b057",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 43
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_3b8d4c7c",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -335,6 +647,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "this should be a subsection, please use some underslining",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 115,
+        "endChar": 16
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_d3cd545f",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_3b8d4c7c",
       "range": {
         "startLine": 115,
         "startChar": 0,
@@ -370,6 +706,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_b3dad815",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_fb87e45f",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 74
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_db7c2875",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -381,6 +741,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a separate bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 124,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 30
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_93d7dced",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_db7c2875",
       "range": {
         "startLine": 124,
         "startChar": 0,
@@ -416,6 +800,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_7304407e",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_bb815c4c",
+      "range": {
+        "startLine": 125,
+        "startChar": 31,
+        "endLine": 126,
+        "endChar": 7
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_9b96a093",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -439,6 +847,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_53094494",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_9b96a093",
+      "range": {
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 18
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_7b93d4a3",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -450,6 +882,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a bullet, please start with a star (*)",
+      "range": {
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 40
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_33fec86c",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_7b93d4a3",
       "range": {
         "startLine": 134,
         "startChar": 0,
@@ -508,6 +964,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_1303cc74",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_5b901895",
+      "range": {
+        "startLine": 137,
+        "startChar": 0,
+        "endLine": 137,
+        "endChar": 8
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_dbf30809",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -519,6 +999,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a separate bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 139,
+        "endChar": 39
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_f3f7308b",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_dbf30809",
       "range": {
         "startLine": 138,
         "startChar": 0,
@@ -554,6 +1058,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_d3f43489",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_1bea900f",
+      "range": {
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 16
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_bbf83ce6",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -565,6 +1093,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a separate bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 141,
+        "startChar": 30,
+        "endLine": 144,
+        "endChar": 65
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_b3f1b897",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_bbf83ce6",
       "range": {
         "startLine": 141,
         "startChar": 30,
@@ -600,6 +1152,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_93eebcb3",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_7bdab479",
+      "range": {
+        "startLine": 144,
+        "startChar": 66,
+        "endLine": 145,
+        "endChar": 72
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_5be7f840",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -611,6 +1187,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a separate bullet, please start with a star (*) and end with a CR",
+      "range": {
+        "startLine": 145,
+        "startChar": 73,
+        "endLine": 146,
+        "endChar": 50
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_732b20ec",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_5be7f840",
       "range": {
         "startLine": 145,
         "startChar": 73,
@@ -646,6 +1246,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_53302456",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_3be42c3a",
+      "range": {
+        "startLine": 146,
+        "startChar": 50,
+        "endLine": 148,
+        "endChar": 6
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_1bd17057",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 2
@@ -657,6 +1281,30 @@
       "writtenOn": "2015-06-13T00:03:37Z",
       "side": 1,
       "message": "This should be a bullet, please start with a star (*)",
+      "range": {
+        "startLine": 150,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 13
+      },
+      "revId": "f5f0bb8844666a14464496e5a83a3a8d1b8fe908",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_3335a846",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-23T23:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a045101_1bd17057",
       "range": {
         "startLine": 150,
         "startChar": 0,
