@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_730560c1",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-23T04:41:43Z",
+      "side": 1,
+      "message": "I find some grammer mistakes:)\n\nIt connect NFVI to ...-\u003eIt connects NFVI to\nhigh availability of VIM is basic requirement-\u003e a basic requirement\nVIM shoulc provide some mechanism for VNFs used to achieve-\u003eVIM should provide some mechanism for the VNFs to achieve\n\nWhat components specificly do you think should not be included in the VIM?",
+      "parentUuid": "3a1d315d_b461a0d5",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_945ea411",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -59,6 +77,40 @@
         "endLine": 12,
         "endChar": 73
       },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_530a64d3",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-23T04:41:43Z",
+      "side": 1,
+      "message": "I would rather call the API and MySQL, and etc. as \u0027control node services\u0027 rather than \u0027control nodes\u0027.",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_330fe8e3",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-23T04:41:43Z",
+      "side": 1,
+      "message": "what is 11?",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -151,6 +203,40 @@
         "endLine": 44,
         "endChar": 60
       },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_1314ecf3",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-23T04:41:43Z",
+      "side": 1,
+      "message": "better delete the words in []",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_f3f850c6",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-23T04:41:43Z",
+      "side": 1,
+      "message": "I would rather delete \u0027NFV\u0027",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
