@@ -338,6 +338,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_536384b1",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-23T03:35:18Z",
+      "side": 1,
+      "message": "I understand the restoration here is different from the restart of the failed entity. You can take a look at Figure 5 in Chapter 6.2 of REL001.",
+      "parentUuid": "3a1d315d_9468e488",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 25
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_b4e64043",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -373,6 +397,30 @@
       "side": 1,
       "message": "No, this is to detect failures in the NFVI as the VNF itself is outside of our scope currently. I\u0027m considering both when the VNF does and doesn\u0027t have an HA mechanism. This is of course important when it has no HA mechanism and relies on the NFVI/VIM.\n\nWith respect to OpenSAF, it offers different error detection mechanism, some of which can be part of the code, e.g. to check functionality, or use tools offered by OpenSAF. For node failure the OpenSAF CLM service has a timer for communication based failure detection (for TIPC or TCP) as we discussed in the email thread. These are configurable.\n\nWhen we set up OpenSAF to manage VMs this CLM timer was used to detect host failure, while the so called passive monitoring offered by OpenSAF AMF for VM failure detection. The passive monitor monitors the process id provided at start. I don\u0027t think you can configure for this the period. \nThere\u0027s also an error report AMF API, so one can use their own failure detection mechanism and report an error on an AMF managed component.",
       "parentUuid": "3a1d315d_b4e64043",
+      "range": {
+        "startLine": 162,
+        "startChar": 2,
+        "endLine": 162,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_335808fa",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-23T03:35:18Z",
+      "side": 1,
+      "message": "If you mean detect failures in NFVI, I don\u0027t think this bullet is appropriate here in this part.What about putting it into overall part or somewhere else? (Actually I myself think this bullet is dispensable.)",
+      "parentUuid": "3a1d315d_740548c1",
       "range": {
         "startLine": 162,
         "startChar": 2,
@@ -473,6 +521,76 @@
         "startChar": 11,
         "endLine": 170,
         "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_135d0cea",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-23T03:35:18Z",
+      "side": 1,
+      "message": "I think there is no need to concern about the simultaneous failures as they both have their own recovery or HA mechanisms. For the impact, we need a further discussion.",
+      "parentUuid": "3a1d315d_540a4cd3",
+      "range": {
+        "startLine": 170,
+        "startChar": 11,
+        "endLine": 170,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_f3717078",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-23T03:35:18Z",
+      "side": 1,
+      "message": "Suggest to add some details about the system.",
+      "range": {
+        "startLine": 208,
+        "startChar": 51,
+        "endLine": 208,
+        "endChar": 57
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_d36e7496",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-06-23T03:35:18Z",
+      "side": 1,
+      "message": "What\u0027s the relationship between this bullet and \"Service Continuity\"? I think this is a nature of NFVI/VIM.",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 80
       },
       "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
