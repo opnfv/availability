@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1a2d67_534f0493",
+        "filename": "Section_2_Hardware_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-24T08:55:11Z",
+      "side": 1,
+      "message": "I think this period should follow the failure detection time of HW in section 1 rather than the SAL in section 6, Since SAL is for services, and it is hard to reflect it to hw",
+      "revId": "c1466f45762ffac0404d3284b18bef728345a725",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
