@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a202591_d5365ce7",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "all right, I will add CR at long lines.",
+      "parentUuid": "1a014df3_3e0fa5e3",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_b461a0d5",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -54,6 +72,24 @@
       "side": 1,
       "message": "I find some grammer mistakes:)\n\nIt connect NFVI to ...-\u003eIt connects NFVI to\nhigh availability of VIM is basic requirement-\u003e a basic requirement\nVIM shoulc provide some mechanism for VNFs used to achieve-\u003eVIM should provide some mechanism for the VNFs to achieve\n\nWhat components specificly do you think should not be included in the VIM?",
       "parentUuid": "3a1d315d_b461a0d5",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_d369d426",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_730560c1",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -100,6 +136,48 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_93735c15",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_530a64d3",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_b3765805",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_945ea411",
+      "range": {
+        "startLine": 12,
+        "startChar": 53,
+        "endLine": 12,
+        "endChar": 73
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_330fe8e3",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -117,6 +195,24 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_7360c035",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_330fe8e3",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_749b08ca",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -128,6 +224,30 @@
       "writtenOn": "2015-06-19T08:10:33Z",
       "side": 1,
       "message": "It is \"bonding\" or \"binding\"?",
+      "range": {
+        "startLine": 23,
+        "startChar": 130,
+        "endLine": 23,
+        "endChar": 136
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_5365c443",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_749b08ca",
       "range": {
         "startLine": 23,
         "startChar": 130,
@@ -163,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_335a4884",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "controllers here is a more general term,refer to all control services include openstack control nodes and sdn controller",
+      "parentUuid": "3a1d315d_54a00cf4",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 13
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_34a59004",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -186,6 +330,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_135f4c74",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_34a59004",
+      "range": {
+        "startLine": 30,
+        "startChar": 177,
+        "endLine": 30,
+        "endChar": 195
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_14aa94d4",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -197,6 +365,30 @@
       "writtenOn": "2015-06-19T08:10:33Z",
       "side": 1,
       "message": "Shall we define where the alarms should be kept in?",
+      "range": {
+        "startLine": 44,
+        "startChar": 1,
+        "endLine": 44,
+        "endChar": 60
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_f353b06a",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "It may be depend on different approachment, we can hardly define here.",
+      "parentUuid": "3a1d315d_14aa94d4",
       "range": {
         "startLine": 44,
         "startChar": 1,
@@ -266,6 +458,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_339fe805",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "As I know nova scheduler provide anti-affinity in different level like computing node, host aggregate,AZ. It seems not necessary for us to repeat here.",
+      "parentUuid": "3a1d315d_94b58433",
+      "range": {
+        "startLine": 56,
+        "startChar": 2,
+        "endLine": 56,
+        "endChar": 127
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_7482e853",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -277,6 +493,30 @@
       "writtenOn": "2015-06-19T08:10:33Z",
       "side": 1,
       "message": "description",
+      "range": {
+        "startLine": 58,
+        "startChar": 86,
+        "endLine": 58,
+        "endChar": 97
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_d350b460",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_7482e853",
       "range": {
         "startLine": 58,
         "startChar": 86,
@@ -312,6 +552,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_b34d38c7",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_5487ec61",
+      "range": {
+        "startLine": 75,
+        "startChar": 2,
+        "endLine": 75,
+        "endChar": 86
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_347c7072",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -335,6 +599,30 @@
     },
     {
       "key": {
+        "uuid": "1a1a2d67_934a3cab",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_347c7072",
+      "range": {
+        "startLine": 83,
+        "startChar": 47,
+        "endLine": 83,
+        "endChar": 51
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_f495d888",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -346,6 +634,30 @@
       "writtenOn": "2015-06-19T08:10:33Z",
       "side": 1,
       "message": "Shall we define some time limitations about membership management? I am not sure.",
+      "range": {
+        "startLine": 84,
+        "startChar": 2,
+        "endLine": 84,
+        "endChar": 95
+      },
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_13a4ec55",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-06-24T07:01:19Z",
+      "side": 1,
+      "message": "I really have no sense how long this time interval should be.",
+      "parentUuid": "3a1d315d_f495d888",
       "range": {
         "startLine": 84,
         "startChar": 2,
