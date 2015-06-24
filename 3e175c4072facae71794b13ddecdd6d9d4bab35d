@@ -1,0 +1,129 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1a2d67_93459cb5",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "need to remove whitespace at end of lines.  see red blocks at line ends.  Line 9,10,12,14 and others below.",
+      "range": {
+        "startLine": 6,
+        "startChar": 83,
+        "endLine": 6,
+        "endChar": 84
+      },
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_731200b6",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "In what case would a host OS not be present?  Maybe reword as : The host OS should provide...",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_531704a4",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "Recommend: record the VM information regularly and provide logs of VM actions for future diagnoses...",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_13118cac",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "should this be part of the storage section? or how is this related to the host OS and hypervisor?",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_f325f00a",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "should this be part of the storage section? or how is this related to the host OS and hypervisor?",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_330c8894",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "Should this be moved to the storage section?",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_d322f400",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-06-24T00:30:09Z",
+      "side": 1,
+      "message": "should this be part of the storage section? or how is this related to the host OS and hypervisor?",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
