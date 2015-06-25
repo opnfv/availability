@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1a2d67_f676fed7",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-25T09:27:07Z",
+      "side": 1,
+      "message": "delete the words \"[GAP 11]\"",
+      "revId": "99c7883b5d7d13a4f94cd1142fc0052f292be63c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_d67302e6",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-25T09:27:07Z",
+      "side": 1,
+      "message": "again delete [gap 7]",
+      "revId": "99c7883b5d7d13a4f94cd1142fc0052f292be63c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_967d8ab4",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-06-25T09:27:07Z",
+      "side": 1,
+      "message": "delete [gap 8]",
+      "revId": "99c7883b5d7d13a4f94cd1142fc0052f292be63c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
