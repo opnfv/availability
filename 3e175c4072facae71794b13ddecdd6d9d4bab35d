@@ -76,6 +76,24 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_d23664e7",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-07-01T07:49:43Z",
+      "side": 1,
+      "message": "see general comment",
+      "parentUuid": "1a1a2d67_13118cac",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_f325f00a",
         "filename": "Requirement doc/virtual facilities HA.rst",
         "patchSetId": 3
@@ -87,6 +105,24 @@
       "writtenOn": "2015-06-24T00:30:09Z",
       "side": 1,
       "message": "should this be part of the storage section? or how is this related to the host OS and hypervisor?",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_b233e0f5",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-07-01T07:49:43Z",
+      "side": 1,
+      "message": "As above, I am referring to the build-in failover mechanisms of software-based distributed storage systems. Being software running in the host OS, I put this requirement here. Feedback is welcome.",
+      "parentUuid": "1a1a2d67_f325f00a",
       "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -110,6 +146,24 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_9230dce9",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-07-01T07:49:43Z",
+      "side": 1,
+      "message": "same as above",
+      "parentUuid": "1a1a2d67_330c8894",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_d322f400",
         "filename": "Requirement doc/virtual facilities HA.rst",
         "patchSetId": 3
@@ -121,6 +175,24 @@
       "writtenOn": "2015-06-24T00:30:09Z",
       "side": 1,
       "message": "should this be part of the storage section? or how is this related to the host OS and hypervisor?",
+      "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_724d7872",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-07-01T07:49:43Z",
+      "side": 1,
+      "message": "same as above.",
+      "parentUuid": "1a1a2d67_d322f400",
       "revId": "3e175c4072facae71794b13ddecdd6d9d4bab35d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
