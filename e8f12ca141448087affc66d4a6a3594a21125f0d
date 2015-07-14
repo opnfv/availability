@@ -418,6 +418,24 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_7bbaf3e2",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_1314ecf3",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_f3f850c6",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -429,6 +447,24 @@
       "writtenOn": "2015-06-23T04:41:43Z",
       "side": 1,
       "message": "I would rather delete \u0027NFV\u0027",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_5bbf2fd1",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_f3f850c6",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -452,6 +488,24 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_3bb46bf1",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_d6ac2238",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_b6a9a626",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -463,6 +517,24 @@
       "writtenOn": "2015-06-25T08:23:04Z",
       "side": 1,
       "message": "- Resources with specific HA functions like watchdog enable, redundant network port and etc., shou\nld be properly tagged and exposed to VNFM",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_dbcaff6d",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_b6a9a626",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -580,6 +652,24 @@
     },
     {
       "key": {
+        "uuid": "fa3479d7_1bb9a7e9",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_96a6aa52",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_76630e1b",
         "filename": "5_HA.rst",
         "patchSetId": 1
@@ -591,6 +681,24 @@
       "writtenOn": "2015-06-25T08:23:04Z",
       "side": 1,
       "message": "delete words in []",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_fbcdc387",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a1a2d67_76630e1b",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -772,6 +880,24 @@
       "writtenOn": "2015-06-25T08:23:04Z",
       "side": 1,
       "message": "I am not quite so sure why we should discuss QoS here. It seem s the content is about the QoS of the whole OPNFV platform rather than the VIM. In the meantime, I don\u0027t think if there is any specific requirement in this session. Maybe we shall put this in the overall session?",
+      "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_bbc73b64",
+        "filename": "5_HA.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-07-14T03:25:52Z",
+      "side": 1,
+      "message": "Yifei added this section before, I agree to move it to overall session",
+      "parentUuid": "1a1a2d67_566812f5",
       "revId": "e8f12ca141448087affc66d4a6a3594a21125f0d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
