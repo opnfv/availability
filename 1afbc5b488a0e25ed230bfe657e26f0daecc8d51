@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da3975d1_9130dce9",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-20T15:21:07Z",
+      "side": 1,
+      "message": "I have answered the comments here, but before my vacation I have uploaded a newer version, which already addressed some of the discussion. Please review that for any further comments.",
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a045101_7d4bcc2b",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -362,6 +379,30 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_3120109b",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-20T15:21:07Z",
+      "side": 1,
+      "message": "Yes, indeed. There the QoS is also taken into account by the admission control. However I don\u0027t think this is visible at the NFVI level or on the VNF/NFVI interface, which is our scope. Here the service provided by the VNF to which this QoS applies is not visible.",
+      "parentUuid": "1a1a2d67_536384b1",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 25
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_b4e64043",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -421,6 +462,30 @@
       "side": 1,
       "message": "If you mean detect failures in NFVI, I don\u0027t think this bullet is appropriate here in this part.What about putting it into overall part or somewhere else? (Actually I myself think this bullet is dispensable.)",
       "parentUuid": "3a1d315d_740548c1",
+      "range": {
+        "startLine": 162,
+        "startChar": 2,
+        "endLine": 162,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_11250cab",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-20T15:21:07Z",
+      "side": 1,
+      "message": "I think this depends on whether the VNF has a HA mechanism and redundacy or not. \nIf it does, then I agree with you although I would still say that the NFVI has to recover within a certain time frame as the VNF level HA recovers due to its redundancy which is lost after rech recovery, and which needs to be restored.\nIf the VNF doesn\u0027t have HA and therefore redundacy, then this is a critical requirement. \nI think we have some general requirement for NFVI failure detection, but I don\u0027t recall the configurability, which is important.",
+      "parentUuid": "1a1a2d67_335808fa",
       "range": {
         "startLine": 162,
         "startChar": 2,
@@ -552,6 +617,30 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_f13968d9",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-20T15:21:07Z",
+      "side": 1,
+      "message": "It depends on the VNF. If it has the HA mechanism built in then it can recover and there\u0027s not much dependency. Otherwise the control plane needs to recover first to recover the VNF.\nBut I wonder whether this is true for all control services or only for compute. Is this independence true for networking and storage?",
+      "parentUuid": "1a1a2d67_135d0cea",
+      "range": {
+        "startLine": 170,
+        "startChar": 11,
+        "endLine": 170,
+        "endChar": 18
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_f3717078",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -575,6 +664,30 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_d13664e7",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-20T15:21:07Z",
+      "side": 1,
+      "message": "Could you be more specific, please?",
+      "parentUuid": "1a1a2d67_f3717078",
+      "range": {
+        "startLine": 208,
+        "startChar": 51,
+        "endLine": 208,
+        "endChar": 57
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a1a2d67_d36e7496",
         "filename": "Section6_VNF_HA.rst",
         "patchSetId": 2
@@ -586,6 +699,30 @@
       "writtenOn": "2015-06-23T03:35:18Z",
       "side": 1,
       "message": "What\u0027s the relationship between this bullet and \"Service Continuity\"? I think this is a nature of NFVI/VIM.",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 80
+      },
+      "revId": "1afbc5b488a0e25ed230bfe657e26f0daecc8d51",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_b133e0f5",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-20T15:21:07Z",
+      "side": 1,
+      "message": "The VNF may use those resources to be able to provide the service and/or protect it, so if they are not available then it can\u0027t provide the service in the first case and/or can\u0027t recover in the second case. E.g. a VNF may store the service state in an external database.",
+      "parentUuid": "1a1a2d67_d36e7496",
       "range": {
         "startLine": 296,
         "startChar": 0,
