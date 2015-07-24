@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_14817a4a",
+        "filename": "Section6_VNF_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2015-07-24T08:43:17Z",
+      "side": 1,
+      "message": "I still want to say sorry for the format of this document, please refer to http://docutils.sourceforge.net/docs/user/rst/quickref.html, for more details, please see https://wiki.opnfv.org/documentation_projects/opnfv_documentation, before put up the patch, you can check it by yourself with rst2pdf, you can \"apt-get install rst2pdf, rst2pdf yourdoc.rst output.pdf\"\nfurther, I find that this project lacks the docu build script in releng, I will communicate with the PTL and add it in the repo.",
+      "revId": "9f319ea2e2f9fdfe71abb76c75c4a4a099e5d0c6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
