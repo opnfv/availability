@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_34b47ef1",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-07-25T03:49:43Z",
+      "side": 1,
+      "message": "Is the HA manager here just applied for VNF or the whole platform?",
+      "range": {
+        "startLine": 15,
+        "startChar": 63,
+        "endLine": 15,
+        "endChar": 74
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_14b97ae9",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-07-25T03:49:43Z",
+      "side": 1,
+      "message": "VNF itself can repair nothing, maybe you can replace with HA manager or something else.",
+      "range": {
+        "startLine": 16,
+        "startChar": 18,
+        "endLine": 16,
+        "endChar": 51
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_f4cdd687",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-07-25T03:49:43Z",
+      "side": 1,
+      "message": "HA manager or something like ceilometer, zabbix?",
+      "range": {
+        "startLine": 18,
+        "startChar": 49,
+        "endLine": 18,
+        "endChar": 59
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_d4cad26d",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-07-25T03:49:43Z",
+      "side": 1,
+      "message": "I have proposed a BP before which seems owing the same goal of what you say here. \n\nhttps://blueprints.launchpad.net/monasca/+spec/suppot-failure-correlation\n\nI am not sure whether this BP is useful for our project.",
+      "range": {
+        "startLine": 19,
+        "startChar": 53,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_b4c74e64",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-07-25T03:49:43Z",
+      "side": 1,
+      "message": "Agree, service here refers to E2E service chain. There is several sub-scope within E2E service chain. Do we need to define time threshold for each scope or just for VNF level? I think recovery time threshold definition for VNF level is a must.",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 36
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
