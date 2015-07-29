@@ -1,0 +1,648 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_91f8dc4a",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "The word \"connects\" diminishes the role of the VIM. If I should use a single word I would use \"mediates\". \nBut I would rather describe it with a bit more details. Something like: It manages the NFVI according to the instructions/requests of the VNFM and NFVO and reports them back about the NFVI status.",
+      "range": {
+        "startLine": 8,
+        "startChar": 25,
+        "endLine": 8,
+        "endChar": 33
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_719578e3",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Missing \"the\"",
+      "range": {
+        "startLine": 8,
+        "startChar": 70,
+        "endLine": 8,
+        "endChar": 71
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_519a7415",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Missing \"a\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 3
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_11a4ec55",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I would just say that \"The architecture of the\"",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 26
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_f18848c8",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "connect -\u003e connects the",
+      "range": {
+        "startLine": 16,
+        "startChar": 20,
+        "endLine": 16,
+        "endChar": 27
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_d18544ae",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I think for HA deployment we should require redundancy, not just allow it. \nI assume by \"simply\" you mean at least two load sharing instances without state synchronization.",
+      "range": {
+        "startLine": 17,
+        "startChar": 45,
+        "endLine": 17,
+        "endChar": 52
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_b192c0f4",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Again I think we should require redundancy, i.e. multiple redundant instances with state synchronization.",
+      "range": {
+        "startLine": 18,
+        "startChar": 33,
+        "endLine": 18,
+        "endChar": 42
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_918fbccc",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Considering that the cloud should be elastic, shouldn\u0027t we just require that the HA policy used for stateful services should be scalable?",
+      "range": {
+        "startLine": 18,
+        "startChar": 69,
+        "endLine": 19,
+        "endChar": 36
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_71bc586d",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "An active-standby redundancy policy can be deployed in such a way that it supports large scale deployments as well. I think the point here is the _1_ active - _1_ standby, i.e. 1+1. \nBut as a requirement I would prefer not to distinguish small scale and large scale deployments. I would require at least the support of the N+M redundancy. The scale should determine simply the values of N and M.",
+      "range": {
+        "startLine": 23,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 78
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_51c154e3",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I assume this is not the same as the \"all active\" of the stateless services, however this doesn\u0027t come out from this formulation. In the SA Forum AMF specifications there is a redundancy model called N-way. It means that among the N instances each serve some traffic while they also back up the service of served by another instance. There could be even multiple standby for each traffic portion.\nE.g. if there are three instances A, B, and C, they run in load sharing mode A serving traffic portion SA, B serving SB and C serving SC. At the same time B is backing A\u0027s traffic, C is backing up B\u0027s traffic and A is backing up C\u0027s.",
+      "range": {
+        "startLine": 26,
+        "startChar": 52,
+        "endLine": 26,
+        "endChar": 62
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_31b6d08b",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "These are just special cases of the N+M, which I would require for scalability. Then depending on the current size it may end up being 1+1 or N+1 at a given point of time.",
+      "range": {
+        "startLine": 26,
+        "startChar": 64,
+        "endLine": 26,
+        "endChar": 73
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_11bbcc73",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Do you mean the load balancer nodes or that these stateless services should run in a load balancing schema? If the first, I would make it a separate requirement.",
+      "range": {
+        "startLine": 29,
+        "startChar": 22,
+        "endLine": 29,
+        "endChar": 39
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_d1ac2438",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Don\u0027t you imply by this the 1+1 redundancy for everything running on the server? I.e. does this apply to the servers running stateless OpenStack services?",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 49
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_f1af282a",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I would put it as a separate requirement",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 49
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_91a69c52",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "may provides -\u003e may provide",
+      "range": {
+        "startLine": 42,
+        "startChar": 34,
+        "endLine": 42,
+        "endChar": 35
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_7163381b",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Maybe notifications are enough in most of the cases as whenever the HA clustering recovers the VIM services there\u0027s not much point to generate an alarm. The case should simply be notified and logged. The alarm is necessary when the recovery fails in some aspect, e.g. the redundancy couldn\u0027t be restored.",
+      "range": {
+        "startLine": 43,
+        "startChar": 47,
+        "endLine": 43,
+        "endChar": 53
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_17b5fccc",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Exactly! for a clustering software a failure from which it can recover the system should not be counted as an exception.",
+      "range": {
+        "startLine": 52,
+        "startChar": 33,
+        "endLine": 52,
+        "endChar": 61
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_f7c9585b",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I think we should add similar requirements for the network and storage nodes as well, shouldn\u0027t we?",
+      "range": {
+        "startLine": 54,
+        "startChar": 14,
+        "endLine": 54,
+        "endChar": 21
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_d7c65449",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Maybe we should say that \"the VIM should provide an interface through which consumenrs can subscribe to alarms\"",
+      "range": {
+        "startLine": 59,
+        "startChar": 11,
+        "endLine": 59,
+        "endChar": 14
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_b7c3d037",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Is this the same as logged? If not then maybe we don\u0027t need to keep all alarms forever, but the last X, where X is configurable...",
+      "range": {
+        "startLine": 61,
+        "startChar": 13,
+        "endLine": 61,
+        "endChar": 40
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_77dd6814",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Should we have similar requirements for the agents of other services?",
+      "range": {
+        "startLine": 63,
+        "startChar": 2,
+        "endLine": 63,
+        "endChar": 96
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_97c0cc2b",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I assume this is the software, i.e. the nova agent.",
+      "range": {
+        "startLine": 63,
+        "startChar": 52,
+        "endLine": 63,
+        "endChar": 64
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_37e7e0e6",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "require underayer -\u003e require from the underlying",
+      "range": {
+        "startLine": 69,
+        "startChar": 49,
+        "endLine": 69,
+        "endChar": 67
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_17ecdcc6",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "Do we have to require the mechanism or it\u0027s enough to ask for the guarantees?",
+      "range": {
+        "startLine": 69,
+        "startChar": 93,
+        "endLine": 69,
+        "endChar": 102
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_57e264d6",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "deply may be a better word",
+      "range": {
+        "startLine": 69,
+        "startChar": 10,
+        "endLine": 69,
+        "endChar": 18
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_f7d038f9",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "wouldn\u0027t that result in portability issues? I.e. the same mechanism may be exposed differently in different implementations",
+      "range": {
+        "startLine": 75,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 40
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_d7cd345f",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "is it an \"or\"? Wouldn\u0027t we want different levels of affinity/anti-affinity \"a la OVF\"?",
+      "range": {
+        "startLine": 78,
+        "startChar": 81,
+        "endLine": 79,
+        "endChar": 27
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_b7dab015",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-07-29T23:42:34Z",
+      "side": 1,
+      "message": "I would add that the new VM should be in the initial state of the failed VM",
+      "range": {
+        "startLine": 107,
+        "startChar": 34,
+        "endLine": 107,
+        "endChar": 40
+      },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
