@@ -114,6 +114,40 @@
       "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_9ae35133",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-04T07:32:21Z",
+      "side": 1,
+      "message": "I have discussed with the REL WG at the ODL summit. Their explaination is that this time threshold is just an example. With the development of the technology, the time may get shorter. So they only list some example threshold here. What they think that matters is the definition of SAL.\nWe may add some explaination here that the time shreshold is only an example.",
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_7ad0ad53",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-04T07:32:21Z",
+      "side": 1,
+      "message": "Does it matter whether the HA manager is part of the VNF or part of the VNFM? Do we need to specify this point in this usecase?",
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
