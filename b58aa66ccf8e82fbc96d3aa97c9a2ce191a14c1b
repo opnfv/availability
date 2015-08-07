@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_5094ac36",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:30:12Z",
+      "side": 1,
+      "message": "Is it the hypervisor which should be monitored or the VM? In the first case this seems to be a requirement for virtualization facilities. And I think we have it there already.",
+      "range": {
+        "startLine": 54,
+        "startChar": 2,
+        "endLine": 54,
+        "endChar": 70
+      },
+      "revId": "b58aa66ccf8e82fbc96d3aa97c9a2ce191a14c1b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_3099286f",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:30:12Z",
+      "side": 1,
+      "message": "Do you mean \"evacuate\" in terms of stopping the VM and starting it at an other place, i.e. offline migration, or live migration when the state is kept?",
+      "range": {
+        "startLine": 84,
+        "startChar": 36,
+        "endLine": 84,
+        "endChar": 44
+      },
+      "revId": "b58aa66ccf8e82fbc96d3aa97c9a2ce191a14c1b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
