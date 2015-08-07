@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_508dcc30",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "Grammar comment: In the requirements instead of \"will\" I would use \"shall\", \"should\", or \"must\" as appropriate.\n\nGeneral comment: Whenever the hypervisor or host OS should report something to the VIM that makes it \"NFV-aware\". Is that what we want? Shouldn\u0027t we rather require more generic capabilities that allows for extension/configuration of the capability? \nE.g. a hypervisor must have the capability of reporting HW errors. It should be possible to configure the destination address of the error reports.\n\nOn the other hand when it comes to distributed storage if I understand correctly we do consider certain host OS/hypervisor \"extensions\". Maybe that\u0027s the case for the networking as well. \nSo maybe the best to have some description in the section that explain these: I.e. what can be generic and what requires extensions and place the requirements accordingly. With such explanation many of my comments/questions may go away.",
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_7088d022",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "Shouldn\u0027t the hypervisor report the HW failures in any case? Especially if it tries to solve a HW failure by a reboot.",
+      "range": {
+        "startLine": 6,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 71
+      },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_30824801",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "I would use a similar formulation as in the next requirement. I.e. The hypervisor should provide isolation for VMs, so that VMs running on the same hardware do not impact each other.",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 11,
+        "endChar": 35
+      },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_10874411",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "I agree with the idea, but generally an OS won\u0027t be aware of VMs. It\u0027s only aware of processes. So I would put it something like this: \nThe host OS should provide sufficient process isolation so that VMs running on the same hardware do not impact each other.",
+      "range": {
+        "startLine": 12,
+        "startChar": 2,
+        "endLine": 13,
+        "endChar": 41
+      },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_d0789c2d",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "How does this apply to the hypervisor/host OS?",
+      "range": {
+        "startLine": 14,
+        "startChar": 2,
+        "endLine": 15,
+        "endChar": 22
+      },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_f07ba027",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "I think this requirement is not only on the hypervisor/host OS, but also on the VIM. \n\nWhen it comes to the hypervisor this means that it should maintain the VMs it was assigned to run (i.e. monitor them and restart them in case of failure potentially according to some policy) and generate a notification/alarm if it cannot do so. In this case the VIM should step in.\n\nThis requirement is partially covered already by a previous requirement on VM failure detection.",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 67
+      },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_90721448",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T22:09:45Z",
+      "side": 1,
+      "message": "Is that a requirement on the host OS or the hypervisor?",
+      "range": {
+        "startLine": 33,
+        "startChar": 1,
+        "endLine": 34,
+        "endChar": 59
+      },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
