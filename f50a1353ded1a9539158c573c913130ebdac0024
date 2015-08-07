@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_faa25d99",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "It refers to an HA manager with a given scope such as one in the VNF.",
+      "parentUuid": "da3975d1_34b47ef1",
+      "range": {
+        "startLine": 15,
+        "startChar": 63,
+        "endLine": 15,
+        "endChar": 74
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_14b97ae9",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2015-07-25T03:49:43Z",
       "side": 1,
       "message": "VNF itself can repair nothing, maybe you can replace with HA manager or something else.",
+      "range": {
+        "startLine": 16,
+        "startChar": 18,
+        "endLine": 16,
+        "endChar": 51
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_da9f994f",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "Well, when the HA manager is part of the VNF, we can say that the VNF does recover/repair itself. \nBut you\u0027re right it\u0027s not clear. It should be \"HA manager at the VNF level\"",
+      "parentUuid": "da3975d1_14b97ae9",
       "range": {
         "startLine": 16,
         "startChar": 18,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_baacd58d",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "Any availability manager that acts on failures.",
+      "parentUuid": "da3975d1_f4cdd687",
+      "range": {
+        "startLine": 18,
+        "startChar": 49,
+        "endLine": 18,
+        "endChar": 59
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_d4cad26d",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2015-07-25T03:49:43Z",
       "side": 1,
       "message": "I have proposed a BP before which seems owing the same goal of what you say here. \n\nhttps://blueprints.launchpad.net/monasca/+spec/suppot-failure-correlation\n\nI am not sure whether this BP is useful for our project.",
+      "range": {
+        "startLine": 19,
+        "startChar": 53,
+        "endLine": 21,
+        "endChar": 14
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_9aa9117e",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "It\u0027s good to know. It looks like it is relevant.",
+      "parentUuid": "da3975d1_d4cad26d",
       "range": {
         "startLine": 19,
         "startChar": 53,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_7ab66dde",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "I\u0027m not sure what you mean by sub-scopes, but I agree that we need VNF level recovery times.",
+      "parentUuid": "da3975d1_b4c74e64",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 36
+      },
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_9ae35133",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 1
@@ -134,6 +254,24 @@
     },
     {
       "key": {
+        "uuid": "da3975d1_5abba9c4",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "That\u0027s the intention. I\u0027m referencing the exact document which recommends these times and it does say that these are examples.",
+      "parentUuid": "da3975d1_9ae35133",
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_7ad0ad53",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 1
@@ -145,6 +283,24 @@
       "writtenOn": "2015-08-04T07:32:21Z",
       "side": 1,
       "message": "Does it matter whether the HA manager is part of the VNF or part of the VNFM? Do we need to specify this point in this usecase?",
+      "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_3ab0e5dc",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-07T15:30:07Z",
+      "side": 1,
+      "message": "The big difference is the interface. If the HA manager is part of the VNF then there\u0027s no need for an interface for HA management. If it\u0027s in the VNFM, the VNFM should be able to tell the VNFC if it\u0027s an active or a standby. \nAs far as I know this piece of information is not part of the interface between the VNFM and the VNF.",
+      "parentUuid": "da3975d1_7ad0ad53",
       "revId": "f50a1353ded1a9539158c573c913130ebdac0024",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
