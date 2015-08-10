@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a437d4f_4f2bed82",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T03:22:51Z",
+      "side": 1,
+      "message": "You man need to delete all the blank at the end of each line so as to avoid the red sign at the end of each line:)",
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_91f8dc4a",
         "filename": "5_HA.rst",
         "patchSetId": 3
@@ -186,6 +203,24 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_2f20a99a",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T03:22:51Z",
+      "side": 1,
+      "message": "I think what Yuan Yue discribed here is about the redundancy of the services in openstack, which is the HA requirement of openstack as well. we also have these requirement mentioned in the deployment doc.",
+      "parentUuid": "da3975d1_918fbccc",
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_71bc586d",
         "filename": "5_HA.rst",
         "patchSetId": 3
@@ -272,6 +307,24 @@
         "endLine": 29,
         "endChar": 39
       },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_cf36bde7",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T03:22:51Z",
+      "side": 1,
+      "message": "I think what Yuan Yue indicates here, is the loadbalancing mode before the N stateless services. This is a typical deployment in the openstack, where we use a HA-proxy, which is actually a load balancing node, before several stateless services. and these services man deployed using pacemaker. To avoid single point of failure, the HA-proxy should also use pacemaker and should be redundant.\nIf this is the case, I think maybe Yuan yue need to make this clear, since currently it is a little difficult to understand the deployment you indicate. An example deployment might be helpful.\nIn the meantime, I think we should not bond to any specific HA deployment, e.g. pacemaker and HA-proxy, in this requirement doc.",
+      "parentUuid": "da3975d1_11bbcc73",
       "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -577,6 +630,24 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_af3379f5",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T03:22:51Z",
+      "side": 1,
+      "message": "I think guarantee might be the basic requirement, it will be better if the underlayer can provide some mechanism to help the HA deployment of VNFs",
+      "parentUuid": "da3975d1_17ecdcc6",
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_f7d038f9",
         "filename": "5_HA.rst",
         "patchSetId": 3
@@ -594,6 +665,24 @@
         "endLine": 76,
         "endChar": 40
       },
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_6f4d9172",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T03:22:51Z",
+      "side": 1,
+      "message": "yes, that\u0027s why we may need a standarized api for the VNF to the NFVI. I am thinking about this api in the following api definition work. We have faced this problem when we deploy different NFV platforms in our lab testing and field tryout.",
+      "parentUuid": "da3975d1_f7d038f9",
       "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
