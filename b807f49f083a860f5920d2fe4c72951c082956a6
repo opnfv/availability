@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_6f74719c",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T06:34:08Z",
+      "side": 1,
+      "message": "what I want to indicate for this requirement is:\nonce there is a failure happens at the HW, the hypervisor should do the possible recovery by itself, e.g., evacuate all the VM on this host. Such revocery should be done by the hypervisor itself rather than report to the VIM and wait until the VIM giving further orders for evacuation. This is beneficial because it will be a distributed hypervisor HA solution, and the failure of VIM will have low influence on the hypervisor HA.\nI will modify this item as follows to make it more specific. See if the following requirements work for you?\n\n\"The hypervisor should support distrubited HA mechenism so that when hardware or host failure happens, the hypervisor can revocer itself without any instruction from the VIM.\"\n\n\"The hypervisor should report its failure and recovery action to the VIM.\"",
+      "parentUuid": "ba3e81b7_7088d022",
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_30824801",
         "filename": "Requirement doc/virtual facilities HA.rst",
         "patchSetId": 4
@@ -59,6 +77,24 @@
         "endLine": 11,
         "endChar": 35
       },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_4f79ad92",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T06:34:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba3e81b7_30824801",
       "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -88,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_2f6e69ca",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T06:34:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba3e81b7_10874411",
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_d0789c2d",
         "filename": "Requirement doc/virtual facilities HA.rst",
         "patchSetId": 4
@@ -105,6 +159,24 @@
         "endLine": 15,
         "endChar": 22
       },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_0f73a5b2",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T06:34:08Z",
+      "side": 1,
+      "message": "I think the NFVI refers to hypervisor and Host OS?",
+      "parentUuid": "ba3e81b7_d0789c2d",
       "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -134,6 +206,24 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_ef6741e9",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T06:34:08Z",
+      "side": 1,
+      "message": "Agree it should also be a requriement for VIM.",
+      "parentUuid": "ba3e81b7_f07ba027",
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_90721448",
         "filename": "Requirement doc/virtual facilities HA.rst",
         "patchSetId": 4
@@ -151,6 +241,24 @@
         "endLine": 34,
         "endChar": 59
       },
+      "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_cf647de7",
+        "filename": "Requirement doc/virtual facilities HA.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-10T06:34:08Z",
+      "side": 1,
+      "message": "This is an item added by Gerog. I suppose he means the state of the storage backends should be send to VIM through NFVI? But I think we need to ask him for this since I myself is not a storage expert:)",
+      "parentUuid": "ba3e81b7_90721448",
       "revId": "b807f49f083a860f5920d2fe4c72951c082956a6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
