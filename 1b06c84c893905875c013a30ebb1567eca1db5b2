@@ -221,6 +221,24 @@
     },
     {
       "key": {
+        "uuid": "9a437d4f_92c45a60",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-11T23:52:12Z",
+      "side": 1,
+      "message": "I understand that, but for an OpenStack service a single active with a single standby may not be enough if the cloud is large. This is why this requirement says a different HA policy may be needed for clouds of different scale. But this only requires that if I build a small cloud I use one policy (active/standby) and if I build a big I use a different (M+N let\u0027s say). But it does not require that if I started with a small deployment I should be able to get to the large, i.e. that the OpenStack service HA policy would scale as the cloud scales - which I\u0027m trying to suggest.",
+      "parentUuid": "9a437d4f_2f20a99a",
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da3975d1_71bc586d",
         "filename": "5_HA.rst",
         "patchSetId": 3
@@ -325,6 +343,24 @@
       "side": 1,
       "message": "I think what Yuan Yue indicates here, is the loadbalancing mode before the N stateless services. This is a typical deployment in the openstack, where we use a HA-proxy, which is actually a load balancing node, before several stateless services. and these services man deployed using pacemaker. To avoid single point of failure, the HA-proxy should also use pacemaker and should be redundant.\nIf this is the case, I think maybe Yuan yue need to make this clear, since currently it is a little difficult to understand the deployment you indicate. An example deployment might be helpful.\nIn the meantime, I think we should not bond to any specific HA deployment, e.g. pacemaker and HA-proxy, in this requirement doc.",
       "parentUuid": "da3975d1_11bbcc73",
+      "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_72a1f6a8",
+        "filename": "5_HA.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-11T23:52:12Z",
+      "side": 1,
+      "message": "I think again because of the scaling maybe it is better not to distinguish small and large scale scenarios. So I would put it something like this:\n- Stateless services like nova-api, glance-api etc. should be deployed redundantly in an all active mode. \n- The workload of such a service shall be distributed among the redundant instances by a loadbalancer solution.\n- The loadbalancer solution shall be deployed redundantly.",
+      "parentUuid": "9a437d4f_cf36bde7",
       "revId": "1b06c84c893905875c013a30ebb1567eca1db5b2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
