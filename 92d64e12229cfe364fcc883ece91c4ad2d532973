@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_f88825c8",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "I think there are overlaps between some requirements and some grouping and discussion would be beneficial.\nI wonder whether in addition of the hypervisor and the host OS we are also talking about some kind of middleware here, which may or may not be part of the VIM. To me all the redundancy and distribution type of requirements seem to be targeting this layer.",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_18d649c6",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "should read \"mechanism\"",
+      "range": {
+        "startLine": 6,
+        "startChar": 47,
+        "endLine": 6,
+        "endChar": 56
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_b84dfdc6",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "I don\u0027t see how a hypervisor by _itself_ can recover in case of host failure. Even in case of non-fatal HW failure sometimes it may be questionable if the hypervisor can be trusted with the recovery.\n\nNow if you mean an HA clustering as the distributed HA mechanism then it won\u0027t be the hypervisor on the faulty hardware doing the recovery in such cases. It would be remote after fencing the faulty host.\nThere should probably be a relation between such an HA cluster and the VIM",
+      "range": {
+        "startLine": 7,
+        "startChar": 51,
+        "endLine": 7,
+        "endChar": 57
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_38d10dce",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "I think a generic hypervisor won\u0027t know about the VIM as it\u0027s NFV specific. So maybe better to say that it should report (and maybe even log) these events and the destination to whom they are reported should be configurable.",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 74
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_b8e4ddac",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "MT: How does this apply to the hypervisor/host OS?\n\nFQ: I think the NFVI refers to hypervisor and Host OS?\n\nThe problem is as I noted above that a generic hypervisor won\u0027t be aware of VIM, and the same stands for the OS. \n\nSo the question is if we\u0027re asking for NFV specific implementations ( I would assume not), or NFV specific extensions in the hypervisor/OS, or just that they enable NFV specific functions and then we need to put on a cloud MW (i.e. OpenStack) to form the NFVI and to use those enablers. In the last case the hypervisor and the OS are not responsible for the reporting to the VIM.\nAnd of course a failed hypervisor or OS cannot report its own failure, so this again points to the clustering.\n\nNow below you elaborate some cases, so there is an overlap. There you put the sentences in passive, which eliminates some issues as well.",
+      "range": {
+        "startLine": 15,
+        "startChar": 44,
+        "endLine": 16,
+        "endChar": 24
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_38e8ed7b",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "I wonder whether these are at the right place. They seems to be more control related similarly as we discuss the compute-node agent etc in the VIM section.\nOr maybe we are missing a section for the NFVI side with respect to its middleware and redundancy. The above mentioned hypervisor HA mechanisme is similar too. It could be a subsection of this section though if these are not VIM related.",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 11
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_18a40956",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "Since the track of comments is a bit confusing I ask again whether this a hypervisor or OS requirement or more of this middleware which may or may not be part of the VIM.",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 35,
+        "endChar": 61
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_389fcd05",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-14T16:59:16Z",
+      "side": 1,
+      "message": "I think we should also require the restart of such essential processes by the OS. I.e. the OS must have the capability of restarting failed processes.",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 34
+      },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
