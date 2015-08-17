@@ -83,6 +83,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_4e877362",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-17T16:27:29Z",
+      "side": 1,
+      "message": "I think the best if we split this into two requirements since the support might be different for different hypervisors:\n- The hypervisor should support distrubited HA mechenis\n- It should be possible to detect and automatically recover from hypervisor failures without the involvement of the VIM",
+      "parentUuid": "7a288981_6e26afbc",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_38d10dce",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 14
@@ -165,6 +183,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_2e7c2772",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-17T16:27:29Z",
+      "side": 1,
+      "message": "Yes, I agree with splitting. Especially that also we won\u0027t have host OS on baremetal hypervisors. \nBut my issue with saying NFVI is that there are many things in the NFVI besides these two, the HW, the storage etc, they are all NFVI. I think the goal here is to identify what the host OS/hypervisor need to fulfill and identify any other entity/s that is/are needed below the VMs/virtual resources to fulfill these requirements and identify the requirements for those. Now these might be different for each architecture.",
+      "parentUuid": "7a288981_2e20a79a",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_38e8ed7b",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 14
@@ -200,6 +236,24 @@
       "side": 1,
       "message": "I think storage is part of the NFVI. So I am quite curious why you see this as control related. \nFor this section, I think for the beginning we hope it should cover the hypervisor  and host OS. and now storage I think can be included as well.\nI am not sure what you mean by middleware and redundancy of NFVI. I think this is a requirement doc about HA, why this section should have a subsection covering the middleware and reduandancy? Or, besides such subsection, what other subsection you suggest we should have? This may help me better understand the structure in your mind:)",
       "parentUuid": "9a437d4f_38e8ed7b",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_0e816b4a",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-17T16:27:29Z",
+      "side": 1,
+      "message": "Yes, storage is part of the NFVI, but managing the storage may or may not be. I wonder myself.\nAlso when here we talk about redundancy is that HW redundancy or SW redundacy only? Because we had the HW section separately.\n\nWe probably need to wait for Goerg to help to sort this out at least what he meant.",
+      "parentUuid": "7a288981_ee397fd9",
       "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -247,6 +301,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_ee95ff88",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-17T16:27:29Z",
+      "side": 1,
+      "message": "Yes, I used the word \"middleware\" as that\u0027s what we called it for the clusters and this is very similar. I think we need to clarify this somehow somewhere as I haven\u0027t seen any term for it really.\nI think if something is independent of the VIM like the VMware ESXi cluster, then it\u0027s part of the NFVI and should be part of this section, but maybe as a subsection. \nIf it\u0027s implementing the VIM functions on the NFVI HW e.g. compute-node agent then it\u0027s part of the VIM and we have a subsection there already.",
+      "parentUuid": "7a288981_ce36c3e7",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_389fcd05",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 14
@@ -282,6 +354,24 @@
       "side": 1,
       "message": "I have talked with some Openstack guys on this topic, and it seems they do not want these agent to be restarted by the OS. They say this will introduce more problems...I think we may have to talk more with the Openstack guys before we add this into our requirement.",
       "parentUuid": "9a437d4f_389fcd05",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_ce92439f",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-17T16:27:29Z",
+      "side": 1,
+      "message": "I\u0027m curious what\u0027s their resoning not to do so. But they have no concern about HA in general, so it could be fine for them. This however doesn\u0027t mean that the option shouldn\u0027t be available and we shouldn\u0027t use it in an HA setup if that\u0027s our conclusion once it\u0027s clear what\u0027s their concern.",
+      "parentUuid": "7a288981_0e25ebaa",
       "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
