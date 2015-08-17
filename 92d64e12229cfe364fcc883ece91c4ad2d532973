@@ -65,6 +65,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_6e26afbc",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-17T06:39:28Z",
+      "side": 1,
+      "message": "Yes, what I mean by distributed HA mechanism is HA clustering. But I wonder if this is necessarily some relation between the cluster and the VIM. I think for VMware, when the hypervisor is runing ,they are running in the distributed mode and do not need the Vcenter to help them for HA. KVM certainly do not support this case. \nOr do you suggest that we should require hypervisor should be capable of working in a cluster mode. But we do not require such cluster should be irrelevent with the VIM?",
+      "parentUuid": "9a437d4f_b84dfdc6",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_38d10dce",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 14
@@ -82,6 +100,24 @@
         "endLine": 9,
         "endChar": 74
       },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_4e2bf382",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-17T06:39:28Z",
+      "side": 1,
+      "message": "Agree.",
+      "parentUuid": "9a437d4f_38d10dce",
       "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -111,6 +147,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_2e20a79a",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-17T06:39:28Z",
+      "side": 1,
+      "message": "What I have in mind is the NFVI include the host OS. Currently lots of HW fault can be reported to the host OS, which is called in-band mechanism. Therefore, the Host OS should have the capability to report actively to the VIM, or provide interface so that the VIM can get the report. There are also other mechanisms for the HW to report out-band, which will not report to the host OS but to another HW management system. This is the case we have seen for the DELL HW. In this case I think the HW management system can be considered as part of the VIM and should provide interface to the Openstack, which is also exactly the case for DELL HW. \nSo for this Item, I think we can require the in-band mechanism, which means the NFVI should be capable of reporting the HW in-band failure report to the VIM. Such capability can be either active or passive.\nFor the NFVI failure report part, I agree a failed NFVI can\u0027t report its own fault to the VIM. Therefore, it should be the VIM\u0027s responsibility to detect that fault. This may require an interface from the NFVI to the VIM.\nI also think we should put these two into two requirement and make it clear.\nWhat do you think?",
+      "parentUuid": "9a437d4f_b8e4ddac",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_38e8ed7b",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 14
@@ -128,6 +182,24 @@
         "endLine": 31,
         "endChar": 11
       },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_ee397fd9",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-17T06:39:28Z",
+      "side": 1,
+      "message": "I think storage is part of the NFVI. So I am quite curious why you see this as control related. \nFor this section, I think for the beginning we hope it should cover the hypervisor  and host OS. and now storage I think can be included as well.\nI am not sure what you mean by middleware and redundancy of NFVI. I think this is a requirement doc about HA, why this section should have a subsection covering the middleware and reduandancy? Or, besides such subsection, what other subsection you suggest we should have? This may help me better understand the structure in your mind:)",
+      "parentUuid": "9a437d4f_38e8ed7b",
       "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -157,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_ce36c3e7",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-17T06:39:28Z",
+      "side": 1,
+      "message": "I think I have catched your ideas a bit. You mean the hypervisor and OS requirement should only include the original hypervisor and OS functions. and if additional functions is required, this will mostly done by middleware.\nIt makes sense to me. But shall we explain this so clearly in this session or shall we consider the middleware as part of the NFVI as well?",
+      "parentUuid": "9a437d4f_18a40956",
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_389fcd05",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 14
@@ -174,6 +264,24 @@
         "endLine": 37,
         "endChar": 34
       },
+      "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_0e25ebaa",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-08-17T06:39:28Z",
+      "side": 1,
+      "message": "I have talked with some Openstack guys on this topic, and it seems they do not want these agent to be restarted by the OS. They say this will introduce more problems...I think we may have to talk more with the Openstack guys before we add this into our requirement.",
+      "parentUuid": "9a437d4f_389fcd05",
       "revId": "92d64e12229cfe364fcc883ece91c4ad2d532973",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
