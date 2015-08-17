@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_aee6d742",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-08-17T21:32:47Z",
+      "side": 1,
+      "message": "good catch! - will fix",
+      "parentUuid": "da3975d1_bae61543",
+      "revId": "b58aa66ccf8e82fbc96d3aa97c9a2ce191a14c1b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_5094ac36",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 5
@@ -60,6 +78,48 @@
     },
     {
       "key": {
+        "uuid": "7a288981_ced92385",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-08-17T21:32:47Z",
+      "side": 1,
+      "message": "See above",
+      "parentUuid": "7a288981_8e30bbe9",
+      "revId": "b58aa66ccf8e82fbc96d3aa97c9a2ce191a14c1b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_0ef84be4",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-08-17T21:32:47Z",
+      "side": 1,
+      "message": "The hypervisor runs on the compute.  If you are saying this is a duplicate with some in the virtualization facilities section.  We should reference that section.  If we exclude it as part of the compute node it may get missed.  However; having references in documents is confusing.  I will remove in the next patch",
+      "parentUuid": "ba3e81b7_5094ac36",
+      "range": {
+        "startLine": 54,
+        "startChar": 2,
+        "endLine": 54,
+        "endChar": 70
+      },
+      "revId": "b58aa66ccf8e82fbc96d3aa97c9a2ce191a14c1b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba3e81b7_3099286f",
         "filename": "Section_4_Virtual_Infra.rst",
         "patchSetId": 5
@@ -71,6 +131,30 @@
       "writtenOn": "2015-08-07T22:30:12Z",
       "side": 1,
       "message": "Do you mean \"evacuate\" in terms of stopping the VM and starting it at an other place, i.e. offline migration, or live migration when the state is kept?",
+      "range": {
+        "startLine": 84,
+        "startChar": 36,
+        "endLine": 84,
+        "endChar": 44
+      },
+      "revId": "b58aa66ccf8e82fbc96d3aa97c9a2ce191a14c1b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_eedcdf76",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-08-17T21:32:47Z",
+      "side": 1,
+      "message": "This is not very worded.  Updated in next patch set.",
+      "parentUuid": "ba3e81b7_3099286f",
       "range": {
         "startLine": 84,
         "startChar": 36,
