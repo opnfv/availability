@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_4e7e53e6",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-18T15:52:15Z",
+      "side": 1,
+      "message": "I think for HA, i.e. HA of the scheduler, we always need more than one instance of the scheduler. This however doesn\u0027t require load sharing. They can run in as active/standby or active/spare so there\u0027s no race condition.\n\nIn large clusters it\u0027s more for the scheduling performance that we need the multiple instances so they share the load. From HA perspective this can improve the scheduling time of VMs of a failed host. Is this the point you\u0027re trying to make? \n\nThe big question is though if in the process of the elimination of the race condition a state is introduced which make it more difficult to do the load sharing.",
+      "range": {
+        "startLine": 21,
+        "startChar": 26,
+        "endLine": 21,
+        "endChar": 100
+      },
+      "revId": "8ead5417897bf880d1003c70619984b1adeecebb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_4ef3f373",
+        "filename": "gap_analysis/gap_analysis.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-18T15:52:15Z",
+      "side": 1,
+      "message": "I think there\u0027s a discrepancy between the \"as-is\" and \"to-be\".\n\nAs I see the issue is more to ensure that the nova-compute agent is always running when the host is up, i.e. that the two are indeed the same status.",
+      "range": {
+        "startLine": 40,
+        "startChar": 74,
+        "endLine": 40,
+        "endChar": 109
+      },
+      "revId": "8ead5417897bf880d1003c70619984b1adeecebb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
