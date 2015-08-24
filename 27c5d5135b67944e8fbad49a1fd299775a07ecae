@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_e2e3ce03",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-08-24T18:10:52Z",
+      "side": 1,
+      "message": "mechanism.",
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_02e7fa13",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-08-24T18:10:52Z",
+      "side": 1,
+      "message": "Remove whitespace at end of line",
+      "range": {
+        "startLine": 15,
+        "startChar": 45,
+        "endLine": 15,
+        "endChar": 47
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
