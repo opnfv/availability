@@ -19,6 +19,52 @@
     },
     {
       "key": {
+        "uuid": "7a288981_f4715078",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "This is a middleware requirement",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 8,
+        "endChar": 36
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_f536e7e6",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "better to say \"if possible\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 36,
+        "endLine": 9,
+        "endChar": 47
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a288981_02e7fa13",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 15
@@ -35,6 +81,121 @@
         "startChar": 45,
         "endLine": 15,
         "endChar": 47
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_b5305fe9",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "please remove",
+      "range": {
+        "startLine": 16,
+        "startChar": 63,
+        "endLine": 16,
+        "endChar": 66
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_355c6f25",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "I think forwarding this report to the VIM is the middleware function. The host OS won\u0027t know about the VIM, so with respect to the host OS I would remove \"to VIM\".\nOn the other hand in the middleward part we should have a requirement on the delivery of the failure reports to the VIM.",
+      "range": {
+        "startLine": 17,
+        "startChar": 26,
+        "endLine": 17,
+        "endChar": 32
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_35734fb3",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "I think these would be middleware requirements, and the same for the requirement on the geo-redundancy. \nWhat do you think, Georg?",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 29,
+        "endChar": 11
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_7579d792",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "I\u0027m not sure what is the requirement here.",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 30,
+        "endChar": 70
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_15417339",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T16:19:36Z",
+      "side": 1,
+      "message": "This part is a requirement on the hypervisor.",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 34,
+        "endChar": 50
       },
       "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
