@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_35258fab",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-08-27T15:56:08Z",
+      "side": 1,
+      "message": "I don\u0027t see why the same action should be taken in these two cases: If a VM fails (but its host not) then there is no real reason to evacuate the VM. Normally it should be restarted on the same host unless there are other conditions stipulating the evacuation such as the host failure. I.e. the VM failure needs to be qualified in this case that it\u0027s due to host HW, hypervisor, host OS failure. \n\nIn addition I think the original requirement wanted to stipulate that when a comute host is scheduled for maintenance its VMs are migrated to other hosts. I.e. maitenance triggers migration.",
+      "range": {
+        "startLine": 81,
+        "startChar": 2,
+        "endLine": 81,
+        "endChar": 43
+      },
+      "revId": "e534edd727e6dd277e860f7c31459e0b870d095d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
