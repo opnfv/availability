@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_782b0e83",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_e2e3ce03",
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a288981_f4715078",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 15
@@ -36,6 +54,24 @@
         "endLine": 8,
         "endChar": 36
       },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_5820529b",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_f4715078",
       "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -65,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_382586ab",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_f536e7e6",
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a288981_02e7fa13",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 15
@@ -82,6 +136,24 @@
         "endLine": 15,
         "endChar": 47
       },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_183acacd",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_02e7fa13",
       "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -111,6 +183,24 @@
     },
     {
       "key": {
+        "uuid": "7a288981_d83322f5",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_b5305fe9",
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a288981_355c6f25",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 15
@@ -128,6 +218,24 @@
         "endLine": 17,
         "endChar": 32
       },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_f836dee6",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_355c6f25",
       "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -197,6 +305,24 @@
         "endLine": 34,
         "endChar": 50
       },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_b83056e9",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-01T03:08:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a288981_15417339",
       "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
