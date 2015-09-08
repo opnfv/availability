@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_d391cc53",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-08T20:01:00Z",
+      "side": 1,
+      "message": "Good catch!",
+      "parentUuid": "5a2585a7_ad05bd15",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_70ffae02",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_b39e4062",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-08T20:01:00Z",
+      "side": 1,
+      "message": "I believe you found the answer below. Actually the sequence charts could be analysed what kind of interface we would need to do this in the VNFM.",
+      "parentUuid": "5a2585a7_70ffae02",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_100e2a35",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -47,6 +83,24 @@
       "writtenOn": "2015-09-08T08:38:17Z",
       "side": 1,
       "message": "Do you mean, the VNFM should clear the error condition when the VNFC2 is repaired?",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_939b4472",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-08T20:01:00Z",
+      "side": 1,
+      "message": "No, the HA manager could report the failure of the service (Provided NF) rather than the VNFC2. If it reported this then as soon as VNFC1 provides the service this error condition should be cleared.\nBut it\u0027s not that important to report this in this scenarion as the HA manager handles the redundancy itself.\n\nIt must report an error to the VNFM if it can\u0027t failover the service (no redundant VNFC1) and/or if it can\u0027t restart VNFC2.",
+      "parentUuid": "5a2585a7_100e2a35",
       "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -87,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_7388d822",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-08T20:01:00Z",
+      "side": 1,
+      "message": "If we agree on use case 1 that the HA manager manages the VNFC life-cycle then it\u0027s the same is true for this use case. But I agree that this is hidden for the VNFM, i.e. the VNFM _thinks_ that it started VNFC2, but it\u0027s the HA manager that figures out what role it should take and what that means for the life cycle management. The VNFM is definitely not aware of the role assignments in this use case.",
+      "parentUuid": "5a2585a7_502b9282",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_902b3a94",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -98,6 +170,24 @@
       "writtenOn": "2015-09-08T08:38:17Z",
       "side": 1,
       "message": "There could be some work to direct the traffic flow to the new active VNF rather than to the failed one. Who do you think is responsible of this? I think it should be the HA manager or the VNFM.",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_33825001",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-08T20:01:00Z",
+      "side": 1,
+      "message": "This depends on how it is done. I think the VNFM can take care of it to the extent of the general connectivity of the VNFCs. If the HA manager manages which VNFC provides the service the VNFM is not aware of this hence can\u0027t do anything. The HA manager may also not know explicitly that it does something for this, it may just be part of the \"activation\" of the VNFC.",
+      "parentUuid": "5a2585a7_902b3a94",
       "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
