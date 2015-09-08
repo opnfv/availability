@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_ad05bd15",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-08T08:38:17Z",
+      "side": 1,
+      "message": "faster recovery of the service",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_70ffae02",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-08T08:38:17Z",
+      "side": 1,
+      "message": "Do we have to emphasize the HA manager is part of the VNF? because sometimes, the HA manager might be part of the VNFM, and this may cause misunderstanding.",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_100e2a35",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-08T08:38:17Z",
+      "side": 1,
+      "message": "Do you mean, the VNFM should clear the error condition when the VNFC2 is repaired?",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_9019fa7b",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-08T08:38:17Z",
+      "side": 1,
+      "message": "OK. this answers my questions:)",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_502b9282",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-08T08:38:17Z",
+      "side": 1,
+      "message": "For this process, I think it is the VNFM that ask the VIM to repair the VM2 and restart the VNFC2. Afterwards, it will inform the HA manager to reconfigure the VNFC2 as the standby and finish this process. I think it might be confusing to say\" the VNFC2 can be repaired by the HA manager\"",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_902b3a94",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-08T08:38:17Z",
+      "side": 1,
+      "message": "There could be some work to direct the traffic flow to the new active VNF rather than to the failed one. Who do you think is responsible of this? I think it should be the HA manager or the VNFM.",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
