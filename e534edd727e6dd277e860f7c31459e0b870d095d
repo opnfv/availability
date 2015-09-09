@@ -22,6 +22,30 @@
       "revId": "e534edd727e6dd277e860f7c31459e0b870d095d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_16462224",
+        "filename": "Section_4_Virtual_Infra.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-09T15:18:17Z",
+      "side": 1,
+      "message": "Ok, thanks I better understand the issue you are describing.  I have updated the document accordingly.  The recovery case are covered elsewhere, so i changed the wording to reflect the focus on maintenance actions.",
+      "parentUuid": "7a288981_35258fab",
+      "range": {
+        "startLine": 81,
+        "startChar": 2,
+        "endLine": 81,
+        "endChar": 43
+      },
+      "revId": "e534edd727e6dd277e860f7c31459e0b870d095d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
