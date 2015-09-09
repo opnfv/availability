@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_9302240a",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-09T09:46:05Z",
+      "side": 1,
+      "message": "Agree. I have found the answer.\nThe interface work you suggest can be put into the future interface and API definition work as well.",
+      "parentUuid": "5a2585a7_b39e4062",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_100e2a35",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "No, the HA manager could report the failure of the service (Provided NF) rather than the VNFC2. If it reported this then as soon as VNFC1 provides the service this error condition should be cleared.\nBut it\u0027s not that important to report this in this scenarion as the HA manager handles the redundancy itself.\n\nIt must report an error to the VNFM if it can\u0027t failover the service (no redundant VNFC1) and/or if it can\u0027t restart VNFC2.",
       "parentUuid": "5a2585a7_100e2a35",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_d60f7a2d",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-09T09:46:05Z",
+      "side": 1,
+      "message": "Ok. Got it",
+      "parentUuid": "5a2585a7_939b4472",
       "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -159,6 +195,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_d6365ae7",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-09T09:46:05Z",
+      "side": 1,
+      "message": "Yes. I think after the VM is restart, the VNFM is responsible for redeploy the right .iso file to this VM?that is the VNFC iso file). Then, after the VNFC is deployed, the HA manager will set it to be the standby and finish this process. At lease this is what I see from our deployment. But I can understand if you don\u0027t want to put this part to be so specific. I just think using the work repair with the HA manager is a little bit confused, since I may think the HA manager should not have the capability to restart the VNFC, then how can it repair:)",
+      "parentUuid": "5a2585a7_7388d822",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_902b3a94",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -188,6 +242,24 @@
       "side": 1,
       "message": "This depends on how it is done. I think the VNFM can take care of it to the extent of the general connectivity of the VNFCs. If the HA manager manages which VNFC provides the service the VNFM is not aware of this hence can\u0027t do anything. The HA manager may also not know explicitly that it does something for this, it may just be part of the \"activation\" of the VNFC.",
       "parentUuid": "5a2585a7_902b3a94",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_3657de04",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-09T09:46:05Z",
+      "side": 1,
+      "message": "Agree. I think this traffic flow direction work maybe should be mentioned not only in this section, but also in the stateful sections. People may get confused how we can direct the flow when doing the failover. \nIn our deployment, I actually consider this work as mostly done by the HA manager. Sometimes this is done by an HA manager within the VNF, othertimes it is done with an HA manager which is part of the VNFM.",
+      "parentUuid": "5a2585a7_33825001",
       "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
