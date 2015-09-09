@@ -213,6 +213,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_169e2257",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-09T22:27:39Z",
+      "side": 1,
+      "message": "Exactly. I can leave out the last part about the HA manager and say that \"VNFC2 can be restored\".",
+      "parentUuid": "5a2585a7_d6365ae7",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_902b3a94",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -260,6 +278,24 @@
       "side": 1,
       "message": "Agree. I think this traffic flow direction work maybe should be mentioned not only in this section, but also in the stateful sections. People may get confused how we can direct the flow when doing the failover. \nIn our deployment, I actually consider this work as mostly done by the HA manager. Sometimes this is done by an HA manager within the VNF, othertimes it is done with an HA manager which is part of the VNFM.",
       "parentUuid": "5a2585a7_33825001",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_96a9f27d",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-09T22:27:39Z",
+      "side": 1,
+      "message": "I add a paragraph summarizing this at the introduction about the traffic redirection as an assumption for these use cases. \n\nBut maybe someone can add another set of use cases that elaborate on these different options.",
+      "parentUuid": "5a2585a7_3657de04",
       "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
