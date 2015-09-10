@@ -231,6 +231,24 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_d669ba26",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-10T06:37:44Z",
+      "side": 1,
+      "message": "OK. That makes sense.",
+      "parentUuid": "5a2585a7_169e2257",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_902b3a94",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 3
@@ -296,6 +314,24 @@
       "side": 1,
       "message": "I add a paragraph summarizing this at the introduction about the traffic redirection as an assumption for these use cases. \n\nBut maybe someone can add another set of use cases that elaborate on these different options.",
       "parentUuid": "5a2585a7_3657de04",
+      "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_b6762e05",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-09-10T06:37:44Z",
+      "side": 1,
+      "message": "OK. You can update this file with the extra part about the redirection in the introduction part. Afterwards, we can work out whether and where should we add the extra usecases for the different options. I know of some solutions, which may be taken as examples here.",
+      "parentUuid": "5a2585a7_96a9f27d",
       "revId": "8516bb6de078be3929d24189aaed5115ac50e246",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
