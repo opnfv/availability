@@ -265,6 +265,30 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_eee61f16",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-09-15T09:27:17Z",
+      "side": 1,
+      "message": "Yes, I agree.",
+      "parentUuid": "7a288981_35734fb3",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 29,
+        "endChar": 11
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a288981_7579d792",
         "filename": "Requirement/virtual_facilities_HA_new.rst",
         "patchSetId": 15
@@ -276,6 +300,30 @@
       "writtenOn": "2015-08-27T16:19:36Z",
       "side": 1,
       "message": "I\u0027m not sure what is the requirement here.",
+      "range": {
+        "startLine": 30,
+        "startChar": 2,
+        "endLine": 30,
+        "endChar": 70
+      },
+      "revId": "27c5d5135b67944e8fbad49a1fd299775a07ecae",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_0ee28b03",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2015-09-15T09:27:17Z",
+      "side": 1,
+      "message": "yes, this requirement is not stated well. The technical background to this statement is that ephemeral storage needs to be located on storage shared among the compute nodes in order to support live migration. This however is a deployment option - both of the infrastructure as well as the VM (if a VM is booted from a cinder volume, ephemeral storage is not used). Hence, the HA mechanism of a VNF shall not assume that live-migration is always possible.\n\nWe can of course also turn this around and require that either ephemeral storage is shared among compute nodes or that VMs are booted from volume.\n\nIn either case, I am not sure if this requirement fits in this section - if at all.",
+      "parentUuid": "7a288981_7579d792",
       "range": {
         "startLine": 30,
         "startChar": 2,
