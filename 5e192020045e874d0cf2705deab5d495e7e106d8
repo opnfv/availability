@@ -1,0 +1,243 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a2f8d8d_b180788c",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "alternate wording: and the specific requirements to provide service high availability.",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_917d7cb4",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "stateful in shared storage implies the state is not changing very dynamically.  certainly ok for some use cases.  Do we need a another class of application where the state in memory is critical?",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_f15de049",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "the question marks show up as question marks in restview.  I expect dash \u0027-\u0027 is what would look better.",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_b12e38a4",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "This is not clear to me: is the requirement - for optional automate recovery or manual recovery.  Is that what is meant by repair policy.  Or is this implying an API between VIM and VNFM?",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_912b3c94",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "On the one hand",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_1473bab2",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "The service outage last until this is recovery completed.",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_f4670ee9",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "Since the VIM is handling this recovery and the VNFM doesn\u0027t need to know whether the issue is related to the node or the hypervisor.  The VIM should alarms / logs of what happened though. outside the scope of this document.",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_d46412e7",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 396,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "I think policies is confusing.  Not sure i have any better wording to offer.",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_945e8a11",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "therefore",
+      "range": {
+        "startLine": 405,
+        "startChar": 40,
+        "endLine": 405,
+        "endChar": 48
+      },
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_d447721c",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "I would spell out: \"In other words\" or you could say \"Similarly,\"",
+      "range": {
+        "startLine": 594,
+        "startChar": 79,
+        "endLine": 594,
+        "endChar": 84
+      },
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_b454e6ca",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "add \"the\"",
+      "range": {
+        "startLine": 596,
+        "startChar": 51,
+        "endLine": 596,
+        "endChar": 53
+      },
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_9451eada",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 615,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "remove whitespace",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_745e7eeb",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-16T21:34:33Z",
+      "side": 1,
+      "message": "General comment: Excellent work!! Maria.   \n\nOne thought - Do we have a concluding paragraph to wrap up and summarize a few key bullets observations?",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
