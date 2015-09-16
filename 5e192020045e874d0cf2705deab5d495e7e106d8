@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_14b05af3",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_b180788c",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_917d7cb4",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2015-09-16T21:34:33Z",
       "side": 1,
       "message": "stateful in shared storage implies the state is not changing very dynamically.  certainly ok for some use cases.  Do we need a another class of application where the state in memory is critical?",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_b4198624",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Wouldn\u0027t that be the case when the state is maintained internally in the VNF? I.e. the line above.",
+      "parentUuid": "1a2f8d8d_917d7cb4",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_74d31e39",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "I have no idea how the question marks showed up!!! Too much fight with these tools....\nI fixed them.",
+      "parentUuid": "1a2f8d8d_f15de049",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_b12e38a4",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -64,6 +118,24 @@
       "writtenOn": "2015-09-16T21:34:33Z",
       "side": 1,
       "message": "This is not clear to me: is the requirement - for optional automate recovery or manual recovery.  Is that what is meant by repair policy.  Or is this implying an API between VIM and VNFM?",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_14e29a03",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "I meant that there could be some configuration or other means by which the VIM could know what to do when a VM fails. E.g. always restart, always ask, never restart, etc.",
+      "parentUuid": "1a2f8d8d_b12e38a4",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_34ab568b",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_912b3c94",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_1473bab2",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -98,6 +188,24 @@
       "writtenOn": "2015-09-16T21:34:33Z",
       "side": 1,
       "message": "The service outage last until this is recovery completed.",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_54a6e2c2",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_1473bab2",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_94ed6af2",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Yes, I agree. Do you suggest any addition?",
+      "parentUuid": "1a2f8d8d_f4670ee9",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_d46412e7",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -138,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_74bafee2",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 396,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "What about configuration? or configured repair action?",
+      "parentUuid": "1a2f8d8d_d46412e7",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_945e8a11",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -149,6 +293,30 @@
       "writtenOn": "2015-09-16T21:34:33Z",
       "side": 1,
       "message": "therefore",
+      "range": {
+        "startLine": 405,
+        "startChar": 40,
+        "endLine": 405,
+        "endChar": 48
+      },
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_74a1dea8",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_945e8a11",
       "range": {
         "startLine": 405,
         "startChar": 40,
@@ -184,6 +352,30 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_34b476f1",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_d447721c",
+      "range": {
+        "startLine": 594,
+        "startChar": 79,
+        "endLine": 594,
+        "endChar": 84
+      },
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_b454e6ca",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -195,6 +387,30 @@
       "writtenOn": "2015-09-16T21:34:33Z",
       "side": 1,
       "message": "add \"the\"",
+      "range": {
+        "startLine": 596,
+        "startChar": 51,
+        "endLine": 596,
+        "endChar": 53
+      },
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_14b97ae9",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_b454e6ca",
       "range": {
         "startLine": 596,
         "startChar": 51,
@@ -224,6 +440,24 @@
     },
     {
       "key": {
+        "uuid": "1a2f8d8d_d4cad26d",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 615,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a2f8d8d_9451eada",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_745e7eeb",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -235,6 +469,24 @@
       "writtenOn": "2015-09-16T21:34:33Z",
       "side": 1,
       "message": "General comment: Excellent work!! Maria.   \n\nOne thought - Do we have a concluding paragraph to wrap up and summarize a few key bullets observations?",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_94c44a60",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-16T23:54:01Z",
+      "side": 1,
+      "message": "Yes, I thought so too, but maybe that\u0027s something that we should do together.\nAlso I would assume that there will be some other use cases too.",
+      "parentUuid": "1a2f8d8d_745e7eeb",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
