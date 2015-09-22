@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a2f8d8d_34035175",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-22T22:57:04Z",
+      "side": 1,
+      "message": "distrubited -\u003e distributed",
+      "range": {
+        "startLine": 6,
+        "startChar": 32,
+        "endLine": 6,
+        "endChar": 43
+      },
+      "revId": "94dd71405752e4708383c836e439eb92d70cad4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_b4ee21b3",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-22T22:57:04Z",
+      "side": 1,
+      "message": "Sorry I wasn\u0027t clear, I meant replace \"maybe even\" with \"if possible\" and not adding \"if possible\" at the end.",
+      "range": {
+        "startLine": 9,
+        "startChar": 36,
+        "endLine": 9,
+        "endChar": 46
+      },
+      "revId": "94dd71405752e4708383c836e439eb92d70cad4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a2f8d8d_942b25eb",
+        "filename": "Requirement/virtual_facilities_HA_new.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-09-22T22:57:04Z",
+      "side": 1,
+      "message": "Only the last marked bullet was moved, not all marked. All marked need to moved I.e. starting with \"- Large deployments...\"",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 41
+      },
+      "revId": "94dd71405752e4708383c836e439eb92d70cad4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
