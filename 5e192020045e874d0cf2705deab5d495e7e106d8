@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_7dd09f53",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-30T13:49:43Z",
+      "side": 1,
+      "message": "My mistake, you are right.  Thx",
+      "parentUuid": "1a2f8d8d_b4198624",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_f15de049",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -136,6 +154,24 @@
       "side": 1,
       "message": "I meant that there could be some configuration or other means by which the VIM could know what to do when a VM fails. E.g. always restart, always ask, never restart, etc.",
       "parentUuid": "1a2f8d8d_b12e38a4",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_3dca27a2",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-30T13:49:43Z",
+      "side": 1,
+      "message": "OK, i think adding some example policies would make it more clear.",
+      "parentUuid": "1a2f8d8d_14e29a03",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -247,6 +283,24 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_1dcf63b2",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-30T13:49:43Z",
+      "side": 1,
+      "message": "I would suggest adding the following: VIM alarms and provides logs in the event of a failure.\nOr something similar",
+      "parentUuid": "1a2f8d8d_94ed6af2",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a2f8d8d_d46412e7",
         "filename": "UseCases/UseCases.rst",
         "patchSetId": 6
@@ -276,6 +330,24 @@
       "side": 1,
       "message": "What about configuration? or configured repair action?",
       "parentUuid": "1a2f8d8d_d46412e7",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_fdc36f88",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 396,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-30T13:49:43Z",
+      "side": 1,
+      "message": "I like \"configured repair action\"",
+      "parentUuid": "1a2f8d8d_74bafee2",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -487,6 +559,24 @@
       "side": 1,
       "message": "Yes, I thought so too, but maybe that\u0027s something that we should do together.\nAlso I would assume that there will be some other use cases too.",
       "parentUuid": "1a2f8d8d_745e7eeb",
+      "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ddc0ab7e",
+        "filename": "UseCases/UseCases.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-09-30T13:49:43Z",
+      "side": 1,
+      "message": "Let\u0027s discuss via email.",
+      "parentUuid": "1a2f8d8d_94c44a60",
       "revId": "5e192020045e874d0cf2705deab5d495e7e106d8",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
