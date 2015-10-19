@@ -1,0 +1,832 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da6255ed_5da4ad56",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "I think we also need some requirements with respect to the continuity of the management service the VIM provides. By that I mean that the states/functions exposed through the NBI are correct even if VIM processes may fail, e.g. requested VMs do get created even if there is a failure in Nova.",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 27
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_4882b201",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "NFV -\u003e the NFV",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 10
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_28877e11",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "control -\u003e the control",
+      "range": {
+        "startLine": 7,
+        "startChar": 48,
+        "endLine": 7,
+        "endChar": 55
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_688d7631",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "VIM -\u003e The VIM",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_087cba1f",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "VIM -\u003e the VIM",
+      "range": {
+        "startLine": 9,
+        "startChar": 88,
+        "endLine": 9,
+        "endChar": 91
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_c8758233",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "VIM -\u003e the VIM",
+      "range": {
+        "startLine": 10,
+        "startChar": 44,
+        "endLine": 10,
+        "endChar": 47
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_e878462d",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "on OPNFV -\u003e of the OPNFV",
+      "range": {
+        "startLine": 10,
+        "startChar": 20,
+        "endLine": 10,
+        "endChar": 28
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_a8724e47",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "management -\u003e the management",
+      "range": {
+        "startLine": 16,
+        "startChar": 79,
+        "endLine": 16,
+        "endChar": 89
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_888f8a23",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "single -\u003e any single",
+      "range": {
+        "startLine": 16,
+        "startChar": 51,
+        "endLine": 16,
+        "endChar": 57
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_68945637",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "in control -\u003e of the control",
+      "range": {
+        "startLine": 17,
+        "startChar": 82,
+        "endLine": 17,
+        "endChar": 92
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_0bddd470",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "redundant policy -\u003e redundancy policies",
+      "range": {
+        "startLine": 19,
+        "startChar": 73,
+        "endLine": 19,
+        "endChar": 89
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ebd96084",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Different scale of cloud -\u003e Coulds of different scale",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 25
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_cbe69c44",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "policy -\u003e policies",
+      "range": {
+        "startLine": 20,
+        "startChar": 55,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8bd0a454",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "At what level? For each service? for each service process? For the nodes? ...\nIf I\u0027m not mistaken even Arno requires at least three control nodes.",
+      "range": {
+        "startLine": 24,
+        "startChar": 26,
+        "endLine": 24,
+        "endChar": 51
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_abe36832",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Since we are talking about clouds which scale, should we expect that we can go from small scale to large scale?",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 27,
+        "endChar": 93
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_6bd57042",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "I would assume that stateless service processes are deployed as all active regardless of the size of the cloud.\n\nOr do you mean something about the distribution of these service processes on the control nodes?",
+      "range": {
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_4bcaaca2",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Are load balancers used only for stateless services? What if we have a service with N+M redundancy? How is the traffic distributed among the N active instances?",
+      "range": {
+        "startLine": 30,
+        "startChar": 22,
+        "endLine": 31,
+        "endChar": 26
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ebc0407e",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Does this 5 secs include detection time as well or only the switch over?",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 69
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_2bcf78b2",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Is it a \"may\" or is it required?",
+      "range": {
+        "startLine": 43,
+        "startChar": 23,
+        "endLine": 43,
+        "endChar": 26
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_0bc4b490",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Do we have a required detection time?",
+      "range": {
+        "startLine": 49,
+        "startChar": 2,
+        "endLine": 49,
+        "endChar": 100
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_cbbd7c04",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "At what level? Process? Service? Node (since VMs are software too)? I would expect process level.",
+      "range": {
+        "startLine": 52,
+        "startChar": 2,
+        "endLine": 52,
+        "endChar": 27
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_abba4808",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "is it enough that the failures are detected and reported only? Wouldn\u0027t we want automatic recovery and repair as well?",
+      "range": {
+        "startLine": 53,
+        "startChar": 5,
+        "endLine": 53,
+        "endChar": 61
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8b3784b0",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "this seems to be a superset of the first requirement in this set where only the OSS, NFVO and VNFM were considered.",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 103
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_6b3c5094",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Should we require logging as well?",
+      "range": {
+        "startLine": 62,
+        "startChar": 1,
+        "endLine": 62,
+        "endChar": 53
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_2b465824",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "when virtual resource is allocated -\u003e with respect to the allocation of the different virtual resources",
+      "range": {
+        "startLine": 72,
+        "startChar": 66,
+        "endLine": 72,
+        "endChar": 100
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_4b418c0a",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "requirement -\u003e requirements",
+      "range": {
+        "startLine": 72,
+        "startChar": 22,
+        "endLine": 72,
+        "endChar": 33
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_cb6b3c84",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "shouldn\u0027t we require the detection time resolution that such watchdogs should provide?",
+      "range": {
+        "startLine": 76,
+        "startChar": 44,
+        "endLine": 76,
+        "endChar": 52
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_eb47201c",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "possible -\u003e able",
+      "range": {
+        "startLine": 91,
+        "startChar": 16,
+        "endLine": 91,
+        "endChar": 24
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_cb545ccc",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "possible -\u003e able",
+      "range": {
+        "startLine": 94,
+        "startChar": 16,
+        "endLine": 94,
+        "endChar": 24
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_6b6330b2",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "Is it an \"or\" if the schedulers run all active?",
+      "range": {
+        "startLine": 98,
+        "startChar": 58,
+        "endLine": 98,
+        "endChar": 60
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8b5e64e8",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "in -\u003e of the",
+      "range": {
+        "startLine": 98,
+        "startChar": 12,
+        "endLine": 98,
+        "endChar": 14
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ab5128da",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "require -\u003e use the",
+      "range": {
+        "startLine": 98,
+        "startChar": 26,
+        "endLine": 98,
+        "endChar": 33
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_4b586cfa",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "I would say: Using multiple scheduler instances must not create a race condition",
+      "range": {
+        "startLine": 98,
+        "startChar": 81,
+        "endLine": 99,
+        "endChar": 58
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_2b5d38ea",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "I would put it this way: \nThe VIM should replace a failed VM with a new VM and this new VM should start in the same initial state as the failed VM.",
+      "range": {
+        "startLine": 106,
+        "startChar": 2,
+        "endLine": 107,
+        "endChar": 38
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_0b72747c",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "look after -\u003e determine",
+      "range": {
+        "startLine": 119,
+        "startChar": 49,
+        "endLine": 119,
+        "endChar": 59
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_eb6e0096",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-19T16:45:14Z",
+      "side": 1,
+      "message": "do you mean the VNF?",
+      "range": {
+        "startLine": 121,
+        "startChar": 25,
+        "endLine": 121,
+        "endChar": 28
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
