@@ -94,6 +94,78 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_cb30d3ea",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_28877e11",
+      "range": {
+        "startLine": 7,
+        "startChar": 48,
+        "endLine": 7,
+        "endChar": 55
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_0b370be5",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_688d7631",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_eb3397f4",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_4882b201",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 10
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_087cba1f",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -105,6 +177,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "VIM -\u003e the VIM",
+      "range": {
+        "startLine": 9,
+        "startChar": 88,
+        "endLine": 9,
+        "endChar": 91
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ab4d9f74",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_087cba1f",
       "range": {
         "startLine": 9,
         "startChar": 88,
@@ -163,6 +259,54 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_6b57a703",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_e878462d",
+      "range": {
+        "startLine": 10,
+        "startChar": 20,
+        "endLine": 10,
+        "endChar": 28
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8b52db11",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_c8758233",
+      "range": {
+        "startLine": 10,
+        "startChar": 44,
+        "endLine": 10,
+        "endChar": 47
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_a8724e47",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -209,6 +353,54 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_2b41af39",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_a8724e47",
+      "range": {
+        "startLine": 16,
+        "startChar": 79,
+        "endLine": 16,
+        "endChar": 89
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_4b5ce325",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_888f8a23",
+      "range": {
+        "startLine": 16,
+        "startChar": 51,
+        "endLine": 16,
+        "endChar": 57
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_68945637",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -232,6 +424,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_0b3eebb8",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_68945637",
+      "range": {
+        "startLine": 17,
+        "startChar": 82,
+        "endLine": 17,
+        "endChar": 92
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_0bddd470",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -243,6 +459,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "redundant policy -\u003e redundancy policies",
+      "range": {
+        "startLine": 19,
+        "startChar": 73,
+        "endLine": 19,
+        "endChar": 89
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_eb4a7754",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_0bddd470",
       "range": {
         "startLine": 19,
         "startChar": 73,
@@ -301,6 +541,54 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_cb47b34a",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_cbe69c44",
+      "range": {
+        "startLine": 20,
+        "startChar": 55,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ab747f9c",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_ebd96084",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 25
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_8bd0a454",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -312,6 +600,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "At what level? For each service? for each service process? For the nodes? ...\nIf I\u0027m not mistaken even Arno requires at least three control nodes.",
+      "range": {
+        "startLine": 24,
+        "startChar": 26,
+        "endLine": 24,
+        "endChar": 51
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8b79bb95",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "It is hard to define a accurate size here, it depend on different approachment and capability of the control nodes. We have tested two control nodes with active-standby mode can manage at least 50 computing nodes. So we believe three control nodes in cluster mode is not necessary for small scale cloud.",
+      "parentUuid": "da6255ed_8bd0a454",
       "range": {
         "startLine": 24,
         "startChar": 26,
@@ -347,6 +659,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_6b6e87cb",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "It is depend on approachment especially on optimization. Experiential scale may be over 100 computing nodes in one region, N+M or all active maybe better than 1+1 active-standby policy.",
+      "parentUuid": "da6255ed_abe36832",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 27,
+        "endChar": 93
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_6bd57042",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -358,6 +694,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "I would assume that stateless service processes are deployed as all active regardless of the size of the cloud.\n\nOr do you mean something about the distribution of these service processes on the control nodes?",
+      "range": {
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_2b688fb9",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "When there are more then one active processes with same function in cloud, load-balance must be introduced into the system. In small scale it is not necessary to add this complexity.",
+      "parentUuid": "da6255ed_6bd57042",
       "range": {
         "startLine": 30,
         "startChar": 5,
@@ -393,6 +753,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_0b65cbe0",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done, I separate this requirement to a new item.",
+      "parentUuid": "da6255ed_4bcaaca2",
+      "range": {
+        "startLine": 30,
+        "startChar": 22,
+        "endLine": 31,
+        "endChar": 26
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_ebc0407e",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -404,6 +788,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "Does this 5 secs include detection time as well or only the switch over?",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 69
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_6bf3270b",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "include detection time, 5 secs service lost",
+      "parentUuid": "da6255ed_ebc0407e",
       "range": {
         "startLine": 36,
         "startChar": 2,
@@ -439,6 +847,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_4bf863e5",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "here \"may\" means \"can\", it is a description not a requirement",
+      "parentUuid": "da6255ed_2bcf78b2",
+      "range": {
+        "startLine": 43,
+        "startChar": 23,
+        "endLine": 43,
+        "endChar": 26
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_0bc4b490",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -450,6 +882,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "Do we have a required detection time?",
+      "range": {
+        "startLine": 49,
+        "startChar": 2,
+        "endLine": 49,
+        "endChar": 100
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ab37dfaf",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Detection plus switch over time less then 5 secs, as required above",
+      "parentUuid": "da6255ed_0bc4b490",
       "range": {
         "startLine": 49,
         "startChar": 2,
@@ -485,6 +941,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_8b3c1b95",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "I agree with you, process level",
+      "parentUuid": "da6255ed_cbbd7c04",
+      "range": {
+        "startLine": 52,
+        "startChar": 2,
+        "endLine": 52,
+        "endChar": 27
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_abba4808",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -496,6 +976,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "is it enough that the failures are detected and reported only? Wouldn\u0027t we want automatic recovery and repair as well?",
+      "range": {
+        "startLine": 53,
+        "startChar": 5,
+        "endLine": 53,
+        "endChar": 61
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_eb54b7cb",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "on control nodes, failures detection and switch over is required. I don\u0027t know what kind of automatic recovery or repair we should require here, reset failure process? or reset whole nodes if necessary? I think it may depend on different scenario",
+      "parentUuid": "da6255ed_abba4808",
       "range": {
         "startLine": 53,
         "startChar": 5,
@@ -531,6 +1035,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_cb51f3d9",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "I remember we discussed and use \"consumers\" instead of OSS,NFVO...  in meeting. I modify 1st requirement to keep coherence.",
+      "parentUuid": "da6255ed_8b3784b0",
+      "range": {
+        "startLine": 60,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 103
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_6b3c5094",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -542,6 +1070,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "Should we require logging as well?",
+      "range": {
+        "startLine": 62,
+        "startChar": 1,
+        "endLine": 62,
+        "endChar": 53
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ab059fc3",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "if we require to keep alarms and notifications, what other logging we need?",
+      "parentUuid": "da6255ed_6b3c5094",
       "range": {
         "startLine": 62,
         "startChar": 1,
@@ -600,6 +1152,54 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_6b0fa7e2",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_4b418c0a",
+      "range": {
+        "startLine": 72,
+        "startChar": 22,
+        "endLine": 72,
+        "endChar": 33
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8b0adbd0",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_2b465824",
+      "range": {
+        "startLine": 72,
+        "startChar": 66,
+        "endLine": 72,
+        "endChar": 100
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_cb6b3c84",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -611,6 +1211,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "shouldn\u0027t we require the detection time resolution that such watchdogs should provide?",
+      "range": {
+        "startLine": 76,
+        "startChar": 44,
+        "endLine": 76,
+        "endChar": 52
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_4b14e3f4",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "I think detection time resolution may be configurable, and different VNF may require different time resolution. In virtual environment it is a watchdog simulator, different resolution may require different cost.",
+      "parentUuid": "da6255ed_cb6b3c84",
       "range": {
         "startLine": 76,
         "startChar": 44,
@@ -646,6 +1270,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_0bf6ebd7",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_eb47201c",
+      "range": {
+        "startLine": 91,
+        "startChar": 16,
+        "endLine": 91,
+        "endChar": 24
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_cb545ccc",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -657,6 +1305,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "possible -\u003e able",
+      "range": {
+        "startLine": 94,
+        "startChar": 16,
+        "endLine": 94,
+        "endChar": 24
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_eb0277b3",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_cb545ccc",
       "range": {
         "startLine": 94,
         "startChar": 16,
@@ -738,6 +1410,78 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_6b26876a",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_ab5128da",
+      "range": {
+        "startLine": 98,
+        "startChar": 26,
+        "endLine": 98,
+        "endChar": 33
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_8b31bba4",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_8b5e64e8",
+      "range": {
+        "startLine": 98,
+        "startChar": 12,
+        "endLine": 98,
+        "endChar": 14
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_ab2c7f4b",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "I modified this requirement, HA scheme is described in 5.1. Requirement here just about race condition in active-active scheme.",
+      "parentUuid": "da6255ed_6b6330b2",
+      "range": {
+        "startLine": 98,
+        "startChar": 58,
+        "endLine": 98,
+        "endChar": 60
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_4b586cfa",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -749,6 +1493,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "I would say: Using multiple scheduler instances must not create a race condition",
+      "range": {
+        "startLine": 98,
+        "startChar": 81,
+        "endLine": 99,
+        "endChar": 58
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_cbffb3a9",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_4b586cfa",
       "range": {
         "startLine": 98,
         "startChar": 81,
@@ -784,6 +1552,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_4b2bc330",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_2b5d38ea",
+      "range": {
+        "startLine": 106,
+        "startChar": 2,
+        "endLine": 107,
+        "endChar": 38
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_0b72747c",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -807,6 +1599,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_8bd89b54",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_0b72747c",
+      "range": {
+        "startLine": 119,
+        "startChar": 49,
+        "endLine": 119,
+        "endChar": 59
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_eb6e0096",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -818,6 +1634,30 @@
       "writtenOn": "2015-10-19T16:45:14Z",
       "side": 1,
       "message": "do you mean the VNF?",
+      "range": {
+        "startLine": 121,
+        "startChar": 25,
+        "endLine": 121,
+        "endChar": 28
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_0be4ab0b",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-21T09:12:43Z",
+      "side": 1,
+      "message": "No, app is a software module in infrastructure level but above SDN controller. APP use SDN NB interface to realize some network function in cloud.",
+      "parentUuid": "da6255ed_eb6e0096",
       "range": {
         "startLine": 121,
         "startChar": 25,
