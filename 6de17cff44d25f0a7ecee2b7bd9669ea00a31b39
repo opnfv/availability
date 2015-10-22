@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da6255ed_91ee8e21",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-10-22T16:46:08Z",
+      "side": 1,
+      "message": "as a suggestion: the requirement you are describing is to use an API to allow configurability of key watchdogs.  Perhaps we add the following: to allow the configuration of HA functions like watchdog timers.",
+      "range": {
+        "startLine": 80,
+        "startChar": 66,
+        "endLine": 80,
+        "endChar": 67
+      },
+      "revId": "6de17cff44d25f0a7ecee2b7bd9669ea00a31b39",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_71f31a0b",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-10-22T16:46:08Z",
+      "side": 1,
+      "message": "APP - is this the service layer?\nNBI abbreviation should be spelled out",
+      "revId": "6de17cff44d25f0a7ecee2b7bd9669ea00a31b39",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
