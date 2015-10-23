@@ -636,6 +636,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_3195a240",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "As I understand the three nodes are needed to protect against split-brain/network partitioning. With two nodes you can\u0027t get majority. You don\u0027t want the two controlers who don\u0027t see each other suddenly both controling the system.",
+      "parentUuid": "da6255ed_8b79bb95",
+      "range": {
+        "startLine": 24,
+        "startChar": 26,
+        "endLine": 24,
+        "endChar": 51
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_abe36832",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -683,6 +707,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_51b016f4",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "Sorry, I don\u0027t understand how your answer relates to my question.",
+      "parentUuid": "da6255ed_6b6e87cb",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 27,
+        "endChar": 93
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_6bd57042",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -718,6 +766,30 @@
       "side": 1,
       "message": "When there are more then one active processes with same function in cloud, load-balance must be introduced into the system. In small scale it is not necessary to add this complexity.",
       "parentUuid": "da6255ed_6bd57042",
+      "range": {
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_71ab1a8a",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "But that means that if that single process fails then the service is not provided until the failure is detected and the process is restarted. What is the time limit for this, i.e. detection + restart?",
+      "parentUuid": "da6255ed_2b688fb9",
       "range": {
         "startLine": 30,
         "startChar": 5,
@@ -824,6 +896,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_91a68ec0",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "Then it needs to be specified. Currently this requirement only asks for 5 sec switchover time, which is counted after the failure was detected.",
+      "parentUuid": "da6255ed_6bf3270b",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 69
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_2bcf78b2",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -871,6 +967,30 @@
     },
     {
       "key": {
+        "uuid": "da6255ed_f1c70a63",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "I understand and it also mean that it may not, i.e. for a stateful process just redundancy is not enough state synchronization is also needed. If that\u0027s your point I agree and then redundancy becomes a minimum requirement and it would be good to mention what else we need.",
+      "parentUuid": "da6255ed_4bf863e5",
+      "range": {
+        "startLine": 43,
+        "startChar": 23,
+        "endLine": 43,
+        "endChar": 26
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_0bc4b490",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -906,6 +1026,30 @@
       "side": 1,
       "message": "Detection plus switch over time less then 5 secs, as required above",
       "parentUuid": "da6255ed_0bc4b490",
+      "range": {
+        "startLine": 49,
+        "startChar": 2,
+        "endLine": 49,
+        "endChar": 100
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_11cbbe73",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "But this requirement is only about detection time.",
+      "parentUuid": "da6255ed_ab37dfaf",
       "range": {
         "startLine": 49,
         "startChar": 2,
@@ -1000,6 +1144,30 @@
       "side": 1,
       "message": "on control nodes, failures detection and switch over is required. I don\u0027t know what kind of automatic recovery or repair we should require here, reset failure process? or reset whole nodes if necessary? I think it may depend on different scenario",
       "parentUuid": "da6255ed_abba4808",
+      "range": {
+        "startLine": 53,
+        "startChar": 5,
+        "endLine": 53,
+        "endChar": 61
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_31cec284",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T14:18:55Z",
+      "side": 1,
+      "message": "Switchover _is_ an automatic recovery. The current statement only requires that failures are detected and alarms sent. It does not require that a failover is performed and that the failed process is restarted i.e. it is repaired if needed as a standby. We need to add those requirements explicitly. Also that the failover should be stateful for stateful processes.",
+      "parentUuid": "da6255ed_eb54b7cb",
       "range": {
         "startLine": 53,
         "startChar": 5,
