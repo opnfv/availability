@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a2f8d8d_54fedd6c",
+        "filename": "Section_1.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T18:04:50Z",
+      "side": 1,
+      "message": "seems to be an extra character",
+      "range": {
+        "startLine": 94,
+        "startChar": 4,
+        "endLine": 94,
+        "endChar": 5
+      },
+      "revId": "562044b08f25055ca13294a6e2e1ab02e2e07cf7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_f19eea62",
+        "filename": "Section_1.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T18:04:50Z",
+      "side": 1,
+      "message": "Looking at the PDF, the indentation causes wrong formating",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 76
+      },
+      "revId": "562044b08f25055ca13294a6e2e1ab02e2e07cf7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da6255ed_b1a192ab",
+        "filename": "Section_1.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-10-23T18:04:50Z",
+      "side": 1,
+      "message": "This definition used to be \"The time from the moment of detecting the failure of the instance providing the service until the service is provided again by a new instance.\"\n\nNow it doesn\u0027t talk about time at all",
+      "range": {
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 12
+      },
+      "revId": "562044b08f25055ca13294a6e2e1ab02e2e07cf7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
