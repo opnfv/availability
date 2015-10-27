@@ -660,6 +660,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_aa192f24",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-27T12:04:57Z",
+      "side": 1,
+      "message": "Active/standby with two nodes is common redanduncy pattern in traditional telecom system. I believe there are mature measures to prevent split-brain problems in this scenario. Voting in a cluster which include more than two nodes is complex than two nodes working in active-standby.",
+      "parentUuid": "da6255ed_3195a240",
+      "range": {
+        "startLine": 24,
+        "startChar": 26,
+        "endLine": 24,
+        "endChar": 51
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_abe36832",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -790,6 +814,30 @@
       "side": 1,
       "message": "But that means that if that single process fails then the service is not provided until the failure is detected and the process is restarted. What is the time limit for this, i.e. detection + restart?",
       "parentUuid": "da6255ed_2b688fb9",
+      "range": {
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_8a166bf0",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-27T12:04:57Z",
+      "side": 1,
+      "message": "In active/standby mode in small scale, process fail will cause switch over. So, time of service lost is detection +switch over. The loadbalance is also need time to detect process lost in one nodes then block the pipeline to the fail nodes.",
+      "parentUuid": "da6255ed_71ab1a8a",
       "range": {
         "startLine": 30,
         "startChar": 5,
