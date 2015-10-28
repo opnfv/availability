@@ -968,6 +968,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_4d9acd15",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-28T04:16:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da6255ed_91a68ec0",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 69
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_2bcf78b2",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -1039,6 +1063,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_8d4a05ab",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-28T04:16:15Z",
+      "side": 1,
+      "message": "I think I should use \"can\" instead of \"may\" here.\nMy understanding is redundancy should include state synchronization for stateful process. It might be problem of language.:-(",
+      "parentUuid": "da6255ed_f1c70a63",
+      "range": {
+        "startLine": 43,
+        "startChar": 23,
+        "endLine": 43,
+        "endChar": 26
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da6255ed_0bc4b490",
         "filename": "Section_5_VIM_HA.rst",
         "patchSetId": 5
@@ -1098,6 +1146,30 @@
       "side": 1,
       "message": "But this requirement is only about detection time.",
       "parentUuid": "da6255ed_ab37dfaf",
+      "range": {
+        "startLine": 49,
+        "startChar": 2,
+        "endLine": 49,
+        "endChar": 100
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_cd3b5d37",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-28T04:16:15Z",
+      "side": 1,
+      "message": "I am not sure if we need to make requirement on detection time and switchover time separately. My opinion is it\u0027s hard to divide 5 secs to two part like 3 secs detection 2 secs switch over. For control nodes total time of detection + switch over time is critical. Recovery is depend on switch over not notification to other part of system.",
+      "parentUuid": "da6255ed_11cbbe73",
       "range": {
         "startLine": 49,
         "startChar": 2,
@@ -1216,6 +1288,30 @@
       "side": 1,
       "message": "Switchover _is_ an automatic recovery. The current statement only requires that failures are detected and alarms sent. It does not require that a failover is performed and that the failed process is restarted i.e. it is repaired if needed as a standby. We need to add those requirements explicitly. Also that the failover should be stateful for stateful processes.",
       "parentUuid": "da6255ed_eb54b7cb",
+      "range": {
+        "startLine": 53,
+        "startChar": 5,
+        "endLine": 53,
+        "endChar": 61
+      },
+      "revId": "18b83e92860439bf6e2a381765e1cb0df2df23c8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_6d2b51ec",
+        "filename": "Section_5_VIM_HA.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-10-28T04:16:15Z",
+      "side": 1,
+      "message": "Ok,I get it. This section is about alarm/notification. I add switchover to section 5.1 item 7.",
+      "parentUuid": "da6255ed_31cec284",
       "range": {
         "startLine": 53,
         "startChar": 5,
