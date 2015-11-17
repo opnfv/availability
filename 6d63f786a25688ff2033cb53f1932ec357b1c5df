@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_b5f8634a",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-11-17T14:26:55Z",
+      "side": 1,
+      "message": "trailing whitespace remove",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_95955fe6",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-11-17T14:26:55Z",
+      "side": 1,
+      "message": "trailing whitespace remove",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_759aeb15",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-11-17T14:26:55Z",
+      "side": 1,
+      "message": "This disaster recovery scenario is very important.  The requirement would be to restart VM\u0027s on the alternate cloud.  Fail-over times would be very different than within a data center.  Could the requirement be a cold fail-over or a restart of a VNF on the other GEO redundant cloud?",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_559fe703",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-11-17T14:26:55Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_35a47356",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2015-11-17T14:26:55Z",
+      "side": 1,
+      "message": "trailing white space",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
