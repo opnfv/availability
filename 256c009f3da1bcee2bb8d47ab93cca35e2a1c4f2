@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_99a6b9c0",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-11-18T00:13:25Z",
+      "side": 1,
+      "message": "Maybe \"from the perspective of\"",
+      "parentUuid": "9a5c5d37_6968dcf5",
+      "range": {
+        "startLine": 12,
+        "startChar": 8,
+        "endLine": 12,
+        "endChar": 13
+      },
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e973ace5",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -99,6 +123,24 @@
       "writtenOn": "2015-11-17T14:21:03Z",
       "side": 1,
       "message": "HA Manager, is this the VIM or VNFM? could be either or both.  Can you expand on HA Manager definition.",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_79ab058a",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-11-18T00:13:25Z",
+      "side": 1,
+      "message": "In other parts I used the HA manager when it was part of the VNF itself. But in this case probably it doesn\u0027t really matter as the outside world sees this single address and it should lead to the \"right place\".\n\nThe complication comes when we\u0027re talking about multisite especially GR. So that should be an additional bullet in the list Ian suggested.",
+      "parentUuid": "9a5c5d37_a97db4b3",
       "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -139,6 +181,52 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_39958d40",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-11-18T00:13:25Z",
+      "side": 1,
+      "message": "It was interesting that at the summit we had pretty much the same conclusion, but actually someone suggested to use an LB to monitor the VNFCs.",
+      "range": {
+        "startLine": 45,
+        "startChar": 67,
+        "endLine": 46,
+        "endChar": 52
+      },
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_59b041f4",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-11-18T00:13:25Z",
+      "side": 1,
+      "message": "No problem, we can leave it out. If the two cases are described well then this should be straight forward if one needs it.",
+      "range": {
+        "startLine": 50,
+        "startChar": 7,
+        "endLine": 51,
+        "endChar": 41
+      },
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_c980e88d",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -167,6 +255,29 @@
       "writtenOn": "2015-11-17T14:21:03Z",
       "side": 1,
       "message": "common?\nPlus some more trailing whitespace",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1992c957",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-11-18T00:13:25Z",
+      "side": 1,
+      "message": "the drawbacks of etherpad.... colors change every time one opens the pad.",
+      "range": {
+        "startLine": 69,
+        "startChar": 7,
+        "endLine": 70,
+        "endChar": 27
+      },
       "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
