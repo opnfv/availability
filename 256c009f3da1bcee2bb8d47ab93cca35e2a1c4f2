@@ -25,6 +25,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_9f9a1913",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_a9a6d451",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_8963101a",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -42,6 +60,24 @@
         "endLine": 7,
         "endChar": 78
       },
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_7f9f6504",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_8963101a",
       "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -95,6 +131,42 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_5fa4a156",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_6968dcf5",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_3f89edca",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_99a6b9c0",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e973ace5",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -106,6 +178,24 @@
       "writtenOn": "2015-11-17T14:21:03Z",
       "side": 1,
       "message": "I think we need to list the areas to introduce them and then can expand in the following sections.\n\nIP address of active/stand-by VM.  \n\nLoad balancers for active/active use cases\n\nAre there other interfaces that need to be considered?  VM\u0027s will typically have many IP addresses and I think a combination of floating IP\u0027s and load balancers need to be considered. OAM interface and data interface will likely have different requirements and configurations.\n\nDo we need to introduce the concept of VIM and VNFM they all have a roll to play in what is described in this document?",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1f5bc955",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "I don\u0027t think we have a common procedure for these two approaches for the VIM and VNFM. That\u0027s why I didn\u0027t put much detail about this here.",
+      "parentUuid": "9a5c5d37_e973ace5",
       "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -147,6 +237,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_ff57d524",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Hi, Maria. I am actually not quite sure what bullet you are suggesting to put here:)",
+      "parentUuid": "9a5c5d37_79ab058a",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_496d1804",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -181,6 +289,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_9f369902",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_694fbc93",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_39958d40",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -198,6 +324,24 @@
         "endLine": 46,
         "endChar": 52
       },
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_3f256dc2",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "I think in the lagecy devices, we do have the case of using a lb to monitor several physical hardwares. In the virtual environment, it could be a case. The LB we are talking about is like HAproxy and is monitoring the VMs. I think we can have a vLB monitors the VNFC, when the VNFC itself fail, the LB will switch the traffic to other VNFC, and let this VNFC reboot itself. This might be the same as what we are doing in the DC for physical hardware. However, I myself actually haven\u0027t seen such approach in the VNFs we tested.",
+      "parentUuid": "9a5c5d37_39958d40",
       "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -261,6 +405,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_5f402156",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_894af081",
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_1992c957",
         "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 1
@@ -278,6 +440,24 @@
         "endLine": 70,
         "endChar": 27
       },
+      "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_7f3be5eb",
+        "filename": "Scenario/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T07:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_1992c957",
       "revId": "256c009f3da1bcee2bb8d47ab93cca35e2a1c4f2",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
