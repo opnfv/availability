@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_1c8637ba",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_b5f8634a",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_79cae5a2",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -65,6 +83,42 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_fc9243f5",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_79cae5a2",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_dc8f7fcb",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_99d59945",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_95955fe6",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -105,6 +159,42 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_bcbccb6d",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_95955fe6",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_9cc107e7",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_7941c50a",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_59460125",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -122,6 +212,24 @@
         "endLine": 12,
         "endChar": 6
       },
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_7cb6538c",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_59460125",
       "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -151,6 +259,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_5cbb8f72",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_394b4d2d",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_1948892c",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -174,6 +300,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_3cb0db8a",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_1948892c",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_f95495cb",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -191,6 +335,24 @@
         "endLine": 22,
         "endChar": 56
       },
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1cad1732",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_f95495cb",
       "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -255,6 +417,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_dc541f23",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_d951d1d9",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_559fe703",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -272,6 +452,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_9c36a702",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_559fe703",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_35a47356",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -283,6 +481,24 @@
       "writtenOn": "2015-11-17T14:26:55Z",
       "side": 1,
       "message": "trailing white space",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_7c3bf3eb",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_35a47356",
       "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -312,6 +528,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_3c257bc2",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "I think this may depend on what we require for the VNFs. Like your discussion with Ian above, for the VNFs require stateful failover, I suppose we\u0027d better use the same methodology as we have for VNFs in the same site, that is using HA manager for the management of redundancy and failover. If the VNF only requires restart of another instance on the other site, then I suppose the VIM can solve this.",
+      "parentUuid": "9a5c5d37_b9d3bd37",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_39e7cd14",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -329,6 +563,24 @@
         "endLine": 60,
         "endChar": 58
       },
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1c22b7b9",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "I mean VNFs participating in the same redundancy.",
+      "parentUuid": "9a5c5d37_39e7cd14",
       "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -358,6 +610,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_fc2ec3a4",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Yes. But the VIM should know that the active VM and the redundant VM should share the same floating IP. once the active one fails, the redundant one on the other cloud should use exactly the same floating IP. This may require the VIM to do some coordination, and also should NAT the VM to a static IP.",
+      "parentUuid": "9a5c5d37_99bfd9d0",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_19cbe973",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -381,6 +651,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_fffb5545",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Yes",
+      "parentUuid": "9a5c5d37_19cbe973",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_d9c43161",
         "filename": "Scenario/scenario_analysis_multi_site.rst",
         "patchSetId": 1
@@ -398,6 +686,24 @@
         "endLine": 70,
         "endChar": 68
       },
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_dff8914b",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-11-20T03:24:45Z",
+      "side": 1,
+      "message": "Yes.",
+      "parentUuid": "9a5c5d37_d9c43161",
       "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
