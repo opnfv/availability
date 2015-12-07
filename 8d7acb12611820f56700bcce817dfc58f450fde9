@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_c9f33109",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "I think this is not the architecture, it\u0027s one of the use cases and I assume this document should have the other use cases.",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 118
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_a9f8fde5",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "The big difference between the GR and the single site HA: In case of GR we don\u0027t need to consider application level failure, we don\u0027t need to protect against that. This simplifies the case and makes the NFVI level solution much more feasible.",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 19
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_29e40d3a",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "It\u0027s still not clear how many VNFs are involved here. Looking at the figure it\u0027s only one. From the text it could be multiple VNFs protecting each other.\n\nThese could be the different use cases to be described here.",
+      "range": {
+        "startLine": 65,
+        "startChar": 3,
+        "endLine": 67,
+        "endChar": 84
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_e9d5d543",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "This depends on how the availability is managed. Whether it\u0027s done by some infrastructure service, by the VNFM, or by the VMs themselves. And these are three use cases which will have different needs probably.",
+      "range": {
+        "startLine": 68,
+        "startChar": 55,
+        "endLine": 69,
+        "endChar": 65
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_c9ca11a1",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "Probably the key is the time constraint, not that much the floating. I guess this is why we have SDN...",
+      "range": {
+        "startLine": 70,
+        "startChar": 35,
+        "endLine": 70,
+        "endChar": 84
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_89c41993",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "I guess that\u0027s another option, but then it\u0027s not a \"should\". This would be related to this particular use case or a group of them. \n(This is not how I read your figure though. Is that the intention?)",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 58
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_29bbed0f",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-07T21:17:00Z",
+      "side": 1,
+      "message": "Does the ETSI NFV consider the deployment of a VNFM and its VNFs across different VIMs?",
+      "range": {
+        "startLine": 75,
+        "startChar": 3,
+        "endLine": 77,
+        "endChar": 69
+      },
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
