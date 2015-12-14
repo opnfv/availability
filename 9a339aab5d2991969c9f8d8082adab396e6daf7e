@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_050005a9",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-14T07:46:20Z",
+      "side": 1,
+      "message": "Do you mean:\"What mentioned above can be summarized as service quality  no longer being acceptable, requiring expandin\ng of capacity\"\nLittle bit confused with this sentence.",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_e52cd14c",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-14T07:46:20Z",
+      "side": 1,
+      "message": "I still see these 3 categories very confusing.\nwhen the VNFs or EM triger the scale out, it falls into category 1 and 2.\nIn the meantime, for category 1, the notification can also come from the NFVO, taking consideration of category 3.\n\nFrom my understanding, what you mean is that the scale out eventually should be triggered by VNFM. But the notification can come from the VIM, the VNF or EM, or NFVO(OSS/BSS).",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_65e7c113",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-14T07:46:20Z",
+      "side": 1,
+      "message": "I wonder if the event VNFM realizes to trigger the scaleing is the same with the EM? Or how to differenciate these two?",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
