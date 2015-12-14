@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_e5a171aa",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-14T08:00:43Z",
+      "side": 1,
+      "message": "I think we may need a whole picture of the network node deployment before we go into such details. This is a scenario analysis doc rather than a gap analysis doc. I think Maria\u0027s part gives us a good example of how to analysis the scenarios. What I expect here is also, we could explain how to deploy the network nodes so that they are high available. These details can be discussed. But I think a big picture should be discribed first so that the readers will know what HA network node deployment should be.",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
