@@ -1,0 +1,257 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_1584aed2",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "Maybe we should name those general issues as \"Communication Interfaces\" or something like that.",
+      "range": {
+        "startLine": 1,
+        "startChar": 22,
+        "endLine": 1,
+        "endChar": 36
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_5590e642",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "Since the VM doesn\u0027t have the active/standby roles I assume, but the VNFC does, I think it would be better to use VNFC here. Or maybe better \"IP address of VM for active/stand-by VNFCs\"",
+      "range": {
+        "startLine": 21,
+        "startChar": 33,
+        "endLine": 21,
+        "endChar": 35
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_75aaca71",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "For active/standby VNFCs, there is a common IP address shared by the VMs hosting the active and standby VNFCs, so that they look as one instance from outside. The HA manager will manage the assignment of the IP address to the VMs.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 78
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_b5c72245",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "LB -\u003e a LB",
+      "range": {
+        "startLine": 41,
+        "startChar": 25,
+        "endLine": 41,
+        "endChar": 27
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_95c41e41",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "traffic -\u003e the traffic",
+      "range": {
+        "startLine": 44,
+        "startChar": 56,
+        "endLine": 44,
+        "endChar": 63
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f5b59acd",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "before -\u003e in front of",
+      "range": {
+        "startLine": 44,
+        "startChar": 16,
+        "endLine": 44,
+        "endChar": 22
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_75c1aa2d",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "managered -\u003e managed",
+      "range": {
+        "startLine": 47,
+        "startChar": 15,
+        "endLine": 47,
+        "endChar": 24
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_55dea612",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "is using -\u003e uses",
+      "range": {
+        "startLine": 48,
+        "startChar": 18,
+        "endLine": 48,
+        "endChar": 26
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_d5ca964e",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "before -\u003e in front of",
+      "range": {
+        "startLine": 55,
+        "startChar": 16,
+        "endLine": 55,
+        "endChar": 22
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_95dbfe1a",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "ditect -\u003e detect",
+      "range": {
+        "startLine": 59,
+        "startChar": 64,
+        "endLine": 59,
+        "endChar": 70
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_b5ce0259",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T22:04:58Z",
+      "side": 1,
+      "message": "re-route -\u003e route",
+      "range": {
+        "startLine": 61,
+        "startChar": 41,
+        "endLine": 61,
+        "endChar": 49
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
