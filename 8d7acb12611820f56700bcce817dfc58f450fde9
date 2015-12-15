@@ -48,6 +48,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_b6260d67",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-15T04:06:16Z",
+      "side": 1,
+      "message": "yes, Great point. If this is the case, we actually do not need to consider the work of VNFM and VNF. It should be the VM that should take the labor to copy the data and do the failover between different sites. In such case, the VM should be in a cluster mode. What do you think?",
+      "parentUuid": "9a5c5d37_a9f8fde5",
+      "revId": "8d7acb12611820f56700bcce817dfc58f450fde9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_29e40d3a",
         "filename": "Scenario_2/scenario_analysis_multi_site.rst",
         "patchSetId": 1
