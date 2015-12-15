@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_766d3532",
+        "filename": "Scenario/scenario_analysis_multi_site.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-12-15T09:46:52Z",
+      "side": 0,
+      "message": "[YY] We should separate two kinds of redundancy in our discussion, the redundancy inside one VNF and the redundancy between two VNFs. The redundancy inside one VNF is applied for keeping the availability for one node  which has a group of VNFCs. Most part of scenario doc discussed about this kind of redundancy. Dynamic data should shared between active/stb in stateful  components and swtichover can be accelerated when notifications trigged to VNFM. The redundancy between two VNFs is some kind of service level redundancy which achieved by system planning. Example of this kind of redundancy is  each BSC should connect to two or more MSC. The switchover is depend on the state of signalling link. Neither infrastructure nor MANO will involve in this kind of redundancy.\nIf so, do we have the scenario in multisite that we deploy one VNF in different VIM?",
+      "revId": "6d63f786a25688ff2033cb53f1932ec357b1c5df",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
