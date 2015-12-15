@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a5c5d37_95aade17",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-15T23:27:11Z",
+      "side": 1,
+      "message": "I think this gives an outline to the section. What I would do is to describe \n- what failures we should consider in case of network nodes\n- how each of these parts are deployed (i.e. architecture) for HA\n- how they (should) behave in case of the different failures that we said we should consider",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e5a171aa",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 1
