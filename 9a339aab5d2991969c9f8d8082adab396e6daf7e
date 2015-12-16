@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_fbec69c9",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "I thought scaling can be used to improve the service availability before, so I suggested to include this as a scenario. However I find you are right that we did not include scaling in our requirement document. So I am agree to remove this part.",
+      "parentUuid": "9a5c5d37_b8927755",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_050005a9",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-12-14T07:46:20Z",
       "side": 1,
       "message": "Do you mean:\"What mentioned above can be summarized as service quality  no longer being acceptable, requiring expandin\ng of capacity\"\nLittle bit confused with this sentence.",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_bbcef158",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "I mean the situation described in the first sentence could reduce the service quality and availability. Services require expanding the capability.",
+      "parentUuid": "9a5c5d37_050005a9",
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_3b0a018b",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "Yes, you are right. Scaling out means adding VMs (or nodes) to expand the capability, this will improve the service availability. However scaling in means reduce the VMs, I cannot find the relationship with HA. Neither do scaling down. Then scaling up and scaling down need to stop the service running in the VM. This cannot meet the time limitation defined in the requirement document. So I Just talk scaling out here.",
+      "parentUuid": "9a5c5d37_3b8e812f",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 7
+      },
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_58a25baf",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -76,6 +136,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_1bff3d69",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "I mentioned above in Line 9, just talk about scaling out here.",
+      "parentUuid": "9a5c5d37_58a25baf",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e52cd14c",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -87,6 +165,24 @@
       "writtenOn": "2015-12-14T07:46:20Z",
       "side": 1,
       "message": "I still see these 3 categories very confusing.\nwhen the VNFs or EM triger the scale out, it falls into category 1 and 2.\nIn the meantime, for category 1, the notification can also come from the NFVO, taking consideration of category 3.\n\nFrom my understanding, what you mean is that the scale out eventually should be triggered by VNFM. But the notification can come from the VIM, the VNF or EM, or NFVO(OSS/BSS).",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_fb3a2935",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "Yes, I think the action should be triggered by VNFM.",
+      "parentUuid": "9a5c5d37_e52cd14c",
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -116,6 +212,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_1b361d53",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "OK for me, is there any other idea from other reviewers?",
+      "parentUuid": "9a5c5d37_bb795131",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 0
+      },
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_65e7c113",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -133,6 +253,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_9b49edd2",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "No, they will be triggered by different conditions, and manual operators can use EM not VNFM.",
+      "parentUuid": "9a5c5d37_65e7c113",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_9b768d3d",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -144,6 +282,30 @@
       "writtenOn": "2015-12-16T11:53:41Z",
       "side": 1,
       "message": "Relation to HA is still missing. you want to use the resources of the additional VMs for the running services.\nBut availability and reliability should not be reduced during this procedure. Will dependent hugely on the implementation of the service (whether state is managed and how)",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 0
+      },
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_3b18c1d2",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T13:16:31Z",
+      "side": 1,
+      "message": "I thought the situation described at the beginning would reduce the service availability and reliability. But now I am OK to remove this part.",
+      "parentUuid": "9a5c5d37_9b768d3d",
       "range": {
         "startLine": 95,
         "startChar": 0,
