@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_3bf4415a",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T14:09:25Z",
+      "side": 1,
+      "message": "As I mentioned in the mailing list, what deployed in the network nodes from my side are networking services which are like the services deployed in the control nodes. So the deployment for HA can be the same, that is what have been done in installer projects. There is no network node now. All the failures can be summarized as HW failure and SW failure, all most the same as control nodes, right? So I think there is no need to add a independent use case for network node. There is nothing special. In another way, why don\u0027t we add a use case for control node?",
+      "parentUuid": "9a5c5d37_95aade17",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e5a171aa",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-12-14T08:00:43Z",
       "side": 1,
       "message": "I think we may need a whole picture of the network node deployment before we go into such details. This is a scenario analysis doc rather than a gap analysis doc. I think Maria\u0027s part gives us a good example of how to analysis the scenarios. What I expect here is also, we could explain how to deploy the network nodes so that they are high available. These details can be discussed. But I think a big picture should be discribed first so that the readers will know what HA network node deployment should be.",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1be97d80",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-16T14:09:25Z",
+      "side": 1,
+      "message": "It is OK for me.",
+      "parentUuid": "9a5c5d37_e5a171aa",
       "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
