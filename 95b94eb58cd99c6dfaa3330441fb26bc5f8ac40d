@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_9581be91",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-16T00:32:56Z",
+      "side": 1,
+      "message": "I guess the abbreviations are reversed",
+      "range": {
+        "startLine": 7,
+        "startChar": 200,
+        "endLine": 7,
+        "endChar": 241
+      },
+      "revId": "95b94eb58cd99c6dfaa3330441fb26bc5f8ac40d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f5491a8c",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-16T00:32:56Z",
+      "side": 1,
+      "message": "Maybe that shouldn\u0027t be in an OPNFV document this way :-)....\nHigh level is perfectly fine with me I think that\u0027s the idea in these use cases, i.e. capture the main use cases",
+      "range": {
+        "startLine": 19,
+        "startChar": 186,
+        "endLine": 19,
+        "endChar": 214
+      },
+      "revId": "95b94eb58cd99c6dfaa3330441fb26bc5f8ac40d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_95589e57",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-16T00:32:56Z",
+      "side": 1,
+      "message": "Wouldn\u0027t that be handled to some extent? I.e. as long as it\u0027s equivalent to a single failure, which would trigger an alarm let say. I\u0027m just curious...",
+      "range": {
+        "startLine": 19,
+        "startChar": 403,
+        "endLine": 19,
+        "endChar": 421
+      },
+      "revId": "95b94eb58cd99c6dfaa3330441fb26bc5f8ac40d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_3537b201",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-16T00:32:56Z",
+      "side": 1,
+      "message": "Might be interesting to point out them",
+      "range": {
+        "startLine": 19,
+        "startChar": 833,
+        "endLine": 19,
+        "endChar": 840
+      },
+      "revId": "95b94eb58cd99c6dfaa3330441fb26bc5f8ac40d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_153caee1",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 244
+      },
+      "writtenOn": "2015-12-16T00:32:56Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this go then into the requirements document storage section then?",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 26
+      },
+      "revId": "95b94eb58cd99c6dfaa3330441fb26bc5f8ac40d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
