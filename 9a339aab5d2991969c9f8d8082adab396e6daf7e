@@ -36,6 +36,29 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_3b8e812f",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2015-12-16T11:53:41Z",
+      "side": 1,
+      "message": "Scaling in/out is referring to horizontal scaling, thus adding nodes while scaling up/down refers to vertical scaling. This means adding processors or memory to an existing node. Both cases can be valid, but usually in visualized environments you add virtual machines. his means scaling out.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 7
+      },
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_58a25baf",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -70,6 +93,29 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_bb795131",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2015-12-16T11:53:41Z",
+      "side": 1,
+      "message": "the scaling procedure is the same in all three cases. only the decision to scale has been triggered by different entities. It is ok to mention, that there are different sources for scaling, but the procedure ahould only be described once (starting with \"VNFM cooperates with NFVO....\")",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 0
+      },
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_65e7c113",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -81,6 +127,29 @@
       "writtenOn": "2015-12-14T07:46:20Z",
       "side": 1,
       "message": "I wonder if the event VNFM realizes to trigger the scaleing is the same with the EM? Or how to differenciate these two?",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_9b768d3d",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2015-12-16T11:53:41Z",
+      "side": 1,
+      "message": "Relation to HA is still missing. you want to use the resources of the additional VMs for the running services.\nBut availability and reliability should not be reduced during this procedure. Will dependent hugely on the implementation of the service (whether state is managed and how)",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 0
+      },
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
