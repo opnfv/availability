@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a5c5d37_b8927755",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-12-16T07:35:12Z",
+      "side": 1,
+      "message": "Is there any specific requirement on HA when scale in or scale out? I haven\u0027t found. We have the scenario of scaling in/out in NFV,but it seems have no specific requirement on HA. Then why we should add this in HA doc?",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_050005a9",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -13,6 +30,23 @@
       "writtenOn": "2015-12-14T07:46:20Z",
       "side": 1,
       "message": "Do you mean:\"What mentioned above can be summarized as service quality  no longer being acceptable, requiring expandin\ng of capacity\"\nLittle bit confused with this sentence.",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_58a25baf",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2015-12-16T07:35:12Z",
+      "side": 1,
+      "message": "shall we just use \"scale in\" and \"scale out\", It seems more common to me than \"scale down\", \"scale up\"...",
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
