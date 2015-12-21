@@ -84,6 +84,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_143267a7",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-21T09:11:59Z",
+      "side": 1,
+      "message": "Totally agree.",
+      "parentUuid": "9a5c5d37_5590e642",
+      "range": {
+        "startLine": 21,
+        "startChar": 33,
+        "endLine": 21,
+        "endChar": 35
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_75aaca71",
         "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 2
@@ -160,6 +184,29 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "9a5c5d37_b5c72245",
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_140a678a",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-21T09:11:59Z",
+      "side": 1,
+      "message": "What are the essential differences between thses two use cases? I am a little confused. THX.",
+      "range": {
+        "startLine": 42,
+        "startChar": 7,
+        "endLine": 42,
+        "endChar": 53
+      },
       "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -447,6 +494,52 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "9a5c5d37_b5ce0259",
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_342d6b47",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-21T09:11:59Z",
+      "side": 1,
+      "message": "I think these discussions should be removed from this document.",
+      "range": {
+        "startLine": 65,
+        "startChar": 5,
+        "endLine": 65,
+        "endChar": 6
+      },
+      "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f4feb36a",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-21T09:11:59Z",
+      "side": 1,
+      "message": "What about using VNFs?",
+      "range": {
+        "startLine": 80,
+        "startChar": 84,
+        "endLine": 80,
+        "endChar": 88
+      },
       "revId": "197313b46e5e1b21f71ff5e264f43a284ac20dbe",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
