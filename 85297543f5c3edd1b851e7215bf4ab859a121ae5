@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_1431475a",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-21T09:35:39Z",
+      "side": 1,
+      "message": "I think what Yifei explains is the deployment case where we have all the neotron service deployed on the control node. But we could also deploy stand alone network nodes with multiple neotrol agents deployed on them. Such deployment is often used and also is suggested to be used, so that the network load will not waste too much resource of the control node. I think such case should be deployed here in this section.",
+      "parentUuid": "9a5c5d37_3bf4415a",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e5a171aa",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "It is OK for me.",
       "parentUuid": "9a5c5d37_e5a171aa",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f4359346",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-21T09:35:39Z",
+      "side": 1,
+      "message": "Great. Would you please update this file and we can make comments on the new file:)",
+      "parentUuid": "9a5c5d37_1be97d80",
       "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
