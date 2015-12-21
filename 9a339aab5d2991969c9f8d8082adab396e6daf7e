@@ -271,6 +271,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_d4116fad",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-21T09:57:18Z",
+      "side": 1,
+      "message": "Is it possible that we have a table here listing all the conditions that triggers the scaling for each component. That would make this more clear",
+      "parentUuid": "9a5c5d37_9b49edd2",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_9b768d3d",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -312,6 +330,24 @@
         "endLine": 95,
         "endChar": 0
       },
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_541d7fbc",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-21T09:57:18Z",
+      "side": 1,
+      "message": "I don\u0027t think Stefan is suggesting to remove this part. What he suggests is we should explain how to keep availability while scale out? for example, whether we should direct the new traffic to the new VM or we should move some traffic to the new one?",
+      "parentUuid": "9a5c5d37_3b18c1d2",
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
