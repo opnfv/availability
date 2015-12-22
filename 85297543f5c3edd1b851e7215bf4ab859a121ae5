@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_724e53c3",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-22T03:03:59Z",
+      "side": 1,
+      "message": "OK for me. That\u0027s fine.",
+      "parentUuid": "9a5c5d37_1431475a",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e5a171aa",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 1
@@ -102,6 +120,24 @@
       "side": 1,
       "message": "Great. Would you please update this file and we can make comments on the new file:)",
       "parentUuid": "9a5c5d37_1be97d80",
+      "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_32c8db21",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-22T03:03:59Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "9a5c5d37_f4359346",
       "revId": "85297543f5c3edd1b851e7215bf4ab859a121ae5",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
