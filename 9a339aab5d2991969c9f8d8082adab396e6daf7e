@@ -351,6 +351,24 @@
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_923c2731",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2015-12-22T01:47:00Z",
+      "side": 1,
+      "message": "I understand that Stefan did not mean to remove this part. Maybe I am not clear. I thought the situation described at the beginning would reduce the service availability and reliability. But now I agree with Stefan that availability and reliability should not be reduced this procedure. And Yue also said that scaling is not a part of our requirement document. So I agree to remove this part.",
+      "parentUuid": "9a5c5d37_541d7fbc",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
