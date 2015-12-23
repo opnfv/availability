@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_e3ca77a0",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-23T08:54:57Z",
+      "side": 1,
+      "message": "I am actually not sure of what device you are refering to as compute node network controller? is this compute node the compute node in openstack? is the controller the SDN controller?",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_83c17b82",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-23T08:54:57Z",
+      "side": 1,
+      "message": "Again with the controller, I am still confused. What exactly do you mean by controller? is it in Control plane or data plane?\nI think maybe a topology figure here might be helpful?",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_e3ab9787",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-23T08:54:57Z",
+      "side": 1,
+      "message": "I think we now use \"neotron\" for the network management module.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_639fa760",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-23T08:54:57Z",
+      "side": 1,
+      "message": "why each VM may not be an VNFC?",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_439ca369",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-23T08:54:57Z",
+      "side": 1,
+      "message": "I think we have discussed about the FT, and it is indicated that the FT mode will copy the failure in the VNF as well, so may infect the standby VM.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
