@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_9864414a",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "repeat sentence about DHCP agent",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_98cb211e",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "I think a topology for the deployment might help, or some more explaination. From my understanding, the Neutron DHCP agent may be deployed on the network node, while the L2 agent should deploy on each compute node so as to control the L2 virtual network. Is that right? how about the other agent. what is the deployment topology?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_d8f75958",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "does this mean, the DHCP agent is deployed on multiple network nodes? and they are working in a active/active or active passive mode?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_b896e5ee",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "a little bit confused about this part.\nwhy we have six DHCP agents? is it necessary and always 6 or it is just an example. Why we have 3 network here? is it an example, or it is always the case.\nI think from your discription here, the DHCP servers are working in an active/active mode, right? and they are sharing the same lease table?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_98c0c1e1",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "what is the maximum/minimum number of network nodes to use for the HA router means?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_78b74d87",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "Again, is this always the case or it is just an example. do we always have two network nodes? is the 169.254.192.0/18 always used as the heartbeat?\nI think we have to make all these clear here, whether they are typical deployment or just an example.",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_58ba496f",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "But in your figure, there is only 2 nodes. must it be 3 or more? or 2 is also OK?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_18acd134",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2015-12-28T06:23:23Z",
+      "side": 1,
+      "message": "Why is this?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
