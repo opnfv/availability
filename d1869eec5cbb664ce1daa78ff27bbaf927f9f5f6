@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_c28cff37",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T16:45:57Z",
+      "side": 1,
+      "message": "Very nice work.  A general question.  Do we need to cover the scenario where there are redundant links to the nodes - LAG support for example?",
+      "revId": "d1869eec5cbb664ce1daa78ff27bbaf927f9f5f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
