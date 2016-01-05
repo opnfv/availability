@@ -125,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_4c228602",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T07:47:25Z",
+      "side": 1,
+      "message": "It is described in Line 23.",
+      "parentUuid": "9a5c5d37_0cc00e29",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_b896e5ee",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -178,6 +196,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_4cd726c0",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T07:47:25Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "9a5c5d37_ecdeda10",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_98c0c1e1",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -225,6 +261,24 @@
       "side": 1,
       "message": "OK, so you mean multiple vRouter will be deployed when we set L3-HA true. But I still can\u0027t understand why there exist an maximum and minimum? When can we reach the maximum? Or the L3 agent schedular will choose a number between the maximum and the minimum for the deployment?\nquite confused here....",
       "parentUuid": "9a5c5d37_cc09d6de",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_6cdc2ae5",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T07:47:25Z",
+      "side": 1,
+      "message": "The L3 agent scheduler will choose a number between the maximum and the minimum according scheduling algorithm.",
+      "parentUuid": "9a5c5d37_cce1d6d1",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -319,6 +373,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_2c2192fb",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T07:47:25Z",
+      "side": 1,
+      "message": "Maybe I was not clear. I mean it can also be 3 or more.",
+      "parentUuid": "9a5c5d37_ace8e2b4",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_18acd134",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -366,6 +438,24 @@
       "side": 1,
       "message": "Why A/P is not so HA?",
       "parentUuid": "9a5c5d37_4c47261e",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_8ca3de4e",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T07:47:25Z",
+      "side": 1,
+      "message": "I am not sure my understanding is right that in A/A mode both of the instances are on line while in A/P mode the passive one comes to be on line when the active one fails. In A/A mode, when the first one fails, the second one still connects to something like client. However in A/P mode, if the active one fails, connection will be rebuilt after the passive one is on line. So the A/A mode is more highly available.",
+      "parentUuid": "9a5c5d37_8cebdeaf",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
