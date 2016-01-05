@@ -445,6 +445,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_2c59925a",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T09:12:09Z",
+      "side": 1,
+      "message": "I can only say that it is a Chinese speaking manner. I will change it to \"It can be 2 or more\".",
+      "parentUuid": "9a5c5d37_ec649a23",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_18acd134",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -528,6 +546,24 @@
       "side": 1,
       "message": "I don\u0027t think I can agree with this. For stateful VNFs, even in the A/A mode, one client is still connect to one instance, it can\u0027t have both the instances work for it at the same time. The two A/A instances actually work in a LB mode.So there still exist time for the client to connect to the active instance when failure happens. This could be the client actively connect, or it could be the HAproxy to do the redirection of the traffic. For the A/P mode, when the active failed, the HA schema is designed to have the traffic direct to the passive instance quickly that the service will not be influenced. \nFor both A/A and A/P, they should meet the SAL requirement. And once they meet, I don\u0027t think we can compare each other, right?",
       "parentUuid": "9a5c5d37_8ca3de4e",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_6c266ad0",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T09:12:09Z",
+      "side": 1,
+      "message": "As said in OpenStack HA guide: \"A typical active/active installation for a stateful service includes redundant services, with all instances having an identical state. In other words, updates to one instance of a database update all other instances. This way a request to one instance is the same as a request to any other.\"\nLink: http://docs.openstack.org/ha-guide/intro-ha-concepts.html#active-passive-vs-active-active\nAlso you can search the A/A mode of Pacemaker.\nCurrently I am not sure A/P mode can meet the requirement.\nSure I can delete this sentence.",
+      "parentUuid": "9a5c5d37_6c5f8a42",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
