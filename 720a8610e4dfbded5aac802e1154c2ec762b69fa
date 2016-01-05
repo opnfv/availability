@@ -143,6 +143,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_ecbdba69",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T08:39:06Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "9a5c5d37_4c228602",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_b896e5ee",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -285,6 +303,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_acb7c285",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T08:39:06Z",
+      "side": 1,
+      "message": "OK. Please add some explenation to this part on the text.",
+      "parentUuid": "9a5c5d37_6cdc2ae5",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_78b74d87",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -391,6 +427,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_ec649a23",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T08:39:06Z",
+      "side": 1,
+      "message": "Completely confused here...\nIs the number of the network be 2 or more or 3 or more?\nif it is 2 or more, then 3 is also OK. But if it is 3 or more, then 2 is not ok...",
+      "parentUuid": "9a5c5d37_2c2192fb",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_18acd134",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -456,6 +510,24 @@
       "side": 1,
       "message": "I am not sure my understanding is right that in A/A mode both of the instances are on line while in A/P mode the passive one comes to be on line when the active one fails. In A/A mode, when the first one fails, the second one still connects to something like client. However in A/P mode, if the active one fails, connection will be rebuilt after the passive one is on line. So the A/A mode is more highly available.",
       "parentUuid": "9a5c5d37_8cebdeaf",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_6c5f8a42",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T08:39:06Z",
+      "side": 1,
+      "message": "I don\u0027t think I can agree with this. For stateful VNFs, even in the A/A mode, one client is still connect to one instance, it can\u0027t have both the instances work for it at the same time. The two A/A instances actually work in a LB mode.So there still exist time for the client to connect to the active instance when failure happens. This could be the client actively connect, or it could be the HAproxy to do the redirection of the traffic. For the A/P mode, when the active failed, the HA schema is designed to have the traffic direct to the passive instance quickly that the service will not be influenced. \nFor both A/A and A/P, they should meet the SAL requirement. And once they meet, I don\u0027t think we can compare each other, right?",
+      "parentUuid": "9a5c5d37_8ca3de4e",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
