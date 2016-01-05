@@ -236,6 +236,23 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_62f9d37f",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T17:47:39Z",
+      "side": 1,
+      "message": "Should we also include the case where the scale out must not on the same server.  There are cases where you want to spread the VNF\u0027s across multiple nodes to protect against HW failures.  This would apply to all three scenarios.",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_65e7c113",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -283,6 +300,23 @@
       "side": 1,
       "message": "Is it possible that we have a table here listing all the conditions that triggers the scaling for each component. That would make this more clear",
       "parentUuid": "9a5c5d37_9b49edd2",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_42f48f86",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T17:47:39Z",
+      "side": 1,
+      "message": "This is probably a key API that needs to be defined somewhere, perhaps a different activity.",
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
