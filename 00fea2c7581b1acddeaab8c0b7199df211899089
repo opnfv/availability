@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a5c5d37_0247b74c",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "Hi Edgar; thanks for the update and line wraps, make reviews much easier.  When you submitted the update it added another review.  You can amend your original one with :amend or add patch sets by:\ngit commit --amend\ngit review -R\n\nYou can then delete this review.  Just a suggestion as right now the reviews are in conflict.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_2263dbdd",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "would the list be likely the most common scenarios/implementations?  As you point out storage is a hugely complex area and the intent isn\u0027t to cover all scenarios.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_42ab6fd6",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "expand abreviation",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e3ca77a0",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -36,6 +87,23 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_42924fa0",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "would ceph qualify as a good example?",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_e3ab9787",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -47,6 +115,69 @@
       "writtenOn": "2015-12-23T08:54:57Z",
       "side": 1,
       "message": "I think we now use \"neotron\" for the network management module.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_c23bdf9a",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "This should be Neutron - quantum is not longer the project name",
+      "range": {
+        "startLine": 178,
+        "startChar": 55,
+        "endLine": 178,
+        "endChar": 62
+      },
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_a2422b0e",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "I would suggest that the scope of this be restricted to the Cinder aspects.  The controller redundancy specifics are covered elsewhere.  What are the cinder specific items that are needed to provide HA.",
+      "range": {
+        "startLine": 193,
+        "startChar": 0,
+        "endLine": 201,
+        "endChar": 15
+      },
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_8245e718",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "You could just say that a VNF is made up of VNFC\u0027s and leave it at that.",
       "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -70,6 +201,23 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_624c3343",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 310,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "as a recommendation: the paragraph above and below this comment, should draw out the storage specific aspects.  There are many ways to provide the application level redundancy - as this document is about storage, we should focus there.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_439ca369",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -81,6 +229,23 @@
       "writtenOn": "2015-12-23T08:54:57Z",
       "side": 1,
       "message": "I think we have discussed about the FT, and it is indicated that the FT mode will copy the failure in the VNF as well, so may infect the standby VM.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_4247ef1d",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-05T15:22:55Z",
+      "side": 1,
+      "message": "do we need a wrap up paragraph?",
       "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
