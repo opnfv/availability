@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_e261433a",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-05T22:24:13Z",
+      "side": 1,
+      "message": "I just read this doc. It\u0027s not Geographic Redundancy, it\u0027s DR with Backups. I\u0027ll add a comment to that effect.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 53
+      },
+      "revId": "eeafc6f9a240099d4c190c47b637e34296e5770f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
