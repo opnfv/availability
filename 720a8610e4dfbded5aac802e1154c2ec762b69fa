@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_0cc00e29",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T04:23:04Z",
+      "side": 1,
+      "message": "OK. I think we might need some clarification in the text:)",
+      "parentUuid": "9a5c5d37_2ce8720f",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_b896e5ee",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -142,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_ecdeda10",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T04:23:04Z",
+      "side": 1,
+      "message": "OK. Then I think we need some clarification in the text so that readers can understand.",
+      "parentUuid": "9a5c5d37_6cc54a8d",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_98c0c1e1",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -171,6 +207,24 @@
       "side": 1,
       "message": "For example, when comes a request to create a new vRouter and \"l3_ha\" in configure file is true, the L3 agent scheduler will allocate more than one L3 agent in different nodes for the vRouter. If the master L3 agent is down, a failover would be triggered. (\"allow_automatic_l3agent_failover\" should also be true.)",
       "parentUuid": "9a5c5d37_98c0c1e1",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_cce1d6d1",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T04:23:04Z",
+      "side": 1,
+      "message": "OK, so you mean multiple vRouter will be deployed when we set L3-HA true. But I still can\u0027t understand why there exist an maximum and minimum? When can we reach the maximum? Or the L3 agent schedular will choose a number between the maximum and the minimum for the deployment?\nquite confused here....",
+      "parentUuid": "9a5c5d37_cc09d6de",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -247,6 +301,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_ace8e2b4",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T04:23:04Z",
+      "side": 1,
+      "message": "Then there is a conflict between the text and the figure. In the text you suggest 3 or more, and in the figure you only show two...",
+      "parentUuid": "9a5c5d37_ec381aa2",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_18acd134",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -276,6 +348,24 @@
       "side": 1,
       "message": "A lot of people think that A/P is not so HA, we should use A/A as much as possible.",
       "parentUuid": "9a5c5d37_18acd134",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_8cebdeaf",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-05T04:23:04Z",
+      "side": 1,
+      "message": "Why A/P is not so HA?",
+      "parentUuid": "9a5c5d37_4c47261e",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
