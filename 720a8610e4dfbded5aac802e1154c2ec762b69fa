@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_6cde6a6f",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "THX",
+      "parentUuid": "9a5c5d37_9864414a",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_98cb211e",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-12-28T06:23:23Z",
       "side": 1,
       "message": "I think a topology for the deployment might help, or some more explaination. From my understanding, the Neutron DHCP agent may be deployed on the network node, while the L2 agent should deploy on each compute node so as to control the L2 virtual network. Is that right? how about the other agent. what is the deployment topology?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_4cd96682",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "Good idea. I will add a deployment topology.",
+      "parentUuid": "9a5c5d37_98cb211e",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_2ce8720f",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "Yes, active/active.",
+      "parentUuid": "9a5c5d37_d8f75958",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_b896e5ee",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -64,6 +118,24 @@
       "writtenOn": "2015-12-28T06:23:23Z",
       "side": 1,
       "message": "a little bit confused about this part.\nwhy we have six DHCP agents? is it necessary and always 6 or it is just an example. Why we have 3 network here? is it an example, or it is always the case.\nI think from your discription here, the DHCP servers are working in an active/active mode, right? and they are sharing the same lease table?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_6cc54a8d",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "Six is just an example. There would be multiple tenant networks. Totally yes.",
+      "parentUuid": "9a5c5d37_b896e5ee",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_cc09d6de",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "For example, when comes a request to create a new vRouter and \"l3_ha\" in configure file is true, the L3 agent scheduler will allocate more than one L3 agent in different nodes for the vRouter. If the master L3 agent is down, a failover would be triggered. (\"allow_automatic_l3agent_failover\" should also be true.)",
+      "parentUuid": "9a5c5d37_98c0c1e1",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_78b74d87",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -98,6 +188,24 @@
       "writtenOn": "2015-12-28T06:23:23Z",
       "side": 1,
       "message": "Again, is this always the case or it is just an example. do we always have two network nodes? is the 169.254.192.0/18 always used as the heartbeat?\nI think we have to make all these clear here, whether they are typical deployment or just an example.",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_cc30b6a0",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "It is also an example. You know vRouter is used to route the tenant traffic, the 169.254.192.0/18 network here is an example which is an dedicated HA management network isolated from the tenant traffic. The administrative traffic is health check traffic.",
+      "parentUuid": "9a5c5d37_78b74d87",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_ec381aa2",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "2 is also OK.",
+      "parentUuid": "9a5c5d37_58ba496f",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_18acd134",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 5
@@ -132,6 +258,24 @@
       "writtenOn": "2015-12-28T06:23:23Z",
       "side": 1,
       "message": "Why is this?",
+      "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_4c47261e",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-05T02:50:27Z",
+      "side": 1,
+      "message": "A lot of people think that A/P is not so HA, we should use A/A as much as possible.",
+      "parentUuid": "9a5c5d37_18acd134",
       "revId": "720a8610e4dfbded5aac802e1154c2ec762b69fa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
