@@ -34,6 +34,41 @@
       "revId": "d1869eec5cbb664ce1daa78ff27bbaf927f9f5f6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_fd720210",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-06T06:54:32Z",
+      "side": 1,
+      "message": "Well, it is a good suggestion:)\nFrom my perspective, it is a general network issue for HA deployment. I suggest Yifei first try to write a subsection of LAG in this section, and if we think the content is too much, we may move these content out to a seperate section.",
+      "parentUuid": "9a5c5d37_1d1ef663",
+      "revId": "d1869eec5cbb664ce1daa78ff27bbaf927f9f5f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_dd617e3a",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-06T06:54:32Z",
+      "side": 1,
+      "message": "Again, I still think we need to point out at this part the 6 DHCP deployment is an example.",
+      "revId": "d1869eec5cbb664ce1daa78ff27bbaf927f9f5f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
