@@ -16,6 +16,24 @@
       "revId": "d1869eec5cbb664ce1daa78ff27bbaf927f9f5f6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1d1ef663",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-06T02:16:46Z",
+      "side": 1,
+      "message": "Hi Ian, thank you for your comments. I agree with you that LAG is a very important coverage for HA. And I think not only network nodes but also compute nodes need LAG support. So what about starting a new section for LAG scenario? @ Qiao Fu",
+      "parentUuid": "9a5c5d37_c28cff37",
+      "revId": "d1869eec5cbb664ce1daa78ff27bbaf927f9f5f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
