@@ -253,6 +253,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_01145442",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-06T09:19:05Z",
+      "side": 1,
+      "message": "Good suggestion, thx. From my side, I myself think that scaling out can be acted either on the same node or on the different nodes. It is decided by the policy. The procedure is executed during VNFM cooperating with NFVO. What do you think about it?",
+      "parentUuid": "9a5c5d37_62f9d37f",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_65e7c113",
         "filename": "UseCases/Scaling_Use_Cases.rst",
         "patchSetId": 1
@@ -317,6 +335,24 @@
       "writtenOn": "2016-01-05T17:47:39Z",
       "side": 1,
       "message": "This is probably a key API that needs to be defined somewhere, perhaps a different activity.",
+      "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_9d454672",
+        "filename": "UseCases/Scaling_Use_Cases.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-06T09:19:05Z",
+      "side": 1,
+      "message": "Agree with Ian. The conditions could be very complex, ETSI NFV neither has a clear API about this. Different products from different company will be different. And currently in OPNFV there is no MANO discussion. So I myself think it is a little earlier for us to work on this in detail.",
+      "parentUuid": "9a5c5d37_42f48f86",
       "revId": "9a339aab5d2991969c9f8d8082adab396e6daf7e",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
