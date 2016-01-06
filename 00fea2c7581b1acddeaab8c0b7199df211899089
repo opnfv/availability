@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_e4aa6ed1",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I tried the git --amend, but to no avail. I did not include the -R, so perhaps that was the problem. Anyway, this is moot as I believe FU Qiao is going to abandon the older one.",
+      "parentUuid": "9a5c5d37_0247b74c",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_2263dbdd",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-01-05T15:22:55Z",
       "side": 1,
       "message": "would the list be likely the most common scenarios/implementations?  As you point out storage is a hugely complex area and the intent isn\u0027t to cover all scenarios.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_a4b47635",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "Yes, I\u0027m striving for the most common scenarios and writing at an abstract enough level to cover multiple implementations.",
+      "parentUuid": "9a5c5d37_2263dbdd",
       "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_e446ee20",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I am going to qualify every instance of the word \"controller\".",
+      "parentUuid": "9a5c5d37_e3ca77a0",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_83c17b82",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -87,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_24452617",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "You\u0027re right. I will add a couple of pictures.",
+      "parentUuid": "9a5c5d37_83c17b82",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_42924fa0",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -98,6 +170,24 @@
       "writtenOn": "2016-01-05T15:22:55Z",
       "side": 1,
       "message": "would ceph qualify as a good example?",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_0497c291",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "Yes. I\u0027ll add a reference.",
+      "parentUuid": "9a5c5d37_42924fa0",
       "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -144,6 +234,30 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_e4914e9b",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "Yikes! I can\u0027t believe I used that old name! Must have been the end of year rush. :)",
+      "parentUuid": "9a5c5d37_c23bdf9a",
+      "range": {
+        "startLine": 178,
+        "startChar": 55,
+        "endLine": 178,
+        "endChar": 62
+      },
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_a2422b0e",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -155,6 +269,30 @@
       "writtenOn": "2016-01-05T15:22:55Z",
       "side": 1,
       "message": "I would suggest that the scope of this be restricted to the Cinder aspects.  The controller redundancy specifics are covered elsewhere.  What are the cinder specific items that are needed to provide HA.",
+      "range": {
+        "startLine": 193,
+        "startChar": 0,
+        "endLine": 201,
+        "endChar": 15
+      },
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_842df248",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I added phrasing to show the relevance of these other components.",
+      "parentUuid": "9a5c5d37_a2422b0e",
       "range": {
         "startLine": 193,
         "startChar": 0,
@@ -201,6 +339,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_44425a11",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I did not express this well. I\u0027ll rewrite.",
+      "parentUuid": "9a5c5d37_639fa760",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_624c3343",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -212,6 +368,24 @@
       "writtenOn": "2016-01-05T15:22:55Z",
       "side": 1,
       "message": "as a recommendation: the paragraph above and below this comment, should draw out the storage specific aspects.  There are many ways to provide the application level redundancy - as this document is about storage, we should focus there.",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_84ea920d",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 310,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "Good point, although I wanted to capture the shared storage aspect of it. I will reduce to just that point.",
+      "parentUuid": "9a5c5d37_624c3343",
       "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -235,6 +409,70 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_c4be4aff",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I think this is an irrelevant argument. If there is a software bug causing the failures, then fix the software bug. The use of checkpoints can not prevent bugs from causing failures that occur as a result of data A stored three checkpoints ago and data B stored one checkpoint ago from causing unforeseen failure due to conflicting state later. And if you thoroughly vet your data, and all of its combinations, before every checkpoint then you will have the slowest software in your market. This is a market-proven means for providing fault tolerant computing within the constraints of performance and size that it allows.",
+      "parentUuid": "9a5c5d37_439ca369",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_a4b91617",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I\u0027m going to delete these sections since I don\u0027t think there is a huge pull for these capabilities.",
+      "range": {
+        "startLine": 341,
+        "startChar": 0,
+        "endLine": 349,
+        "endChar": 3
+      },
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_643b1e9d",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "I\u0027m going to skip the object store picture as I think it\u0027s well-enough understood, but I am going to add other pictures above.",
+      "range": {
+        "startLine": 363,
+        "startChar": 0,
+        "endLine": 363,
+        "endChar": 52
+      },
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_4247ef1d",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 1
@@ -246,6 +484,24 @@
       "writtenOn": "2016-01-05T15:22:55Z",
       "side": 1,
       "message": "do we need a wrap up paragraph?",
+      "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_843852a1",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-06T21:52:08Z",
+      "side": 1,
+      "message": "Good point.",
+      "parentUuid": "9a5c5d37_4247ef1d",
       "revId": "00fea2c7581b1acddeaab8c0b7199df211899089",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
