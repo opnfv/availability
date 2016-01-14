@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_b7cb6f52",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-14T17:31:39Z",
+      "side": 1,
+      "message": "some general rst problems with bullet lists - sorry i don\u0027t have a suggested fix.  At lines - 158,215,221,225,230,256,263,435,438,442\n\nError from Restview: \n\nSystem Message: WARNING/2 (Storage-HA-Scenarios.rst, line 158)\n\nBullet list ends without a blank line; unexpected unindent.",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_97c62b48",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-14T17:31:39Z",
+      "side": 1,
+      "message": "comment from restview: System Message: WARNING/2 (Storage-HA-Scenarios.rst, line 158)\n\nBullet list ends without a blank line; unexpected unindent.",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
