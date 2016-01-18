@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_3da63954",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-18T08:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_5d944de1",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_fdc0a1e1",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 7
@@ -30,6 +48,24 @@
       "writtenOn": "2016-01-18T08:10:25Z",
       "side": 1,
       "message": "This section should be marked as section 4.1",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_fd678123",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-18T08:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_fdc0a1e1",
       "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_dd6efd00",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-18T08:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_ddb71d85",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_9db1a591",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 7
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_bd7109e2",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-18T08:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a5c5d37_9db1a591",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_7dacb135",
         "filename": "UseCases/UseCases_for_Network_Nodes.rst",
         "patchSetId": 7
@@ -81,6 +153,24 @@
       "writtenOn": "2016-01-18T08:10:25Z",
       "side": 1,
       "message": "I will put the reference part at the end of the whole doc, if you won\u0027t mind. And I don\u0027t know why you would like to put a documentation tracking section here? Cause there is no such item in the other sections. Can we delete this?",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_40190678",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2016-01-18T08:36:54Z",
+      "side": 1,
+      "message": "Of course not. For the tracking, I saw this in Documentation Project wiki page. I think I can delete it here, but you\u0027d better add one at the bottom of the whole document. Link: https://wiki.opnfv.org/documentation_projects/opnfv_documentation\n\nTHX for your comments. I will update this section tomorrow.",
+      "parentUuid": "9a5c5d37_7dacb135",
       "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
