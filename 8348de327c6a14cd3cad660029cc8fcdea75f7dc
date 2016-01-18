@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_5d944de1",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:10:25Z",
+      "side": 1,
+      "message": "According to the final output document, I suggest delete the line of \"HA scenario Analysis\", and mark this section as section 4.",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_fdc0a1e1",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:10:25Z",
+      "side": 1,
+      "message": "This section should be marked as section 4.1",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_ddb71d85",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:10:25Z",
+      "side": 1,
+      "message": "Marked as section 4.2",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_9db1a591",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:10:25Z",
+      "side": 1,
+      "message": "marked as section 4.3",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_7dacb135",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:10:25Z",
+      "side": 1,
+      "message": "I will put the reference part at the end of the whole doc, if you won\u0027t mind. And I don\u0027t know why you would like to put a documentation tracking section here? Cause there is no such item in the other sections. Can we delete this?",
+      "revId": "8348de327c6a14cd3cad660029cc8fcdea75f7dc",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
