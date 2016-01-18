@@ -1,4 +1,4 @@
-5, Multisite Scenario
+6, Multisite Scenario
 ====================================================
 
 The Multisite scenario refers to the cases when VNFs are deployed on multiple VIMs.
