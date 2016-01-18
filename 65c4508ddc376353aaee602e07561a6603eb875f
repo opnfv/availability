@@ -19,6 +19,57 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_5d820d95",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.1",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_3d7d19b2",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.2",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_fd4e6195",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.3",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_97c62b48",
         "filename": "Storage-HA-Scenarios.rst",
         "patchSetId": 2
@@ -30,6 +81,108 @@
       "writtenOn": "2016-01-14T17:31:39Z",
       "side": 1,
       "message": "comment from restview: System Message: WARNING/2 (Storage-HA-Scenarios.rst, line 158)\n\nBullet list ends without a blank line; unexpected unindent.",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_dd45dd70",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.3.1",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_9d5f6541",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.3.2",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_7d5a7151",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.4",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_1d337515",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.4.1",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_dd3cbde4",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.4.2",
+      "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_bd3fc9d5",
+        "filename": "Storage-HA-Scenarios.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-01-18T08:20:05Z",
+      "side": 1,
+      "message": "section 5.5",
       "revId": "65c4508ddc376353aaee602e07561a6603eb875f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
