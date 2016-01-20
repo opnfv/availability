@@ -46,6 +46,30 @@
       "revId": "eeafc6f9a240099d4c190c47b637e34296e5770f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_e909fedd",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-20T13:05:14Z",
+      "side": 1,
+      "message": "The comment was with respect to the Multi-Site document that the term Geo Redundancy was taken from (that\u0027s where I was saying I would add another comment). Anyway, this is referred to as Disaster Recovery. Geo--Distributed Disaster Recovery is another form which provides for recovery in multiple locations. But true Geo Redundancy is something like an Active-Active metro wide cluster, though I\u0027ve never heard that called either Geo Redundancy, either. Active-Active Metro offers more than DR obviously, but the point of my comment was simply to use a more commonly used name. A very valid and important use case, for sure, but simply known more widely as Disaster Recovery.",
+      "parentUuid": "9a5c5d37_0b84610a",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 53
+      },
+      "revId": "eeafc6f9a240099d4c190c47b637e34296e5770f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
