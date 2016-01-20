@@ -22,6 +22,30 @@
       "revId": "eeafc6f9a240099d4c190c47b637e34296e5770f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_0b84610a",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2016-01-20T10:10:20Z",
+      "side": 1,
+      "message": "Don\u0027t understand. It is geographic redundancy used to survive disasters. But when discussing HA, you do not want to be limited to restore from a backup, but you want to continue to provide service seamlessly (as seamless as necessary/promised). Here you may need (as already written) different techniques to propagate state",
+      "parentUuid": "9a5c5d37_e261433a",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 53
+      },
+      "revId": "eeafc6f9a240099d4c190c47b637e34296e5770f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
