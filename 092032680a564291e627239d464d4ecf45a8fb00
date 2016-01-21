@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a5c5d37_eb27aeb4",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-21T18:14:07Z",
+      "side": 1,
+      "message": "This is a comment on the overall document, not just this section: overall, it is really disjoint. Section 1 reads like a standalone document, which would have been fine. Section 2 mostly has parts that are redundant with other sections. Then there really isn\u0027t much in the way of introduction to the document up front, nor flow from section to section. I understand, and accept, the burden of time in the current process, so I am not asking for change. However, I did want to express the concern as something that should be considered moving forward in a next reelase -- including the possibility that documents such as this not be tied to releases.",
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_fade5a10",
         "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 3
@@ -65,6 +82,52 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_8b24b2af",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-21T18:14:07Z",
+      "side": 1,
+      "message": "A simple approach to this discussion is to simply state that the discovery and management of M+N redundancy scheme is assumed, and out of scope for this discussion. And, of course, delete the embedded discussion comments.",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 41
+      },
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_2b35c6d9",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-21T18:14:07Z",
+      "side": 1,
+      "message": "Please remove editorial comments.",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 27
+      },
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_501c2713",
         "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
         "patchSetId": 3
@@ -76,6 +139,30 @@
       "writtenOn": "2016-01-21T14:37:46Z",
       "side": 1,
       "message": "Is \"in memory\" important? perhaps for the required performance, but in general a database should be fine",
+      "range": {
+        "startLine": 99,
+        "startChar": 10,
+        "endLine": 99,
+        "endChar": 19
+      },
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_8ba952e1",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-01-21T18:14:07Z",
+      "side": 1,
+      "message": "Since shared storage is referred to in the previous bullet, then perhaps this could be generalized as \"through the checkpointing of state information via underlying memory and/or database checkpointing services to a separate VM and storage repository.\"",
+      "parentUuid": "9a5c5d37_501c2713",
       "range": {
         "startLine": 99,
         "startChar": 10,
