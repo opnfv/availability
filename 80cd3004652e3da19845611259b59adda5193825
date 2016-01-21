@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_bae90282",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-01-21T09:35:45Z",
+      "side": 1,
+      "message": "Some inline comments should be removed before release. In the bottom of the section there are two gerrit link. what\u0027s for these links?",
+      "revId": "80cd3004652e3da19845611259b59adda5193825",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
