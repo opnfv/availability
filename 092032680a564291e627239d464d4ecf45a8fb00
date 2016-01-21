@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_fade5a10",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-01-21T08:45:02Z",
+      "side": 1,
+      "message": "If this is the final version, all inline discussion words should be removed before release. Here are a lot of ..[MT] and ..[fq]",
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
