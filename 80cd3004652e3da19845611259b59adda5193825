@@ -16,6 +16,29 @@
       "revId": "80cd3004652e3da19845611259b59adda5193825",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f0de7b10",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2016-01-21T15:07:38Z",
+      "side": 1,
+      "message": "My proposal: make sure that the service can be executed at the second site (transfer state, if necessary) and than migrate it to the second site. This migration",
+      "range": {
+        "startLine": 38,
+        "startChar": 16,
+        "endLine": 39,
+        "endChar": 11
+      },
+      "revId": "80cd3004652e3da19845611259b59adda5193825",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
