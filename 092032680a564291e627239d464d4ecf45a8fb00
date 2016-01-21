@@ -16,6 +16,75 @@
       "revId": "092032680a564291e627239d464d4ecf45a8fb00",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f02d5b47",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2016-01-21T14:37:46Z",
+      "side": 1,
+      "message": "Interfaces",
+      "range": {
+        "startLine": 10,
+        "startChar": 18,
+        "endLine": 10,
+        "endChar": 29
+      },
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_70216b4c",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2016-01-21T14:37:46Z",
+      "side": 1,
+      "message": "Better the other way around. First the failed VNFC has to be excluded from the cluster. With lower priority the cluster manager may try to recover or to replace the failing VNFC",
+      "range": {
+        "startLine": 50,
+        "startChar": 55,
+        "endLine": 53,
+        "endChar": 19
+      },
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_501c2713",
+        "filename": "Scenario_1/scenario_analysis_VNF_external_interface.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2016-01-21T14:37:46Z",
+      "side": 1,
+      "message": "Is \"in memory\" important? perhaps for the required performance, but in general a database should be fine",
+      "range": {
+        "startLine": 99,
+        "startChar": 10,
+        "endLine": 99,
+        "endChar": 19
+      },
+      "revId": "092032680a564291e627239d464d4ecf45a8fb00",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
