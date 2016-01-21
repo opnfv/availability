@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_90e17f00",
+        "filename": "UseCases/UseCases_for_Network_Nodes.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2016-01-21T14:47:33Z",
+      "side": 1,
+      "message": "make sure, that the block is formatted right. In the current .pdf it is not",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 70
+      },
+      "revId": "e13f09b4104b823af8f0fb0eaeeb61e5c64daf48",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
