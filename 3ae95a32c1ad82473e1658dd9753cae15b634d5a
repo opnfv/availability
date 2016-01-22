@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_e8884bc8",
+        "filename": "Scenario_2/scenario_analysis_multi_site.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-01-22T20:33:07Z",
+      "side": 1,
+      "message": "wording suggestion:  When one site is planning for or requires a maintenance shift...",
+      "revId": "3ae95a32c1ad82473e1658dd9753cae15b634d5a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
