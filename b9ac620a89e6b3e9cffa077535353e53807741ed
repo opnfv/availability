@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_ae4a5b53",
+        "filename": "Scenario_1/Scenario_Analysis_Communication_Interfaces.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-01-25T03:42:03Z",
+      "side": 1,
+      "message": "shall we use \"transparent\" to replace \"ignorant\" here?",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 8
+      },
+      "revId": "b9ac620a89e6b3e9cffa077535353e53807741ed",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
