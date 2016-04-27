@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a91bd0f_dfc9bb5b",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 818
+      },
+      "writtenOn": "2016-04-27T08:25:07Z",
+      "side": 1,
+      "message": "What topology is it? Maybe, in one or two lined explain a bit about the HA deployment topology before going into details.",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_ffc6ff48",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 818
+      },
+      "writtenOn": "2016-04-27T08:25:07Z",
+      "side": 1,
+      "message": "i.e",
+      "range": {
+        "startLine": 64,
+        "startChar": 63,
+        "endLine": 64,
+        "endChar": 64
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_9fc33338",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 818
+      },
+      "writtenOn": "2016-04-27T08:25:07Z",
+      "side": 1,
+      "message": "why? give a reason.",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 27
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_bfc0772b",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 818
+      },
+      "writtenOn": "2016-04-27T08:25:07Z",
+      "side": 1,
+      "message": "we introduce",
+      "range": {
+        "startLine": 108,
+        "startChar": 17,
+        "endLine": 108,
+        "endChar": 43
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_9fda5316",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 818
+      },
+      "writtenOn": "2016-04-27T08:25:07Z",
+      "side": 1,
+      "message": "why suddenly SDN controller service topic appeared? There is no discussion about SDN in above sections.",
+      "range": {
+        "startLine": 207,
+        "startChar": 6,
+        "endLine": 207,
+        "endChar": 29
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_7f098f94",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 818
+      },
+      "writtenOn": "2016-04-27T08:25:07Z",
+      "side": 1,
+      "message": "Maybe, better give a reference link in the reference section.",
+      "range": {
+        "startLine": 367,
+        "startChar": 18,
+        "endLine": 367,
+        "endChar": 20
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
