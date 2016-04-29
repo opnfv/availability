@@ -25,6 +25,53 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_99790b96",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-04-29T20:11:54Z",
+      "side": 1,
+      "message": "Actually, it\u0027s still the same ETSI topology. It\u0027s just that the solutions implemented to deliver HA may be different for something like VMware than for OpenStack. I think you can just delete this sentence, as well as the preceding \"where openstack is used for the system\" clause.",
+      "parentUuid": "9a91bd0f_dfc9bb5b",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_396ebfca",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-04-29T20:11:54Z",
+      "side": 1,
+      "message": "(Typo: missed \"n\" in controller.)\nI don\u0027t think compute nodes should be included in the \"at least\" provision. While I think the intent is good, the fact is that proper 12 Factor application development (12factor.net) defines requirements for providing resiliency in the app, and therefore allows for compute nodes to fail. Compute, Storage, and Network node HA should all be treated with equal levels of priority as it relates to supporting VNFs that are not written using such methods.",
+      "range": {
+        "startLine": 57,
+        "startChar": 27,
+        "endLine": 57,
+        "endChar": 48
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_ffc6ff48",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -41,6 +88,29 @@
         "startChar": 63,
         "endLine": 64,
         "endChar": 64
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_1965fbe0",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-04-29T20:11:54Z",
+      "side": 1,
+      "message": "Perhaps it\u0027s been updated to provide HA, but the last time I looked at Senlin, it was simply providing a means of tracking a collection of similar objects (nodes), which it called clusters. I don\u0027t think it really provided cluster HA capabilities. The combination of Congress and Doctor might be a better, if limited, example.",
+      "range": {
+        "startLine": 75,
+        "startChar": 47,
+        "endLine": 76,
+        "endChar": 53
       },
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
@@ -71,6 +141,52 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_799be7c9",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-04-29T20:11:54Z",
+      "side": 1,
+      "message": "But isn\u0027t this the same as providing a cluster for a set of Compute nodes? I know the personalities of the Network Nodes may be different (more NICs, less storage, etc), and that these are treated as a collection of similar nodes, but isn\u0027t the protection/clustering/HA scheme likely to be the same as for Compute nodes? In fact, one could deploy both compute and network VNFs on the same host, right? Perhaps just saying the HA protection for the Network Nodes may be the same as for the Compute Nodes would address it.\n\nAlso, aren\u0027t some of these apps run on the Controller normally, like DHCP?\n\nAnother network-specific thing that could be added is that all hosts should have at least two NICs that are bonded via LACP.",
+      "range": {
+        "startLine": 87,
+        "startChar": 14,
+        "endLine": 87,
+        "endChar": 87
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_99a02bf6",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-04-29T20:11:54Z",
+      "side": 1,
+      "message": "Please don\u0027t include Glance in the picture. Glance is implemented on the Controllers and provides a front end to Swift or to an NFS share. There\u0027s also an experimental feature to use a shared block volume, but it\u0027s definitely not as shown.\n\nActually, Cinder manager and drivers operate on the controller nodes, too. If this is a Hyper-converged or Server SAN type implementation then the storage is part of the Compute Nodes and would actually be a victim of that protection (e.g., lose a host, and you lose all the data on that host, which causes rebalancing of storage across remaining nodes). \n\nI have found the Server SAN more common, or at least as common, so far in POCs. However, for cases where there is a dense storage requirement, then the storage service itself provides HA. It may be distributed (think segregated Ceph servers), or it may be through redundancy and data protection built into a storage array.",
+      "range": {
+        "startLine": 97,
+        "startChar": 14,
+        "endLine": 97,
+        "endChar": 80
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_bfc0772b",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -88,6 +204,23 @@
         "endLine": 108,
         "endChar": 43
       },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_f9ae17e7",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2016-04-29T20:11:54Z",
+      "side": 1,
+      "message": "I strongly recommend putting in a reference to the OpenStack HA Guide here: http://docs.openstack.org/ha-guide/ \nYou seem to have borrowed at least a little from there already anyway. :)\n\nAnd if you want to provide an alternative strategy, provide a reference to the VMware HA strategy too: https://www.vmware.com/files/pdf/VMwareHA_twp.pdf \n\nSo I guess that begs the question: how much detail is intended to go into this? Because there are always multiple answers to the question of \"how\", which I think is the intent of the second part of this doc. Does specifying PaceMaker here rule out the use keepalived as an HA strategy in OPNFV?\n\nBut creating the segmentations for the different areas of HA in the first part is only of marginal value, isn\u0027t it? Ultimately, does this become a rehash of the scenarios doc from last quarter?",
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
