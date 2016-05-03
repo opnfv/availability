@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a91bd0f_48d16ecc",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "in restview - overline is too short - format error",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_68d6b2c7",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "in restview - overline is too short - format error",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_dfc9bb5b",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -250,6 +284,91 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_08db66ee",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "built - typo",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_28d8aaee",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "Dual - typo",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_c8e49eae",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "highly available services",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_a8f35a72",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "Some of the functions described here could be partly VNFM responsibilities.",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_e8e1629b",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "formatting issue - extend to end of text - as seen in restview.",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_7f098f94",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -266,6 +385,29 @@
         "startChar": 18,
         "endLine": 367,
         "endChar": 20
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_88ee968a",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 477
+      },
+      "writtenOn": "2016-05-03T15:42:17Z",
+      "side": 1,
+      "message": "should we add reference to the other documents we have developed within the OPNFV -HA project as they take into account a more telecom focused approach?",
+      "range": {
+        "startLine": 427,
+        "startChar": 35,
+        "endLine": 427,
+        "endChar": 47
       },
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
