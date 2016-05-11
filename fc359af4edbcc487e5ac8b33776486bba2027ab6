@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_91bb1a72",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-05-11T09:49:23Z",
+      "side": 1,
+      "message": "\"NFV system\" may be better than \"NFV\" which is not a practical object.",
+      "range": {
+        "startLine": 12,
+        "startChar": 17,
+        "endLine": 12,
+        "endChar": 18
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_68d6b2c7",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -30,6 +53,40 @@
       "writtenOn": "2016-05-03T15:42:17Z",
       "side": 1,
       "message": "in restview - overline is too short - format error",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_f1a94625",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-05-11T09:49:23Z",
+      "side": 1,
+      "message": "\"NFV system\"",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_716d3604",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-05-11T09:49:23Z",
+      "side": 1,
+      "message": "shall we modify as \"Different modules like hardware,VIM,VMs etc.....\" modules is too abstract.",
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -312,6 +369,29 @@
       "writtenOn": "2016-05-03T15:42:17Z",
       "side": 1,
       "message": "Dual - typo",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_91723ae4",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2016-05-11T09:49:23Z",
+      "side": 1,
+      "message": "\"have its own built-in HA schemes or HA schemes implemented in VNF Manager\"",
+      "range": {
+        "startLine": 270,
+        "startChar": 54,
+        "endLine": 270,
+        "endChar": 78
+      },
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
