@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_4692b258",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_48d16ecc",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_91bb1a72",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2016-05-11T09:49:23Z",
       "side": 1,
       "message": "\"NFV system\" may be better than \"NFV\" which is not a practical object.",
+      "range": {
+        "startLine": 12,
+        "startChar": 17,
+        "endLine": 12,
+        "endChar": 18
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_a6885e23",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_91bb1a72",
       "range": {
         "startLine": 12,
         "startChar": 17,
@@ -59,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_c68d6233",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_68d6b2c7",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_f1a94625",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -70,6 +130,24 @@
       "writtenOn": "2016-05-11T09:49:23Z",
       "side": 1,
       "message": "\"NFV system\"",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_86875a0f",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_f1a94625",
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -140,6 +218,54 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_a68ffe22",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_dfc9bb5b",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_267c4e20",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_99790b96",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 22
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_396ebfca",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -151,6 +277,30 @@
       "writtenOn": "2016-04-29T20:11:54Z",
       "side": 1,
       "message": "(Typo: missed \"n\" in controller.)\nI don\u0027t think compute nodes should be included in the \"at least\" provision. While I think the intent is good, the fact is that proper 12 Factor application development (12factor.net) defines requirements for providing resiliency in the app, and therefore allows for compute nodes to fail. Compute, Storage, and Network node HA should all be treated with equal levels of priority as it relates to supporting VNFs that are not written using such methods.",
+      "range": {
+        "startLine": 57,
+        "startChar": 27,
+        "endLine": 57,
+        "endChar": 48
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_e6ac268f",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_396ebfca",
       "range": {
         "startLine": 57,
         "startChar": 27,
@@ -209,6 +359,30 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_c617a2a2",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "what I learned from Senlin is, it is based on pacemaker to provide a cluster service to OpenStack. VMs can pull the senlin API to creat cluster so as to provide HA. I do not quite understand about the combination of congress and doctor you mentioned. what I learned about doctor is it could help quickly figure out the failure, and report to the VIM. However, I think it is different from senlin since it can\u0027t provide cluster service. So what I understand is doctor is a failure detection scheme. It could provide HA if we defined some other following up procedures in the VIM, which I suppose is what you suggest as combination of congress and doctor. is this right? This I think could be a choice for HA for the VMs as well. But it is a different solution from senlin.",
+      "parentUuid": "9a91bd0f_1965fbe0",
+      "range": {
+        "startLine": 75,
+        "startChar": 47,
+        "endLine": 76,
+        "endChar": 53
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_9fc33338",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -220,6 +394,30 @@
       "writtenOn": "2016-04-27T08:25:07Z",
       "side": 1,
       "message": "why? give a reason.",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 27
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_86119aae",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Otherwise, all the network traffic will have to go to the control nodes for L2/L3 routing. This will bring extra load to the nic card of the control nodes. This is our experience during deployment.",
+      "parentUuid": "9a91bd0f_9fc33338",
       "range": {
         "startLine": 84,
         "startChar": 0,
@@ -255,6 +453,30 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_26268e17",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "yes. it could be just the same cluster scheme for the compute node. Here I actually just want to explain the topology when we include stand alone network nodes into consideration. \nwe can also have these network VNFs deployed on the compute nodes. and as you said, it is common that they could deploy on the controller nodes. But when we experience large traffic for the service, which is often the case in some media access VNFs in the telco scenarios, stand alone network nodes are suggested so that it won\u0027t bring extra load to the control nodes.",
+      "parentUuid": "9a91bd0f_799be7c9",
+      "range": {
+        "startLine": 87,
+        "startChar": 14,
+        "endLine": 87,
+        "endChar": 87
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_99a02bf6",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -266,6 +488,30 @@
       "writtenOn": "2016-04-29T20:11:54Z",
       "side": 1,
       "message": "Please don\u0027t include Glance in the picture. Glance is implemented on the Controllers and provides a front end to Swift or to an NFS share. There\u0027s also an experimental feature to use a shared block volume, but it\u0027s definitely not as shown.\n\nActually, Cinder manager and drivers operate on the controller nodes, too. If this is a Hyper-converged or Server SAN type implementation then the storage is part of the Compute Nodes and would actually be a victim of that protection (e.g., lose a host, and you lose all the data on that host, which causes rebalancing of storage across remaining nodes). \n\nI have found the Server SAN more common, or at least as common, so far in POCs. However, for cases where there is a dense storage requirement, then the storage service itself provides HA. It may be distributed (think segregated Ceph servers), or it may be through redundancy and data protection built into a storage array.",
+      "range": {
+        "startLine": 97,
+        "startChar": 14,
+        "endLine": 97,
+        "endChar": 80
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_9a448a75",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "OK. I understand that this topology is too general for all the different storage schemes. I will delete this at this section, and will add a seperate section in the following to discuss the HA deployment for storage. I will try to work on this and please provide your comments:)",
+      "parentUuid": "9a91bd0f_99a02bf6",
       "range": {
         "startLine": 97,
         "startChar": 14,
@@ -318,6 +564,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_ba494e8d",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "I will add the reference to the end of the doc in the reference section.\nWhat you mentioned is also what I was struggling with when I worked on this doc. pacemaker is not the only option. That\u0027s why I added a sentence at the end of this section saying that we can have other choices. I think pacemaker here can be an example since it is largely used. And can help the reader to get a general idea of what HA schemes should look like. I don\u0027t think it is possible to list all the solutions here, even including some commercial solutions. Pacemaker can be one safe example, since it is largely used in the opensource.\nLike you said, we don\u0027t want this to be like another scenario doc. However, we can not cover all the solutions here... What do you think?",
+      "parentUuid": "9a91bd0f_f9ae17e7",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_9fda5316",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -329,6 +593,30 @@
       "writtenOn": "2016-04-27T08:25:07Z",
       "side": 1,
       "message": "why suddenly SDN controller service topic appeared? There is no discussion about SDN in above sections.",
+      "range": {
+        "startLine": 207,
+        "startChar": 6,
+        "endLine": 207,
+        "endChar": 29
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_5a5e0247",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "We consider SDN controller as part of the VIM, and is deployed in the controller nodes. That\u0027s why we add one section here. What is your suggestion?",
+      "parentUuid": "9a91bd0f_9fda5316",
       "range": {
         "startLine": 207,
         "startChar": 6,
@@ -358,6 +646,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_da31b20c",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_08db66ee",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_28d8aaee",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -369,6 +675,24 @@
       "writtenOn": "2016-05-03T15:42:17Z",
       "side": 1,
       "message": "Dual - typo",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_fa36f602",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_28d8aaee",
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -398,6 +722,30 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_3a553e1d",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_91723ae4",
+      "range": {
+        "startLine": 270,
+        "startChar": 54,
+        "endLine": 270,
+        "endChar": 78
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_c8e49eae",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -409,6 +757,24 @@
       "writtenOn": "2016-05-03T15:42:17Z",
       "side": 1,
       "message": "highly available services",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_ba406e57",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_c8e49eae",
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -432,6 +798,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_5a0cc242",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_a8f35a72",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_e8e1629b",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -443,6 +827,24 @@
       "writtenOn": "2016-05-03T15:42:17Z",
       "side": 1,
       "message": "formatting issue - extend to end of text - as seen in restview.",
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_ddff6c00",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_e8e1629b",
       "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -472,6 +874,30 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_fd04b016",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_7f098f94",
+      "range": {
+        "startLine": 367,
+        "startChar": 18,
+        "endLine": 367,
+        "endChar": 20
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_88ee968a",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -483,6 +909,30 @@
       "writtenOn": "2016-05-03T15:42:17Z",
       "side": 1,
       "message": "should we add reference to the other documents we have developed within the OPNFV -HA project as they take into account a more telecom focused approach?",
+      "range": {
+        "startLine": 427,
+        "startChar": 35,
+        "endLine": 427,
+        "endChar": 47
+      },
+      "revId": "fc359af4edbcc487e5ac8b33776486bba2027ab6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_9d09e42e",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-05-23T08:47:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_88ee968a",
       "range": {
         "startLine": 427,
         "startChar": 35,
