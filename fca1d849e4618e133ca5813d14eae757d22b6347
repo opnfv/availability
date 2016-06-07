@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5a7ca5a3_779be3c9",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_2acde331",
+      "range": {
+        "startLine": 1,
+        "startChar": 25,
+        "endLine": 1,
+        "endChar": 26
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_44b0658b",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2016-05-23T20:15:10Z",
       "side": 1,
       "message": "spelling",
+      "range": {
+        "startLine": 20,
+        "startChar": 10,
+        "endLine": 20,
+        "endChar": 17
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_97a0fff5",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_44b0658b",
       "range": {
         "startLine": 20,
         "startChar": 10,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "5a7ca5a3_37a56b04",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_f55fdc70",
+      "range": {
+        "startLine": 60,
+        "startChar": 43,
+        "endLine": 60,
+        "endChar": 47
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_64ad6931",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2016-05-23T20:15:10Z",
       "side": 1,
       "message": "spelling",
+      "range": {
+        "startLine": 78,
+        "startChar": 76,
+        "endLine": 78,
+        "endChar": 88
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_57aa67d5",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_64ad6931",
       "range": {
         "startLine": 78,
         "startChar": 76,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "5a7ca5a3_f7ae13e7",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_a47291e3",
+      "range": {
+        "startLine": 212,
+        "startChar": 14,
+        "endLine": 212,
+        "endChar": 34
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_04aa5d19",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "5a7ca5a3_17acefec",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 342,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_04aa5d19",
+      "range": {
+        "startLine": 342,
+        "startChar": 15,
+        "endLine": 342,
+        "endChar": 16
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_24a76151",
         "filename": "R3_Deployment/Deployment_Guideline.rst",
         "patchSetId": 1
@@ -151,6 +295,30 @@
       "writtenOn": "2016-05-23T20:15:10Z",
       "side": 1,
       "message": "need a space between \"single\" and \"instance\"",
+      "range": {
+        "startLine": 414,
+        "startChar": 38,
+        "endLine": 414,
+        "endChar": 52
+      },
+      "revId": "fca1d849e4618e133ca5813d14eae757d22b6347",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_b7b89b2b",
+        "filename": "R3_Deployment/Deployment_Guideline.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 414,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2016-06-07T07:49:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a91bd0f_24a76151",
       "range": {
         "startLine": 414,
         "startChar": 38,
