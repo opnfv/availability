@@ -27,7 +27,7 @@ sure to react in its best way when facing failure.
 The following picture shows the the architecture of HA deployment based on the
 framework from ETSI NFV ISG.
 
-.. figure:: Overview.jpg
+.. figure:: Overview.png
     :alt: Architecture for HA Deployment
     :figclass: align-center
 
