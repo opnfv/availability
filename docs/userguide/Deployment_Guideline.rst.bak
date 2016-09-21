@@ -278,7 +278,7 @@ rely on VMs to provide redundancy. However, for stateful VNFs, there should be d
 between the active VM and standby VM. In this case, fault for the active VM can also be
 copied to the standby VM, leading to failure of the new active VM.
 
-.. figure:: HA_VM.png
+.. figure:: images/HA_VM.png
     :alt: VM Active/Standby Deployment
     :figclass: align-center
 
