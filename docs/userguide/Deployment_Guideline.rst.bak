@@ -125,7 +125,7 @@ such as Pacemaker, is recommended to use to provide the following metrics.
 
 Figure 4 shows the details of HA schemes for Openstack controller nodes with Pacemaker.
 
-.. figure:: HA_control.png
+.. figure:: HA_control.jpg
     :alt: HA Deployment of Openstack Control Nodes based on Pacemaker
     :figclass: align-center
 
@@ -331,12 +331,6 @@ Deployment Framework
 
 Figure 8 shows an overall architecture for the HA deployment of ARNO.
 
-.. figure:: HA_ARNO.png
-    :alt: HA Deployment of OPNFV ARNO release
-    :figclass: align-center
-
-    Fig 8. HA Deployment of OPNFV ARNO release
-
 For OPNFV Arno release, HA deployment of Openstack Control Node (Openstack Juno) and ODL
 controller (ODL Helium) is supported. Both deployment tools (fuel and forman)support
 such HA deployment.
@@ -357,6 +351,13 @@ Controller hardware:
 * dead disk
 * full disk
 
+Figure 9 gives an example for the VNF HA scheme.
+
+.. figure:: HA_ARNO.png
+    :alt: HA Deployment of OPNFV ARNO release
+    :figclass: align-center
+
+    Fig 9. HA Deployment of OPNFV ARNO release
 
 HA test result for ARNO
 -------------------------------------------------
