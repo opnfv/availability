@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .. OPNFV Release Engineering documentation, created by
    sphinx-quickstart on Tue Jun  9 19:12:31 2015.
@@ -15,6 +16,11 @@
 >>>>>>> 011d936... Update the docs folder
 Gap Analysis of High Availability
 =======================================
+=======
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. (c) <optionally add copywriters name>
+>>>>>>> 593ef4f... Documentation update
 =======
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
