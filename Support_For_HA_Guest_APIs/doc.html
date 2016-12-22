@@ -1,0 +1,1062 @@
+<!--?xml version="1.0" encoding="utf-8" ?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Docutils 0.13.1: http://docutils.sourceforge.net/">
+<title>Reach-thru Guest Monitoring and Services for High Availability</title>
+<meta name="author" content="Greg Waines">
+<meta name="organization" content="Wind River Systems">
+<meta name="organization" content="OPNFV - High Availability">
+<meta name="date" content="March 2017">
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<style type="text/css">
+
+/*
+ * Stylesheet overrides for ReSTview
+ */
+
+/* Some breathing space for the text */
+
+body {
+    margin: 3em;
+    max-width: 50em;
+}
+
+/* Monospace text */
+
+tt {
+    color: #234F32;
+}
+
+/* Doctest blocks */
+
+blockquote > pre.doctest-block {
+    margin-left: 0;
+}
+
+/* Literal blocks */
+
+pre.literal-block {
+    color: #AA4400;
+}
+
+/* Block quotations */
+
+blockquote {
+    margin-left: 2em;  /* to match with pre.code et al */
+    margin-right: 2em;
+}
+
+/* Code blocks */
+
+pre.code {
+    background: inherit;
+}
+
+/* Footnotes */
+
+a.footnote-reference,
+a.fn-backref {
+    font-size: xx-small;
+    vertical-align: super;
+    line-height: normal;
+    text-decoration: none;
+}
+a.footnote-reference:hover,
+a.fn-backref:hover {
+    text-decoration: underline;
+}
+
+table.footnote {
+    border: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 0.5em;
+    font-size: small;
+}
+table.footnote td {
+    border: none;
+    padding-top: 1em;
+    padding-left: 0px;
+}
+table.footnote tr:first-child > td.label {
+    border-top: 1px solid #eee;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table.footnote + table.footnote {
+    margin-top: 0;
+}
+table.footnote + table.footnote td {
+    border: none;
+    padding-top: 0;
+}
+
+/* System messages (aka errors) */
+
+div.system-messages h1 {
+    color: red;
+}
+div.system-message {
+    border: none;
+    border-left: 1ex solid red;
+    margin-left: -3em;
+    margin-top: 0;
+    padding-left: 4.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: red;
+    background: #fff8f8;
+}
+div.system-message p.system-message-title {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+</style>
+<style type="text/css">
+pre .hll { background-color: #ffffcc }
+pre  { background: #ffffff; }
+pre .c { color: #888888 } /* Comment */
+pre .err { color: #FF0000; background-color: #FFAAAA } /* Error */
+pre .k { color: #008800; font-weight: bold } /* Keyword */
+pre .o { color: #333333 } /* Operator */
+pre .ch { color: #888888 } /* Comment.Hashbang */
+pre .cm { color: #888888 } /* Comment.Multiline */
+pre .cp { color: #557799 } /* Comment.Preproc */
+pre .cpf { color: #888888 } /* Comment.PreprocFile */
+pre .c1 { color: #888888 } /* Comment.Single */
+pre .cs { color: #cc0000; font-weight: bold } /* Comment.Special */
+pre .gd { color: #A00000 } /* Generic.Deleted */
+pre .ge { font-style: italic } /* Generic.Emph */
+pre .gr { color: #FF0000 } /* Generic.Error */
+pre .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+pre .gi { color: #00A000 } /* Generic.Inserted */
+pre .go { color: #888888 } /* Generic.Output */
+pre .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
+pre .gs { font-weight: bold } /* Generic.Strong */
+pre .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+pre .gt { color: #0044DD } /* Generic.Traceback */
+pre .kc { color: #008800; font-weight: bold } /* Keyword.Constant */
+pre .kd { color: #008800; font-weight: bold } /* Keyword.Declaration */
+pre .kn { color: #008800; font-weight: bold } /* Keyword.Namespace */
+pre .kp { color: #003388; font-weight: bold } /* Keyword.Pseudo */
+pre .kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
+pre .kt { color: #333399; font-weight: bold } /* Keyword.Type */
+pre .m { color: #6600EE; font-weight: bold } /* Literal.Number */
+pre .s { background-color: #fff0f0 } /* Literal.String */
+pre .na { color: #0000CC } /* Name.Attribute */
+pre .nb { color: #007020 } /* Name.Builtin */
+pre .nc { color: #BB0066; font-weight: bold } /* Name.Class */
+pre .no { color: #003366; font-weight: bold } /* Name.Constant */
+pre .nd { color: #555555; font-weight: bold } /* Name.Decorator */
+pre .ni { color: #880000; font-weight: bold } /* Name.Entity */
+pre .ne { color: #FF0000; font-weight: bold } /* Name.Exception */
+pre .nf { color: #0066BB; font-weight: bold } /* Name.Function */
+pre .nl { color: #997700; font-weight: bold } /* Name.Label */
+pre .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
+pre .nt { color: #007700 } /* Name.Tag */
+pre .nv { color: #996633 } /* Name.Variable */
+pre .ow { color: #000000; font-weight: bold } /* Operator.Word */
+pre .w { color: #bbbbbb } /* Text.Whitespace */
+pre .mb { color: #6600EE; font-weight: bold } /* Literal.Number.Bin */
+pre .mf { color: #6600EE; font-weight: bold } /* Literal.Number.Float */
+pre .mh { color: #005588; font-weight: bold } /* Literal.Number.Hex */
+pre .mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
+pre .mo { color: #4400EE; font-weight: bold } /* Literal.Number.Oct */
+pre .sb { background-color: #fff0f0 } /* Literal.String.Backtick */
+pre .sc { color: #0044DD } /* Literal.String.Char */
+pre .sd { color: #DD4422 } /* Literal.String.Doc */
+pre .s2 { background-color: #fff0f0 } /* Literal.String.Double */
+pre .se { color: #666666; font-weight: bold; background-color: #fff0f0 } /* Literal.String.Escape */
+pre .sh { background-color: #fff0f0 } /* Literal.String.Heredoc */
+pre .si { background-color: #eeeeee } /* Literal.String.Interpol */
+pre .sx { color: #DD2200; background-color: #fff0f0 } /* Literal.String.Other */
+pre .sr { color: #000000; background-color: #fff0ff } /* Literal.String.Regex */
+pre .s1 { background-color: #fff0f0 } /* Literal.String.Single */
+pre .ss { color: #AA6600 } /* Literal.String.Symbol */
+pre .bp { color: #007020 } /* Name.Builtin.Pseudo */
+pre .vc { color: #336699 } /* Name.Variable.Class */
+pre .vg { color: #dd7700; font-weight: bold } /* Name.Variable.Global */
+pre .vi { color: #3333BB } /* Name.Variable.Instance */
+pre .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+</style>
+</head>
+<body>
+<div class="document" id="reach-thru-guest-monitoring-and-services-for-high-availability">
+<h1 class="title">Reach-thru Guest Monitoring and Services for High Availability</h1>
+<h2 class="subtitle" id="overview">Overview</h2>
+<table class="docinfo" frame="void" rules="none">
+<colgroup><col class="docinfo-name">
+<col class="docinfo-content">
+</colgroup><tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Greg Waines</td></tr>
+<tr><th class="docinfo-name">Organization:</th>
+<td>Wind River Systems</td></tr>
+<tr><th class="docinfo-name">Organization:</th>
+<td>OPNFV - High Availability</td></tr>
+<tr><th class="docinfo-name">Status:</th>
+<td>Draft</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>March 2017</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>1.3</td></tr>
+</tbody>
+</table>
+<div class="abstract topic">
+<p class="topic-title first">Abstract</p>
+<p>This document provides an overview of a set of new
+optional capabilities where the OpenStack Cloud messages
+into the Guest VMs in order to provide improved Availability
+of the hosted VMs.  These new capabilities include: enabling
+the detection of and recovery from internal VM faults, enabling
+Guest VMs to gracefully handle and provide loss-of-service
+warnings to cloud adminstrative operations on the VM and
+providing a simple out-of-band messaging service to prevent
+scenarios such as split brain.</p>
+</div>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#introduction" id="id1">1&nbsp;&nbsp;&nbsp;Introduction</a></li>
+<li><a class="reference internal" href="#messaging-layer" id="id2">2&nbsp;&nbsp;&nbsp;Messaging Layer</a></li>
+<li><a class="reference internal" href="#vm-heartbeating-and-health-checking" id="id3">3&nbsp;&nbsp;&nbsp;VM Heartbeating and Health Checking</a></li>
+<li><a class="reference internal" href="#vm-event-notification-and-feedback" id="id4">4&nbsp;&nbsp;&nbsp;VM Event Notification and Feedback</a><ul class="auto-toc">
+<li><a class="reference internal" href="#vm-event-notifications" id="id5">4.1&nbsp;&nbsp;&nbsp;VM Event Notifications</a></li>
+<li><a class="reference internal" href="#vm-event-feedback" id="id6">4.2&nbsp;&nbsp;&nbsp;VM Event Feedback</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vm-peer-state-notification-and-messaging" id="id7">5&nbsp;&nbsp;&nbsp;VM Peer State Notification and Messaging</a></li>
+<li><a class="reference internal" href="#conclusion" id="id8">6&nbsp;&nbsp;&nbsp;Conclusion</a></li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h1><a class="toc-backref" href="#id1">1&nbsp;&nbsp;&nbsp;Introduction</a></h1>
+<blockquote>
+<p>This document provides an overview and rationale of a set
+of new capabilities where the OpenStack Cloud messages
+into the Guest VMs in order to provide improved Availability
+of the hosted VMs.</p>
+<p>These new capabilities specifically include:</p>
+<blockquote>
+<ul class="simple">
+<li>VM Heartbeating and Health Checking</li>
+<li>VM Event Notification and Feedback</li>
+<li>VM Peer State Notification and Messaging</li>
+</ul>
+</blockquote>
+<p>All of these capabilities leverage Host-to-Guest Messaging
+Interfaces / APIs which are built on a messaging service between the
+OpenStack Host and the Guest VM that uses a simple low-bandwidth
+datagram messaging capability in the hypervisor and therefore has no
+requirements on OpenStack Networking, and is available very early
+after spawning the VM.</p>
+<p>For each capability, the document outlines the interaction with
+the Guest VM, any key technologies involved, the integration into
+the larger OpenStack and OPNFV Architectures (e.g. interactions
+with VNFM), specific OPNFV HA Team deliverables, and the use cases
+for how availability of the hosted VM is improved.</p>
+<p>The intent is for the OPNFV HA Team to review the proposals of this
+document with the related other teams in OPNFV (Doctor and Management
+&amp; Orchestration (MANO)) and OpenStack (Nova).</p>
+</blockquote>
+</div>
+<div class="section" id="messaging-layer">
+<h1><a class="toc-backref" href="#id2">2&nbsp;&nbsp;&nbsp;Messaging Layer</a></h1>
+<blockquote>
+<p>The Host-to-Guest messaging APIs used by the services discussed
+in this document use a JSON-formatted application messaging layer
+on top of a ‘virtio serial device’ between QEMU on the OpenStack Host
+and the Guest VM.  JSON formatting provides a simple, humanly readable
+messaging format which can be easily parsed and formatted using any
+high level programming language being used in the Guest VM (e.g. C/C++,
+Python, Java, etc.).  Use of the ‘virtio serial device’ provides a
+simple, direct communication channel between host and guest which is
+independent of the Guest’s L2/L3 networking.</p>
+<p>The upper layer JSON messaging format is actually structured as a
+hierarchical JSON format containing a Base JSON Message Layer and an
+Application JSON Message Layer:</p>
+<blockquote>
+<ul>
+<li><p class="first">the Base Layer provides the ability to multiplex different groups
+of message types on top of a single ‘virtio serial device’
+e.g.</p>
+<blockquote>
+<ul class="simple">
+<li>heartbeating and healthchecks,</li>
+<li>command notification and feedback,</li>
+<li>server group messaging,</li>
+</ul>
+</blockquote>
+<p>and</p>
+</li>
+<li><p class="first">the Application Layer provides the specific message types and
+fields of a particular group of message types.</p>
+</li>
+</ul>
+</blockquote>
+</blockquote>
+</div>
+<div class="section" id="vm-heartbeating-and-health-checking">
+<h1><a class="toc-backref" href="#id3">3&nbsp;&nbsp;&nbsp;VM Heartbeating and Health Checking</a></h1>
+<blockquote>
+<p>Normally OpenStack monitoring of the health of a Guest VM is limited
+to a black-box approach of simply monitoring the presence of the
+QEMU/KVM PID containing the VM.</p>
+<p>VM Heartbeating and Health Checking provides a heartbeat service to monitor
+the health of guest application(s) within a VM running under the OpenStack
+Cloud.  Loss of heartbeat or a failed health check status will result in a
+fault event being reported to OPNFV's DOCTOR infrastructure for alarm
+identification, impact analysis and reporting.  This would then enable VNF
+Managers (VNFMs) listening to OPNFV's DOCTOR External Alarm Reporting through
+Telemetry's AODH, to initiate any required fault recovery actions.</p>
+<img alt="OPNFV_HA_Guest_APIs-Overview_HLD-Guest_Heartbeat-FIGURE-1.png" src="doc_files/OPNFV_HA_Guest_APIs-Overview_HLD-Guest_Heartbeat-FIGURE-1.png">
+<p>The VM Heartbeating and Health Checking functionality is enabled on
+a VM through a new flavor extraspec indicating that the VM supports
+and wants to enable Guest Heartbeating.  An extension to Nova Compute uses
+this extraspec to setup the required 'virtio serial device' for Host-to-Guest
+messaging, on the QEMU/KVM instance created for the VM.</p>
+<p>A daemon within the Guest VM will register with the OpenStack Guest
+Heartbeat Service on the compute node to initiate the heartbeating on itself
+(i.e. the Guest VM).  The OpenStack Compute Node will start heartbeating the
+Guest VM, and if the heartbeat fails, the OpenStack Compute Node will report
+the VM Fault thru DOCTOR and ultimately VNFM will see this thru NOVA VM
+State Chagne Notifications thru AODH.  I.e. VNFM wouild see the VM Heartbeat
+Failure events in teh same way it sees all other VM Faults, thru DOCTOR
+initiated VM state changes.</p>
+<p>Part of the Guest VM's registration process is the specification of the
+heartbeat interval in msecs.  I.e. the registering Guest VM specifies the
+heartbeating interval.</p>
+<p>Guest heartbeat works on a challenge response model.  The OpenStack
+Guest Heartbeat Service on the compute node will challenge the registered
+Guest VM daemon with a message each interval.  The registered Guest VM daemon
+must respond prior to the next interval with a message indicating good health.
+If the OpenStack Host does not receive a valid response, or if the response
+specifies that the VM is in ill health, then a fault event for the Guest VM
+is reported to the OpenStack Guest Heartbeat Service on the controller node which
+will report the event to OPNFV's DOCTOR (i.e. thru the OpenStack Vitrage data
+source APIs).</p>
+<p>The registered Guest VM daemon's response to the challenge can be as simple
+as just immediately responding with OK.  This alone allows for detection of
+a failed or hung QEMU/KVM instance, or a failure of the OS within the VM to
+schedule the registered Guest VM's daemon or failure to route basic IO within
+the Guest VM.</p>
+<p>However the registered Guest VM daemon's response to the challenge can be more
+complex, running anything from a quick simple sanity check of the health of
+applications running in the Guest VM, to a more thorough audit of the
+application state and data.  In either case returning the status of the
+health check enables the OpenStack host to detect and report the event in order
+to initiate recovery from application level errors or failures within the Guest VM.</p>
+<p>In summary, the deliverables of this activity would be:</p>
+<blockquote>
+<ul>
+<li><p class="first">Host Deliverables:    (OpenStack and OPNFV blueprints and implementation)</p>
+<blockquote>
+<ul class="simple">
+<li>an OpenStack Nova or libvirt extension to interpret the new flavor extraspec and
+if present setup the required 'virtio serial device' for Host-to-Guest
+heartbeat / health-check messaging, on the QEMU/KVM instance created
+for the VM,</li>
+<li>an OPNFV Base Host-to-Guest Msging Layer Agent for multiplexing of Application
+Layer messaging over the 'virtio serial device' to the VM,</li>
+<li>an OPNFV Heartbeat / Health-Check Compute Agent for local heartbeating of VM
+and reporting of failures to the OpenStack Controller,</li>
+<li>an OPNFV Heartbeat / Health-check Server on the OpenStack Controller for
+receiving VM failure notifications and reporting these to Vitrage thru
+Vitrage's Data Source API,</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Guest Deliverables:</p>
+<blockquote>
+<ul>
+<li><p class="first">a Heartbeat / Health-Check Message Specification covering</p>
+<blockquote>
+<ul class="simple">
+<li>Heartbeat / Health-Check Application Layer JSON Protocol,</li>
+<li>Base Host-to-Guest JSON Protocol,</li>
+<li>Details on the use of the underlying 'virtio serial device',</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">a Reference Implementation of the Guest-side support of
+Heartbeat / Health-check containing the peer protocol layers
+within the Guest.</p>
+<blockquote>
+<ul class="simple">
+<li>will provide code and compile instructions,</li>
+<li>Guest will compile based on its specific OS.</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<p>This proposal requires review with OPNFV's Doctor and Management &amp; Orchestration
+teams, and OpenStack's Nova Team.</p>
+</blockquote>
+</div>
+<div class="section" id="vm-event-notification-and-feedback">
+<h1><a class="toc-backref" href="#id4">4&nbsp;&nbsp;&nbsp;VM Event Notification and Feedback</a></h1>
+<blockquote>
+<p>VM Event Notification and Feedback provides application(s) within a Guest VM running
+under OpenStack, the ability to receive notification of and provide feedback on actions
+about to be performed against the VM.  For example, on notifications, the guest application
+within the VM can take this opportunity to cleanly shut down or transfer its
+service to a peer VM, and / or provide feedback that loss of application service
+may occur due to state of the Guest VM or its peer standby Guest VM.</p>
+<p>There are two high-level approaches being considered for the design / architecture
+for managing the feedback-request and notification-indication to the VM, prior
+to the execution of the actual Nova command:</p>
+<blockquote>
+<ul>
+<li><p class="first">A Transparent Nova Proxy</p>
+<p>A Transparent Nova Proxy entity takes over the public REST APIs of the core
+Nova component.  Nova Proxy intercepts all messages to core Nova, and for a
+subset of those Nova messages (e.g. stop, reboot, pause, ...) first requests
+feedback and notifies the guest of the upcoming request, prior to forwarding
+the (unmodified) message on to Nova for actual execution of the command.</p>
+</li>
+<li><p class="first">Extending Nova with a set of parallel commands</p>
+<p>Extend Nova with a set of parrallel commands (e.g. safe-stop, safe-reboot,
+safe-pause, ...) which first requests the feedback and notifies the guest of
+the upcoming request, prior to executing the associated core Nova functionality
+(i.e.  stop, reboot, pause, ...).</p>
+</li>
+</ul>
+</blockquote>
+<img alt="OPNFV_HA_Guest_APIs-Overview_HLD-Guest_Notifications-FIGURE-2.png" src="doc_files/OPNFV_HA_Guest_APIs-Overview_HLD-Guest_Notifications-FIGURE-.png">
+<p>NOTE: In the current design proposal, the VM is solicited for feedback/impact and
+notified of the upcoming action/command, independent of the VNFM.  I.e. even for
+commands issued by the VNFM, this service provides an optional check on the state
+of the VM and a notification to the VM for graceful handling of the command.  An
+alternative approach would be to go thru the VNFM to both check the state of the VM
+and notify the VM of the event.  More discussion is required here with the
+Management and Orchestration OPNFV Team.</p>
+</blockquote>
+<div class="section" id="vm-event-notifications">
+<h2><a class="toc-backref" href="#id5">4.1&nbsp;&nbsp;&nbsp;VM Event Notifications</a></h2>
+<blockquote>
+<p>A registered daemon running in the Guest VM is used as a conduit for
+notifications of VM lifecycle events being taken by OpenStack that
+will impact this VM.  Reboots, pause/resume and migrations are examples of
+the types of events a Guest VM can be notified of via the Nova Proxy or Nova
+Extended Safe Commands mechanism.  The full list of events for which notifications
+are supported is found below.</p>
+<blockquote>
+<ul class="simple">
+<li>stop</li>
+<li>reboot</li>
+<li>pause</li>
+<li>unpause</li>
+<li>suspend</li>
+<li>resume</li>
+<li>resize</li>
+<li>live-migrate</li>
+<li>cold-migrate</li>
+</ul>
+</blockquote>
+<p>Notifications are an opportunity for the VM to take preparatory actions
+in anticipation of the forthcoming event. For example,</p>
+<blockquote>
+<ul class="simple">
+<li>A reboot or stop notification might allow the application to stop
+accepting transactions and cleanly wrap up existing transactions,
+and/or gracefully close files; ensuring no data loss,</li>
+</ul>
+</blockquote>
+<p>The registered daemon in the Guest VM will receive all events.  If
+an event is not of interest, it should return immediately with a
+successful return code.  Notifications are subject to configurable timeouts.
+Timeouts are specified by the registering daemon in the Guest VM.</p>
+<p>While notification handlers are running, the event will be delayed.
+If the timeout is reached, the event will be allowed to proceed.</p>
+</blockquote>
+</div>
+<div class="section" id="vm-event-feedback">
+<h2><a class="toc-backref" href="#id6">4.2&nbsp;&nbsp;&nbsp;VM Event Feedback</a></h2>
+<blockquote>
+<p>In addition to notifications, Nova Proxy or Nova Extended Safe Command
+also provides the opportunity for the VM to provide feedback on any proposed
+event.  Currently the feedback supported is either 'ok' or 'lossOfService-warning'.
+Nova Proxy or Nova Extended Safe Command will first send out a Feedback Request, and
+then depending on the received feedback either abort the command (i.e. if
+'lossOfService-warning' received) or send the Notification of the event to the VM
+(i.e. if 'ok' received), followed by forwarding the command on to core Nova for execution.</p>
+<p>The Feedback request is subject to a configurable timeout.  The timeout is specified
+when the daemon in the Guest VM registers with compute services on the host.  If the
+VM fails to provide feedback within the timeout it is assumed to have no feedback with
+respect to the proposed action.</p>
+<p>An example of an application scenario where a feedback of lossOfService-warning
+would be returned on a feedback request:</p>
+<blockquote>
+<ul class="simple">
+<li>an active-standby application deployment (1:1), where the active
+provides lossOfService-warning feedback on a shutdown or pause or ...
+due to its peer standby is not ready or synchronized.</li>
+</ul>
+</blockquote>
+<p>A feedback request handler should generally not take any action beyond returning its
+feedback.  Instead any preparatory actions should be done on the event notification that follows.</p>
+<p>The OpenStack Cloud is not required to respect the feedback from the VM.  Any feedback warnings
+may be ignored in certain scenarios.  For REST API / CLI commands from operators, Nova Proxy
+will not send a feedback request if a '--force' option is present; i.e. only a Notification
+message will be sent to the VM, before forwarding the command request on to core Nova.</p>
+<p>In summary, the deliverables for both Feedback and Notification would be:</p>
+<blockquote>
+<ul>
+<li><p class="first">Host Deliverables:</p>
+<blockquote>
+<ul class="simple">
+<li>a Nova or libvirt extension to interpret the new flavor extraspec and
+if present setup the required 'virtio serial device' for Host-to-Guest
+notification &amp; feedback messaging, on the QEMU/KVM instance created
+for the VM,</li>
+<li>[ leveraging the Base Host-to-Guest Msging Layer Agent from previous section ],</li>
+<li>a Nova Proxy or Nova Extension to implement the high-level logic
+of requesting feedback and conditionally notifying guest and executing
+the Nova command,</li>
+<li>a Notification &amp; Feedback Server on the Controller for managing the
+routing of notification and feedback requests to and from the proper
+compute and VM,</li>
+<li>a Notification &amp; Feedback Compute Agent for implementing the Application
+Layer Notification &amp; Feedback JSON Protocol with the VM,</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Guest Deliverables:</p>
+<blockquote>
+<ul>
+<li><p class="first">a Notification &amp; Feedback Message Specification covering</p>
+<blockquote>
+<ul class="simple">
+<li>Notification &amp; Feedback Application Layer JSON Protocol,</li>
+<li>[ leveraging Base Host-to-Guest JSON Protocol from previous section ],</li>
+<li>[ leveraging Details on the use of the underlying 'virtio serial device' from previous section ],</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">a Reference Implementation of the Guest-side support of
+Notification &amp; Feedback Messaging containing the peer protocol layers
+and Guest Application hooks within the Guest.</p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<p>This proposal requires review with OPNFV's Management &amp; Orchestration team and
+OpenStack's Nova Team.</p>
+</blockquote>
+</div>
+</div>
+<div class="section" id="vm-peer-state-notification-and-messaging">
+<h1><a class="toc-backref" href="#id7">5&nbsp;&nbsp;&nbsp;VM Peer State Notification and Messaging</a></h1>
+<blockquote>
+<p>Server Group State Notification and Messaging is a service to provide
+simple low-bandwidth datagram messaging and notifications for servers that
+are part of the same server group.  This messaging channel is available
+regardless of whether IP networking is functional within the server, and
+it requires no knowledge within the server about the other members of the group.</p>
+<p>NOTE: A Server Group here is the OpenStack Nova Server Group concept where VMs
+are grouped together for purposes of scheduling.  E.g. A specific Server Group
+instance can specify whether the VMs within the group should be scheduled to
+run on the same compute host or different compute hosts.  A 'peer' VM in the
+context of this section refers to a VM within the same Nova Server Group.</p>
+<p>This Server Group Messaging service provides three types of messaging:</p>
+<blockquote>
+<ul class="simple">
+<li>Broadcast: this allows a server to send a datagram (size of up to 3050 bytes)
+to all other servers within the server group.</li>
+<li>Notification: this provides servers with information about changes to the
+(Nova) state of other servers within the server group.</li>
+<li>Status: this allows a server to query the current (Nova) state of all servers within
+the server group (including itself).</li>
+</ul>
+</blockquote>
+<p>A Server Group Messaging entity on both the controller node and the compute nodes
+manage the routing of of VM-to-VM messages through the platform, leveraging Nova
+to determine Server Group membership and compute node locations of VMs.  The Server
+Group Messaging entity on the controller also listens to Nova VM state change notifications
+and querys VM state data from Nova, in order to provide the VM query and notification
+functionality of this service.</p>
+<img alt="OPNFV_HA_Guest_APIs-Overview_HLD-Peer_Messaging-FIGURE-3.png" src="doc_files/OPNFV_HA_Guest_APIs-Overview_HLD-Peer_Messaging-FIGURE-3.png">
+<p>This service is not intended for high bandwidth or low-latency operations.  It
+is best-effort, not reliable.  Applications should do end-to-end acks and
+retries if they care about reliability.</p>
+<p>This service provides building block type capabilities for the Guest VMs that
+contribute to higher availability of the VMs in the Guest VM Server Group.  Notifications
+of VM Status changes potentially provide a faster and more accurate notification
+of failed peer VMs than traditional peer VM monitoring over Tenant Networks.  While
+the Broadcast Messaging mechanism provides an out-of-band messaging mechanism to
+monitor and control a peer VM under fault conditions; e.g. providing the ability to
+avoid potential split brain scenarios between 1:1 VMs when faults in Tenant
+Networking occur.</p>
+<p>In summary, the deliverables for Server Group Messaging would be:</p>
+<blockquote>
+<ul>
+<li><p class="first">Host Deliverables:</p>
+<blockquote>
+<ul class="simple">
+<li>a Nova or libvirt extension to interpret the new flavor extraspec and
+if present setup the required 'virtio serial device' for Host-to-Guest
+Server Group Messaging, on the QEMU/KVM instance created
+for the VM,</li>
+<li>[ leveraging the Base Host-to-Guest Msging Layer Agent from previous section ],</li>
+<li>a Server Group Messaging Compute Agent for implementing the Application Layer
+Server Group Messaging JSON Protocol with the VM, and forwarding the
+messages to/from the Server Group Messaging Server on the Controller,</li>
+<li>a Server Group Messaging Server on the Controller for routing broadcast
+messages to the proper Computes and VMs, as well as listening for Nova
+VM State Change Notifications and forwarding these to applicable Computes
+and VMs,</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Guest Deliverables:</p>
+<blockquote>
+<ul>
+<li><p class="first">a Server Group Messaging Message Specification covering</p>
+<blockquote>
+<ul class="simple">
+<li>Server Group Messaging Application Layer JSON Protocol,</li>
+<li>[ leveraging Base Host-to-Guest JSON Protocol from previous section ],</li>
+<li>[ leveraging Details on the use of the underlying 'virtio serial device' from previous section ],</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">a Reference Implementation of the Guest-side support of
+Server Group Messaging containing the peer protocol layers
+and Guest Application hooks within the Guest.</p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<p>This proposal requires review with OPNFV's Management &amp; Orchestration team and
+OpenStack's Nova Team.</p>
+</blockquote>
+</div>
+<div class="section" id="conclusion">
+<h1><a class="toc-backref" href="#id8">6&nbsp;&nbsp;&nbsp;Conclusion</a></h1>
+<blockquote>
+<p>The Reach-thru Guest Monitoring and Services described in this document
+leverage Host-to-Guest messaging to provide a number of extended capabilities
+that improve the Availability of the hosted VMs.  These new capabilities
+enable detection of and recovery from internal VM faults, enables the Guest
+VMs to gracefully handle or provide potential loss-of-service warnings back
+on cloud adminstrative operations on the VM and provides a simple out-of-band
+messaging service to prevent scenarios such as split brain.</p>
+<p>The integration of these new capabilities into the larger OpenStack and OPNFV
+Architectures need to be reviewed with the other related teams in OPNFV
+(Doctor and Management &amp; Orchestration (MANO)) and OpenStack (Nova).</p>
+</blockquote>
+</div>
+</div>
+
+<script type="text/javascript">
+var mtime = '1489705966.88';
+var poll = null;
+window.onload = function () {
+    setTimeout(function () {
+        poll = new XMLHttpRequest();
+        poll.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var reload = new XMLHttpRequest();
+                reload.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.title = this.responseXML.title;
+                        document.body.innerHTML = this.responseXML.body.innerHTML;
+                        var old_styles = document.getElementsByTagName('style');
+                        var new_styles = this.responseXML.getElementsByTagName('style');
+                        for (var i = old_styles.length - 1; i >= 0; i--) {
+                            old_styles[i].remove();
+                        }
+                        // convert HTMLCollection to an array so that
+                        // items don't disappear from under us when I append
+                        // them to a different DOM tree
+                        new_styles = [].slice.call(new_styles);
+                        for (var i = 0; i < new_styles.length; i++) {
+                            document.head.appendChild(new_styles[i]);
+                        }
+                        mtime = this.getResponseHeader('X-Restview-Mtime');
+                        if (mtime) {
+                            poll.open('HEAD', '/polling?pathname=' + location.pathname + '&mtime=' + mtime, true);
+                            poll.send();
+                        }
+                    }
+                }
+                reload.open('GET', location.pathname, true);
+                reload.responseType = 'document';
+                reload.send();
+            }
+        }
+        poll.open('HEAD', '/polling?pathname=' + location.pathname + '&mtime=' + mtime, true);
+        poll.send(null);
+    }, 0);
+}
+window.onbeforeunload = function () {
+    poll.abort();
+}
+</script>
+
+
+</body></html>
