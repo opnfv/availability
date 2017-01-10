@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5ac10518_52947636",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2017-01-10T12:42:09Z",
+      "side": 1,
+      "message": "1.The document includes design, Guest side implementation and API. If all these three parts are in the scope of the Release D HA approach, I propose rearrange the document as Architecture and Design, API definition, Guest side implementation which may be more easy to understand.\n2.What is the naming rule of the messaging mechanism? How the message route from source host to destination host via src-addr and dest-addr?\n3.Figure 2 shows guest API are utilized in an application. Does that mean this messaging mechanism works for app to app messaging? This would be on different lay as the previous description as Host-to-guest messaging.\n4.I don\u0027t know why only provide guest side implementation? Is Host agent and Nova conductor are not in the scope of these approach?",
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_cf851dae",
         "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
         "patchSetId": 1
