@@ -84,6 +84,98 @@
       "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_52d8f652",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 686,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-01-10T09:49:32Z",
+      "side": 1,
+      "message": "RPC",
+      "range": {
+        "startLine": 686,
+        "startChar": 33,
+        "endLine": 686,
+        "endChar": 36
+      },
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_f2dec23e",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 693,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-01-10T09:49:32Z",
+      "side": 1,
+      "message": "RPC",
+      "range": {
+        "startLine": 693,
+        "startChar": 33,
+        "endLine": 693,
+        "endChar": 36
+      },
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_12e26e03",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-01-10T09:49:32Z",
+      "side": 1,
+      "message": "RPC",
+      "range": {
+        "startLine": 704,
+        "startChar": 20,
+        "endLine": 704,
+        "endChar": 23
+      },
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_b2e83ae3",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 712,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-01-10T09:49:32Z",
+      "side": 1,
+      "message": "RPC",
+      "range": {
+        "startLine": 712,
+        "startChar": 20,
+        "endLine": 712,
+        "endChar": 23
+      },
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
