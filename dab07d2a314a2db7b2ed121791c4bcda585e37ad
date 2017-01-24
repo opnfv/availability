@@ -70,6 +70,52 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_033c4b92",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-01-24T02:21:51Z",
+      "side": 1,
+      "message": "what does \u0027state\u0027 refer to specifically?",
+      "range": {
+        "startLine": 88,
+        "startChar": 56,
+        "endLine": 88,
+        "endChar": 57
+      },
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_8347db1c",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-01-24T02:21:51Z",
+      "side": 1,
+      "message": "Then why do we need these API? More scenarios and usecases might be needed?\nCan the host use these API to inform the guest when the host detects some situation that may lead to failure and would suggest the guest to failover in advance? Does this usecase make sense?",
+      "range": {
+        "startLine": 134,
+        "startChar": 64,
+        "endLine": 134,
+        "endChar": 65
+      },
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_0fbb2573",
         "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
         "patchSetId": 1
@@ -98,6 +144,29 @@
       "writtenOn": "2017-01-09T21:39:02Z",
       "side": 1,
       "message": "white space issue",
+      "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_c35c03f0",
+        "filename": "Support_For_HA_Guest_APIs/R4_Server_Group_Messaging/OPNFV_HA_Guest_APIs-Server-Group-Messaging_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-01-24T02:21:51Z",
+      "side": 1,
+      "message": "Can these patches go with Newton release? Otherwise I suggest we provide a service at the host to support this API instead of putting all the efforts on working upstream.",
+      "range": {
+        "startLine": 633,
+        "startChar": 45,
+        "endLine": 633,
+        "endChar": 45
+      },
       "revId": "dab07d2a314a2db7b2ed121791c4bcda585e37ad",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
