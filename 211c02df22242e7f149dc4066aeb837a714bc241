@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_43487c2d",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-02-08T15:04:09Z",
+      "side": 1,
+      "message": "Please explain the difference to the notifications in doctor project.\nI suggest to ask the doctor project to review.\n\nIn general I get a bit confused between the role of these functions and the role of the VNFM. Maybe it gets more clear when I can look at the pictures.",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_a35e00e8",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-02-08T15:04:09Z",
+      "side": 1,
+      "message": "I think resource scaling in NFV must be triggered by the VNFM. How will the VNFM be involved?",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
