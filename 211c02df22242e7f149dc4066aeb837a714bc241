@@ -33,6 +33,75 @@
       "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_31925658",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-02-09T11:20:10Z",
+      "side": 1,
+      "message": "Who is the user of the API? Starting and stopping VMs is already done by OpenStack. Will this be integrated?",
+      "range": {
+        "startLine": 113,
+        "startChar": 46,
+        "endLine": 114,
+        "endChar": 32
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_b1a646c0",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-02-09T11:20:10Z",
+      "side": 1,
+      "message": "Who is supposed to be the user of the API? IN NFV guests(VNFs) do not decide about scaling by themselves",
+      "range": {
+        "startLine": 218,
+        "startChar": 3,
+        "endLine": 219,
+        "endChar": 59
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_f1160ef1",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2017-02-09T11:20:10Z",
+      "side": 1,
+      "message": "How can a guest API be used to overcome split brain? Do you assume that applications have their own cluster management? How to synchronize with OpenStack?",
+      "range": {
+        "startLine": 317,
+        "startChar": 40,
+        "endLine": 317,
+        "endChar": 51
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
