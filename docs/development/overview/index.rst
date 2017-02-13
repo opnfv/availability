@@ -3,11 +3,11 @@
 .. (c) <optionally add copywriters name>
 
 *********************************
-Gap Analysis of High Availability
+OPNFV HA Guest APIs -- Overview
 *********************************
 
 .. toctree::
    :numbered:
-   :maxdepth: 4
+   :maxdepth: 2
 
-   GAP_Analysis_Colorado.rst
+   OPNFV_HA_Guest_APIs-Overview_HLD.rst
