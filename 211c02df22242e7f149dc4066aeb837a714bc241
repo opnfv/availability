@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_321116ad",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-14T13:49:56Z",
+      "side": 1,
+      "message": "These notifications are the OpenStack Host notifying a Guest VM that an event (such as stop, pause, migrate, etc) is about to be executed on it.   This gives the VM an opportunity to reject the request (e.g. if not in-sync with a peer standby VM ) or to simply gracefully prepare for the event (e.g. close files etc).\n\nI believe the DOCTOR notifications are at a much higher level ... e.g. NOVA, NEUTRON, CINDER creating notifications of state changes to virtual resources such that a local VIM or remote VNFM can initiate recovery action.",
+      "parentUuid": "1acb0d3e_43487c2d",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_a35e00e8",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_d2251a0b",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-14T13:49:56Z",
+      "side": 1,
+      "message": "Agree having VNFM trigger Resource Scaling at a high-level, is one scenario.   Using Heat policy-driven resource scaling is another high-level scenario.\n\nAgain, this document is talking about VM Resource Scaling at a lower level ... i.e. the OpenStack-Host - to - Guest-VM messaging required to realize resource scaling.\n\nIn our implementation, this OpenStack-Host - to - Guest-VM API for realizing Resource Scaling is used by a NOVA extension to request a resource scale up or scale down.  \ne.g.      % nova scale \u003cinstance_UUID\u003e cpu up\n            % nova scale \u003cinstance_UUID\u003e cpu down\n\nThis command can be triggered by either VNFM or HEAT Scaling Policy.\n\nAnd then this command leverages the HOST-to-GUEST API for Resource Scaling to inform the Guest of the Resource Scaling.",
+      "parentUuid": "1acb0d3e_a35e00e8",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_31925658",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -47,6 +83,30 @@
       "writtenOn": "2017-02-09T11:20:10Z",
       "side": 1,
       "message": "Who is the user of the API? Starting and stopping VMs is already done by OpenStack. Will this be integrated?",
+      "range": {
+        "startLine": 113,
+        "startChar": 46,
+        "endLine": 114,
+        "endChar": 32
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_72654e44",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-14T13:49:56Z",
+      "side": 1,
+      "message": "Yes all of these events are currently events that are managed by NOVA.\n\nThe user of this API (i.e. to have the HOST inform the Guest of these events) could be NOVA itself or a NOVA PROXY.\n\nIn our implementation, we use a NOVA PROXY in order to minimize / eliminate changes required in NOVA itself.  i.e. the NOVA PROXY takes over the NOVA REST API port and intercepts all commands in order to leverage this HOST-to-GUEST API to inform the VM of the event that is about to occur to it, give the VM a chance to reject the command, and then (depending on outcome) forwards the command on to  the real NOVA.",
+      "parentUuid": "1acb0d3e_31925658",
       "range": {
         "startLine": 113,
         "startChar": 46,
@@ -82,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_125ad283",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-14T13:49:56Z",
+      "side": 1,
+      "message": "Agree having VNFM trigger Resource Scaling at a high-level, is one scenario.   Using Heat policy-driven resource scaling is another high-level scenario.\n\nAgain, this document is talking about VM Resource Scaling at a lower level ... i.e. the OpenStack-Host - to - Guest-VM messaging required to realize resource scaling.\n\nIn our implementation, this OpenStack-Host - to - Guest-VM API for realizing Resource Scaling is used by a NOVA extension to request a resource scale up or scale down.  \ne.g.      % nova scale \u003cinstance_UUID\u003e cpu up\n            % nova scale \u003cinstance_UUID\u003e cpu down\n\nThis command can be triggered by either VNFM or HEAT Scaling Policy.\nAnd then this command leverages the HOST-to-GUEST API for Resource Scaling to inform the Guest of the Resource Scaling such that it can do the appropriate on-lining / off-lining of cores and any required changes to core affinity.",
+      "parentUuid": "1acb0d3e_b1a646c0",
+      "range": {
+        "startLine": 218,
+        "startChar": 3,
+        "endLine": 219,
+        "endChar": 59
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_f1160ef1",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -93,6 +177,30 @@
       "writtenOn": "2017-02-09T11:20:10Z",
       "side": 1,
       "message": "How can a guest API be used to overcome split brain? Do you assume that applications have their own cluster management? How to synchronize with OpenStack?",
+      "range": {
+        "startLine": 317,
+        "startChar": 40,
+        "endLine": 317,
+        "endChar": 51
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_325fd674",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-14T13:49:56Z",
+      "side": 1,
+      "message": "Yes ... we have found that the majority of applications on OpenStack are existing applications that have full HA solutions in the physical world ... and would like to continue using those solutions in the virtual world.\n\nSo yes, i am assuming that the Guest VMs implementing (say) a 1:1 HA group would be running some clustering software running over Tenant Networking.  Then this Messaging path thru the HOST between the VMs provides a completely independent messaging path which can be used to eliminate potential split brain scenarios.",
+      "parentUuid": "1acb0d3e_f1160ef1",
       "range": {
         "startLine": 317,
         "startChar": 40,
