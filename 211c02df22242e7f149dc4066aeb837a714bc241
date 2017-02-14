@@ -72,6 +72,64 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_5dfffb01",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-02-14T15:23:16Z",
+      "side": 1,
+      "message": "In reading a separate email response to this, I saw that Greg indicated that a Host could be any of VNFM, or VIM, or HEAT - so my comments are taken from that perspective. \n\nFrom an OPNFV perspective, I think we must at least recommend how we propose it be used (e.g., just by the VNFM). It could still be implemented in such a way on the guest as to be indifferent to the consumer.\n\nSo from that perspective, two things are needed: 1) an overview of how it is intended to be used from an NFV perspective, and 2) perhaps change terminology throughout so that the owner of the resource management policies is the identified consumer, and the \"OpenStack Host\" is merely the conduit for providing access via the messaging service.",
+      "parentUuid": "dabed58f_d2251a0b",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_3d2567ab",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-02-14T15:23:16Z",
+      "side": 1,
+      "message": "Perhaps I\u0027m misunderstanding, but I would expect this to be specified by the VM owner, like a VNFM, and not the VM. If the VNFM expects one behavior, but the VM has changed itself to use a different behavior, that can lead to divergent, and potentially out of sync, resource management behavior. At the very least, this should identify that this is optional so that, if not configured, then the heartbeat service is not run. I think this is implied, but please call it out. Indeed, I think this is actually a compute host service that should be configured through Nova as part of creating a VM.",
+      "range": {
+        "startLine": 62,
+        "startChar": 39,
+        "endLine": 64,
+        "endChar": 70
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_1d574304",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-02-14T15:23:16Z",
+      "side": 1,
+      "message": "I like the idea of a super-efficient guest heartbeat running on the host. But I wonder, as in my previous comment, since it is a service that should be configured by the VM owner, is it something better implemented as a Nova service configured as part of VM deployment?",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_31925658",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -112,6 +170,29 @@
         "startChar": 46,
         "endLine": 114,
         "endChar": 32
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_dd676be9",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-02-14T15:23:16Z",
+      "side": 1,
+      "message": "Sorry, M\u0026O is not a democracy. (Well, maybe sometimes in clusters, but not in this case.) M\u0026O in these environments absolutely rely on a top-down command and control infrastructure to ensure that there is one view of how resources are utilized in the infrastructure. So, the option to vote, or to reject, actions, simply does not work in the long run.",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 158,
+        "endChar": 22
       },
       "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
@@ -166,6 +247,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_fd64afe6",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-02-14T15:23:16Z",
+      "side": 1,
+      "message": "This just reinforces two of my comments above about 1) separating out the host-guest message service with these capabilities from the overall intent of the service, and 2) this is actually a Nova-based service running on the host that responds to consumers like VNFM or Heat.",
+      "parentUuid": "dabed58f_125ad283",
+      "range": {
+        "startLine": 218,
+        "startChar": 3,
+        "endLine": 219,
+        "endChar": 59
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_f1160ef1",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -201,6 +306,30 @@
       "side": 1,
       "message": "Yes ... we have found that the majority of applications on OpenStack are existing applications that have full HA solutions in the physical world ... and would like to continue using those solutions in the virtual world.\n\nSo yes, i am assuming that the Guest VMs implementing (say) a 1:1 HA group would be running some clustering software running over Tenant Networking.  Then this Messaging path thru the HOST between the VMs provides a completely independent messaging path which can be used to eliminate potential split brain scenarios.",
       "parentUuid": "1acb0d3e_f1160ef1",
+      "range": {
+        "startLine": 317,
+        "startChar": 40,
+        "endLine": 317,
+        "endChar": 51
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_ddae8be7",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-02-14T15:23:16Z",
+      "side": 1,
+      "message": "I must be missing something, because this seemed to create opportunity for additional split-brain scenarios. If this is implemented so that using it is both transparent if not used, and must be enabled during VM deployment, then ok. Because if enabled by the VNFM, then it knows that the deployed VM will behave a certain way. VM behavior per expectations is fundamental to ensure reliable resource M\u0026O.",
+      "parentUuid": "dabed58f_325fd674",
       "range": {
         "startLine": 317,
         "startChar": 40,
