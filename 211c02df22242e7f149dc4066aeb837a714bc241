@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_03092231",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "The position in this paper is that the OpenStack Cloud is a \"platform\" hosting the \"application\" VMs.   So these APIs between vm and openstack cloud are analogous to APIs between an Application and its Platform.",
+      "parentUuid": "dabed58f_8352f211",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_43487c2d",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -107,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_1e09792c",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "Yeah agree that the next \u0027iteration\u0027 of the Overview Document needs to \"bring it up a level\" even more, since a general theme of the comments / questions is wrt understanding who the consumer of these capabilities / APIs would be and how these capabilities / APIs would integrate into the OpenStack / OPNFV / MANO architecture.\n\nI wouldn\u0027t go into tons of details ... maybe just a functional architecture diagram for each of the APIs, showing the consumer in the overall OpenStack / OPNFV / MANO  architecture and a paragraph or two describing the diagram.",
+      "parentUuid": "dabed58f_5dfffb01",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_c3478a4a",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -118,6 +154,30 @@
       "writtenOn": "2017-02-15T07:55:31Z",
       "side": 1,
       "message": "It might be more clear to say: This API provides a capability for guest application within a VM to report its health status to a heartbeat service running in a Openstack compute node.",
+      "range": {
+        "startLine": 59,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 64
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_3e0ebd35",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "Agreed ... i\u0027ll re-word in next iteration of document.",
+      "parentUuid": "dabed58f_c3478a4a",
       "range": {
         "startLine": 59,
         "startChar": 2,
@@ -153,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_de120158",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "Yes ... i think in the next iteration of the Overview Document when i add in the context of the consumer and integration into OpenStack / OPNFV / MANO, this information will be covered.\n\nIn our own implementation, this is indeed optional.  Heartbeating of a VM is specified thru a flavour extra-spec ... which could indeed be specified by the VNFM owning the VM.",
+      "parentUuid": "dabed58f_3d2567ab",
+      "range": {
+        "startLine": 62,
+        "startChar": 39,
+        "endLine": 64,
+        "endChar": 70
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_1d574304",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -164,6 +248,24 @@
       "writtenOn": "2017-02-14T15:23:16Z",
       "side": 1,
       "message": "I like the idea of a super-efficient guest heartbeat running on the host. But I wonder, as in my previous comment, since it is a service that should be configured by the VM owner, is it something better implemented as a Nova service configured as part of VM deployment?",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_5e2611bc",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "Yes, i\u0027ll cover that in the integration into OpenStack / OPNFV / MANO that i\u0027ll add ... as mentioned the Heartbeat Service is configured thru a Nova Flavor extra spec as part of VM deployment.",
+      "parentUuid": "dabed58f_1d574304",
       "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -264,6 +366,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_3e255dab",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "The USE CASE here is that the we are providing a mechanism for the Guest VM to warn the OpenStack Platform that this operation will cause issues with the Guest.\n\nDefinitely the OpenStack Platform has the capability to \"force\" the operation and ignore the warning from the Guest.",
+      "parentUuid": "dabed58f_dd676be9",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 158,
+        "endChar": 22
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_b1a646c0",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -323,6 +449,30 @@
       "side": 1,
       "message": "This just reinforces two of my comments above about 1) separating out the host-guest message service with these capabilities from the overall intent of the service, and 2) this is actually a Nova-based service running on the host that responds to consumers like VNFM or Heat.",
       "parentUuid": "dabed58f_125ad283",
+      "range": {
+        "startLine": 218,
+        "startChar": 3,
+        "endLine": 219,
+        "endChar": 59
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_fe3d85bc",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-15T12:32:23Z",
+      "side": 1,
+      "message": "Agreed ... will reflect that in the info to be added in the \"who is the consumer and how does this integrate into OpenStack / OPNFV / MANO\" update to the Overview Doc.",
+      "parentUuid": "dabed58f_fd64afe6",
       "range": {
         "startLine": 218,
         "startChar": 3,
