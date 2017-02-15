@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "dabed58f_8352f211",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2017-02-15T07:55:31Z",
+      "side": 1,
+      "message": "personally I regard vm as a part of openstack cloud. ...APIs between vm and openstack cloud looks ambiguous.",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_43487c2d",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -84,6 +101,29 @@
       "side": 1,
       "message": "In reading a separate email response to this, I saw that Greg indicated that a Host could be any of VNFM, or VIM, or HEAT - so my comments are taken from that perspective. \n\nFrom an OPNFV perspective, I think we must at least recommend how we propose it be used (e.g., just by the VNFM). It could still be implemented in such a way on the guest as to be indifferent to the consumer.\n\nSo from that perspective, two things are needed: 1) an overview of how it is intended to be used from an NFV perspective, and 2) perhaps change terminology throughout so that the owner of the resource management policies is the identified consumer, and the \"OpenStack Host\" is merely the conduit for providing access via the messaging service.",
       "parentUuid": "dabed58f_d2251a0b",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_c3478a4a",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2017-02-15T07:55:31Z",
+      "side": 1,
+      "message": "It might be more clear to say: This API provides a capability for guest application within a VM to report its health status to a heartbeat service running in a Openstack compute node.",
+      "range": {
+        "startLine": 59,
+        "startChar": 2,
+        "endLine": 60,
+        "endChar": 64
+      },
       "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -188,6 +228,30 @@
       "writtenOn": "2017-02-14T15:23:16Z",
       "side": 1,
       "message": "Sorry, M\u0026O is not a democracy. (Well, maybe sometimes in clusters, but not in this case.) M\u0026O in these environments absolutely rely on a top-down command and control infrastructure to ensure that there is one view of how resources are utilized in the infrastructure. So, the option to vote, or to reject, actions, simply does not work in the long run.",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 158,
+        "endChar": 22
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_0365a2e0",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 191
+      },
+      "writtenOn": "2017-02-15T07:55:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dabed58f_dd676be9",
       "range": {
         "startLine": 155,
         "startChar": 3,
