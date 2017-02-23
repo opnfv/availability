@@ -90,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_afb6e2da",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-23T16:42:55Z",
+      "side": 1,
+      "message": "Agree ... i\u0027ll make the notification direction more clear.",
+      "parentUuid": "dabed58f_74b6838c",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_a35e00e8",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -179,6 +197,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_cfbb16c3",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-23T16:42:55Z",
+      "side": 1,
+      "message": "As discussed in meeting, the immediately following sections will be expanded to provide the high-level context of how the Host - to - VM messaging is integrated into the overall MANO / NFV / OpenStack solution.\n\nI will also figure out how to address your first point on possible confusion of referring to this overall work as HA Guest APIs when this document is morphing into a slightly larger scope in order to better describe how this Host - to - VM Messaging is integrated into overall MANO / NFV / OpenStack solution in order to provide Higher Availability.",
+      "parentUuid": "dabed58f_d44f2f91",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_545b3f54",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -190,6 +226,30 @@
       "writtenOn": "2017-02-23T08:07:00Z",
       "side": 1,
       "message": "which entity should use this API. Is it nova or nova proxy? my understanding is the API is used by nova or nova proxy, to indicate the daemon to work and reply to nova about the health of the VM. Am I right?",
+      "range": {
+        "startLine": 52,
+        "startChar": 1,
+        "endLine": 52,
+        "endChar": 35
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_6fb0eadd",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-23T16:42:55Z",
+      "side": 1,
+      "message": "we can discuss ... for the heartbeating and health checking, my view is that the Vitrage component of DOCTOR would leverage this API in order to detect an internal VM fault ... and then do the normal DOCTOR handling of this to update NOVA VM state based on this, trigger Notifications thru AODH which would in-turn trigger either local or remote recovery.\n\nThis high-level context of how the heartbeating / health checking integrates into overall solution is the primary update that i will do next to this document.\n\n( The Nova Proxy design is only required by the Event Notification and ACK functionality ... next section )",
+      "parentUuid": "dabed58f_545b3f54",
       "range": {
         "startLine": 52,
         "startChar": 1,
@@ -354,6 +414,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_cfe236d5",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-23T16:42:55Z",
+      "side": 1,
+      "message": "Agree ... that VNFM should be able to override this in the overall solution.",
+      "parentUuid": "dabed58f_9449b78d",
+      "range": {
+        "startLine": 88,
+        "startChar": 30,
+        "endLine": 89,
+        "endChar": 40
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_31925658",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -496,6 +580,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_efda9a16",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-23T16:42:55Z",
+      "side": 1,
+      "message": "Agree ... i will describe these scenarios when i update this section with the Nova Proxy architecture",
+      "parentUuid": "dabed58f_f457d324",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 158,
+        "endChar": 22
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_b4187b85",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -507,6 +615,30 @@
       "writtenOn": "2017-02-23T08:07:00Z",
       "side": 1,
       "message": "who should take action when the peer state message fails? should such situation be uploaded to the VNFM?",
+      "range": {
+        "startLine": 182,
+        "startChar": 0,
+        "endLine": 182,
+        "endChar": 40
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_af04a27e",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-02-23T16:42:55Z",
+      "side": 1,
+      "message": "Not sure i understand the question.\nThe messaging is a datagram / connectionless messaging service between VMs, so it is the responsibility of the Application within the VM to simply re-try if the message it sent is not responded to.",
+      "parentUuid": "dabed58f_b4187b85",
       "range": {
         "startLine": 182,
         "startChar": 0,
