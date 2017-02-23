@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_74b6838c",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-02-23T08:07:00Z",
+      "side": 1,
+      "message": "I think these is some misunderstanding here. Probably because the entry here is a little bit misleading. The event notification here does not mean VM notify the guest os or the MANO, but indicates the other way round. I suggest to change this entry as \"Infrustructure event notification and VM ack\"",
+      "parentUuid": "1acb0d3e_43487c2d",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_a35e00e8",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -137,6 +155,47 @@
       "side": 1,
       "message": "Yeah agree that the next \u0027iteration\u0027 of the Overview Document needs to \"bring it up a level\" even more, since a general theme of the comments / questions is wrt understanding who the consumer of these capabilities / APIs would be and how these capabilities / APIs would integrate into the OpenStack / OPNFV / MANO architecture.\n\nI wouldn\u0027t go into tons of details ... maybe just a functional architecture diagram for each of the APIs, showing the consumer in the overall OpenStack / OPNFV / MANO  architecture and a paragraph or two describing the diagram.",
       "parentUuid": "dabed58f_5dfffb01",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_d44f2f91",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-02-23T08:07:00Z",
+      "side": 1,
+      "message": "Greg. I think some explaination should be made here. I think the HA API is kind of misleading. People may consider the VM directly uses these APIs and get the info that they need. However from your reply above, I see that the NFVO and VNFM are the entities that use these. The NFVO and VNFM use the nova restful API to trigger certain action, and the nova proxy kidnaps these command, trigger some interaction between the host and VM using these API, then give the command back to the real nova. (don\u0027t know if I understand right about these). if so, I think we may not call these as API but rather should be message flow between VM and the host OS.\nfor each entry listed above, I suggest to add a short explaination or example about how to use the capability by NFVO and VNFM.",
+      "parentUuid": "dabed58f_1e09792c",
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_545b3f54",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-02-23T08:07:00Z",
+      "side": 1,
+      "message": "which entity should use this API. Is it nova or nova proxy? my understanding is the API is used by nova or nova proxy, to indicate the daemon to work and reply to nova about the health of the VM. Am I right?",
+      "range": {
+        "startLine": 52,
+        "startChar": 1,
+        "endLine": 52,
+        "endChar": 35
+      },
       "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -272,6 +331,29 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_9449b78d",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-02-23T08:07:00Z",
+      "side": 1,
+      "message": "this corrective action should be override by the VM or the VNFM?\nI think the VNFM should do such decision. or at least the VNFM should have such capability",
+      "range": {
+        "startLine": 88,
+        "startChar": 30,
+        "endLine": 89,
+        "endChar": 40
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_31925658",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 2
@@ -383,6 +465,53 @@
         "startChar": 3,
         "endLine": 158,
         "endChar": 22
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_f457d324",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-02-23T08:07:00Z",
+      "side": 1,
+      "message": "I think there should be a scheme to notify the nova proxy which operation is strong and should be forced without consideration of the VM, and which operation can be postponed and wait for the VM to prepare smoothly.So there could be 3 situations.\n1) the action is not urgent, nova proxy asks the vm to vote and the VM agrees to take the action\n2) the action is not urgent, nova proxy asks the vm to vote, the vm rejects the action. nova proxy hand the action to nova after the vm finishes preparing\n3) the action is urgent. nova proxy directly hands this action to nova without asking the vm to vote.",
+      "parentUuid": "dabed58f_3e255dab",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 158,
+        "endChar": 22
+      },
+      "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_b4187b85",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-02-23T08:07:00Z",
+      "side": 1,
+      "message": "who should take action when the peer state message fails? should such situation be uploaded to the VNFM?",
+      "range": {
+        "startLine": 182,
+        "startChar": 0,
+        "endLine": 182,
+        "endChar": 40
       },
       "revId": "211c02df22242e7f149dc4066aeb837a714bc241",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
