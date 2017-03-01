@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_ee65b245",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-03-01T22:27:21Z",
+      "side": 1,
+      "message": "What is the short and long term intended implementation here? This may have impact on what is written, but especially on understanding what is being proposed. \nIs the intent to add capabilities to the Nova REST API, and a Nova Proxy is a just a short term addition by OPNFV to delivery the same functionality? If so, then you have a consistency/maintenance issue whereby you will be revving that proxy for every release until it is finally in Nova.  Or is the intent to create a permanent OPNFV  Nova Proxy? The former is painful and we should gain approval of blueprint from Nova before proceeding. The latter seems like a non-starter. Isn\u0027t it possible to simply extend the Nova API rather than proxy? Which call(s) need to change behavior? There should be a strong preference to simply extending the existing API, even if it means using a similar, but new, API to create the difference in whatever you are doing.",
+      "range": {
+        "startLine": 159,
+        "startChar": 3,
+        "endLine": 159,
+        "endChar": 82
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_0e4e06c2",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-03-01T22:27:21Z",
+      "side": 1,
+      "message": "If this is synchronous, (figure 2 implies the proxy waits until VM responds, then calls Nova) then what happens if the VM fails to respond? It says timeout below - so you\u0027ll ensure that you have a sufficiently short timeout that it won\u0027t impact ability of Nova to complete its transaction. How will you test this in the API path? Are we going to re-create the Tempest test environment?",
+      "range": {
+        "startLine": 166,
+        "startChar": 25,
+        "endLine": 167,
+        "endChar": 82
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_aed6dac3",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-03-01T22:27:21Z",
+      "side": 1,
+      "message": "Is there an application that is demanding this functionality because of previous failures? If not, it may be hard to get Nova to buy in.",
+      "range": {
+        "startLine": 170,
+        "startChar": 10,
+        "endLine": 178,
+        "endChar": 22
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
