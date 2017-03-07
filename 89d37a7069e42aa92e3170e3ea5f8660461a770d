@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_fc09e32c",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-03-07T08:19:28Z",
+      "side": 1,
+      "message": "My suggestion would be to use this nova proxy first before we can get this included in nova, so that we can enjoy this API quickly in the releases of OPNFV.",
+      "parentUuid": "dabed58f_ee65b245",
+      "range": {
+        "startLine": 159,
+        "startChar": 3,
+        "endLine": 159,
+        "endChar": 82
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_0e4e06c2",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 3
