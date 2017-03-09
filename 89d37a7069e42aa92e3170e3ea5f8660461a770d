@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_35d9c957",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-03-09T16:18:46Z",
+      "side": 1,
+      "message": "Therefore, all adopters of these functions would have to know that up front - it is probably worth asking them about that now. I.e., the MANO workgroup.",
+      "parentUuid": "dabed58f_b23cef30",
+      "range": {
+        "startLine": 159,
+        "startChar": 3,
+        "endLine": 159,
+        "endChar": 82
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_0e4e06c2",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 3
@@ -144,6 +168,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_15d4c51e",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-03-09T16:18:46Z",
+      "side": 1,
+      "message": "I meant on a per-transaction basis. So in your busy VM use case below, are there any race conditions associated with partial-offloads and initiated migrations?",
+      "parentUuid": "dabed58f_f28827e9",
+      "range": {
+        "startLine": 166,
+        "startChar": 25,
+        "endLine": 167,
+        "endChar": 82
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_aed6dac3",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 3
@@ -179,6 +227,30 @@
       "side": 1,
       "message": "We have customers / end-users of our product that are leveraging this functionality.\n\ne.g. just recently we had a customer whose VM was typically so busy that it was impossible for it to live-migrate as its memory was changing faster than could be synchronized.  It leveraged this functionality in order to temporarily offload when a live-migrate was about to occur.",
       "parentUuid": "dabed58f_aed6dac3",
+      "range": {
+        "startLine": 170,
+        "startChar": 10,
+        "endLine": 178,
+        "endChar": 22
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_b51db911",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 830
+      },
+      "writtenOn": "2017-03-09T16:18:46Z",
+      "side": 1,
+      "message": "OK, this is an interesting use case that could force some kind of attention. However, you\u0027ll need support of the VNFM community to propose this. We should seek that input. I also think that this should not be a transparent change in behavior of an existing action. I think the VNFM should explicitly know what it is requesting. If nothing else, it would be important to get their input.",
+      "parentUuid": "dabed58f_727437fd",
       "range": {
         "startLine": 170,
         "startChar": 10,
