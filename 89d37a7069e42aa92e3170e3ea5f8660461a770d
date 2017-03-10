@@ -192,6 +192,30 @@
     },
     {
       "key": {
+        "uuid": "dabed58f_669c756a",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-10T15:19:51Z",
+      "side": 1,
+      "message": "the VM can engineer this himself ... as when the VM registers for notifications, it can specify timeout values to be used when the host interacts with it.\n\nSo VM can set the timeout values in order to give it adequate time to offload.",
+      "parentUuid": "dabed58f_15d4c51e",
+      "range": {
+        "startLine": 166,
+        "startChar": 25,
+        "endLine": 167,
+        "endChar": 82
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dabed58f_aed6dac3",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 3
@@ -251,6 +275,30 @@
       "side": 1,
       "message": "OK, this is an interesting use case that could force some kind of attention. However, you\u0027ll need support of the VNFM community to propose this. We should seek that input. I also think that this should not be a transparent change in behavior of an existing action. I think the VNFM should explicitly know what it is requesting. If nothing else, it would be important to get their input.",
       "parentUuid": "dabed58f_727437fd",
+      "range": {
+        "startLine": 170,
+        "startChar": 10,
+        "endLine": 178,
+        "endChar": 22
+      },
+      "revId": "89d37a7069e42aa92e3170e3ea5f8660461a770d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_06901942",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-10T15:19:51Z",
+      "side": 1,
+      "message": "I understand your comment about VNFM.\nI recently was reading some of the original DOCTOR requirements, and specifically looking at the \u0027maintenance\u0027 sections ( which i am not sure have been implemented by any project ... e.g. don\u0027t think Vitrage manages this ).  But anyways, in the \u0027maintenance\u0027 section they had the USE CASE where an ADMINISTRATIVE LOCK was being done on a HOST, and the flow of activity was ... rather than just immediately attempt to live-migrate VMs off of HOST ... they suggested that the \u0027maintenance\u0027 entity would change the VM states to \u0027maintenance\u0027, so as to inform VNFMs of VM state change, and then let VNFM either terminate or live-migrate VMs ... while \u0027maintenance\u0027 entity waited for a defined timeout before proceeding with the LOCK of the HOST.\n\nperhaps the DOCTOR interpretation of this USE CASE would be to have NOVA PROXY change the state of the affected VM, to \u0027pendingSuspend\u0027, which would notify VNFM which would communicate with VNF ... etc. ... \n\n( would have to work thru this flow in more detail if we think this is the better path )\n\nSome other thoughts wrt this \u0027thru VNFM\u0027 approach:\n- would have to handle scenario where it was the VNFM that sent the original VM request\n- would need a mechanism for VNFM to provide feedback ... maybe changing VM state back to running or pendingOK ... NOVA PROXY sets it back to Running and forwards command to NOVA\n- this no longer uses the HOST-to-Guest virtual serial device messaging path ... not that that is bad ... just noting \n\n... maybe lets discuss this on Wednesday.",
+      "parentUuid": "dabed58f_b51db911",
       "range": {
         "startLine": 170,
         "startChar": 10,
