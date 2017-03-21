@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_6ef8f5e5",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "I will remove the whitespace at end of lines.\n\nIs there something else that needs to be done to \"prepare\" the document for the OPNFV doc toolchain?",
+      "parentUuid": "9ab8dda7_e2bdde03",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_62580efb",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2017-03-21T08:57:40Z",
       "side": 1,
       "message": "Please explain the interworking between such notifications and the VNFM. In an NFV environment, it doesn\u0027t make sense to notify VMs without considering the VNFM. No VNF can react on such events without it\u0027s VNFM. This is not an issue about low level or high level, but of NFV principles.\n\nPlease explain also the relation to doctor\u0027s notifications. We do not want to introduce two conflicting mechanisms.",
+      "range": {
+        "startLine": 42,
+        "startChar": 10,
+        "endLine": 44,
+        "endChar": 50
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_8e3769b0",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "\"VM Event Notification and Feedback\" is the OpenStack HOST \u0027notifying\u0027 the GUEST VM of a pending operation (e.g. stop, suspend, ...) on the VM.\n\nYes, have got this feedback in HA Team\u0027s review of this document ... have discussed (in gerrit comments) about re-structuring this to notify VNFM first and let VNFM decide how to handle the notification ... which might involve notifying the VNF/VM.  \n\nThis is a specific USE CASE that we plan on walking through in more detail when we review this document with the MANO Team.",
+      "parentUuid": "9ab8dda7_62580efb",
       "range": {
         "startLine": 42,
         "startChar": 10,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_6e46b525",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "This statement is just saying that the HOST-to-GUEST messaging is available very early in the lifecycle of a VM ... its not suggesting that the protocols running over this messaging layer are managing the VM Lifecycle.\n\nHigh-level interactions of the 3 proposed capabilities with VNFM are described in the detailed sections on the capabilities.  Although currently, only the \u0027VM Heartbeating and Health Checking\u0027 capability interacts indirectly with VNFM.",
+      "parentUuid": "9ab8dda7_825d02ec",
+      "range": {
+        "startLine": 51,
+        "startChar": 7,
+        "endLine": 51,
+        "endChar": 26
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_a205a6c3",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -82,6 +154,30 @@
       "writtenOn": "2017-03-21T08:57:40Z",
       "side": 1,
       "message": "What about interactions with the VNFM? The VNFM is responsible for the VM\u0027s lifecycle, so it needs to be involved.",
+      "range": {
+        "startLine": 53,
+        "startChar": 50,
+        "endLine": 54,
+        "endChar": 15
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_0e4b792c",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "These interactions, if any, are covered in the detailed sections on each of the 3 high-level capabilities.",
+      "parentUuid": "9ab8dda7_a205a6c3",
       "range": {
         "startLine": 53,
         "startChar": 50,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_2e6f5d94",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "With VM Heartbeating and Health Checking, it is the HOST monitoring the GUEST VM, and the HOST reporting the learned heartbeat/health state to DOCTOR infrastructure and ultimately to VNFM.  There is NO notification being done back to the VM in this USE CASE.  (I think you might be confusing it with the 2nd capability being proposed to notify VMs of pending cloud operations on the VM. )",
+      "parentUuid": "9ab8dda7_e202beb3",
+      "range": {
+        "startLine": 109,
+        "startChar": 35,
+        "endLine": 111,
+        "endChar": 38
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_22e77614",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_2ef67dd8",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "The GUEST VM is registering with the OpenStack Guest Heartbeat Service on the Compute Node in order to request the OpenStack Compute Node to heartbeat itself (the Guest VM).  The OpenStack Compute Node will start heartbeating the VM, and if the heartbeat fails, OpenStack Compute Node will report the VM Fault thru DOCTOR and ultimately VNFM will see this thru NOVA VM State Change Notifications thru AODH.  So VNFM would see the VM Heartbeat Failure events in the same way it sees all other VM Faults ... thru DOCTOR initiated VM state changes.\n\nIf you are asking whether VNFM, running as a VM itself, could request to be heartbeated by the OpenStack Compute Node ... then the answer would be yes, the service is available too any VM.  But don\u0027t think that is what you are asking.",
+      "parentUuid": "9ab8dda7_22e77614",
+      "range": {
+        "startLine": 121,
+        "startChar": 3,
+        "endLine": 122,
+        "endChar": 70
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_a2d36637",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -151,6 +295,30 @@
       "writtenOn": "2017-03-21T08:57:40Z",
       "side": 1,
       "message": "So double notifications will lead to race conditions between VNFC and VNFM. I am not sure that will increase availability.",
+      "range": {
+        "startLine": 128,
+        "startChar": 7,
+        "endLine": 128,
+        "endChar": 88
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_0e205948",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "There is no double notification ... i\u0027ll try to re-word to make this more clear.\n\nThe Compute Node is heartbeating the Guest VM thru virtio serial device.\nIf heartbeating fails, Compute Node reports VM heartbeat failure to Vitrage.\n\nThat\u0027s it.\n\nYou can think of this Heartbeating capability as simply a new \u0027data source\u0027 for VM Faults into Vitrage.",
+      "parentUuid": "9ab8dda7_a2d36637",
       "range": {
         "startLine": 128,
         "startChar": 7,
@@ -232,6 +400,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_ee1625f1",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "Will provide code and compile instructions.\nGuest will compile based on its OS.",
+      "parentUuid": "9ab8dda7_888f6123",
+      "range": {
+        "startLine": 169,
+        "startChar": 3,
+        "endLine": 169,
+        "endChar": 21
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_a894a537",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -278,6 +470,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_4eddf141",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "As mentioned in introduction comments, the DOCTOR comparison is not applicable.  \n\nIn DOCTOR, OpenStack Vitrage/Congress are sending VM state change notifications thru AODH to VNFM.\n\nHere, this is OpenStack NOVA or NOVA PROXY notifying VM of impending operation on the VM.",
+      "parentUuid": "9ab8dda7_4899696d",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 22
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_689ead58",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -289,6 +505,30 @@
       "writtenOn": "2017-03-21T08:57:40Z",
       "side": 1,
       "message": "Considering that the actions of the VIM might be initiated by the NFVO or VIM, this might lead to ugly race conditions. Please clarify interworking with MANO.",
+      "range": {
+        "startLine": 255,
+        "startChar": 0,
+        "endLine": 255,
+        "endChar": 17
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_0ee7f913",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-21T15:28:38Z",
+      "side": 1,
+      "message": "As mentioned in INTRODUCTION comments,\nthis currently has NO interaction with VNFM.\n\nBut as mentioned, have got this feedback in HA Team\u0027s review of this document ... have discussed (in gerrit comments) about re-structuring this to notify VNFM first and let VNFM decide how to handle the notification ... which might involve the VNFM notifying the VNF/VM.  \n\nThis is a specific USE CASE that we plan on walking through in more detail when we review this document with the MANO Team.",
+      "parentUuid": "9ab8dda7_689ead58",
       "range": {
         "startLine": 255,
         "startChar": 0,
