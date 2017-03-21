@@ -1,0 +1,326 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_e2bdde03",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "You need to remove all whitespaces at the end of lines and prepare the document for the OPNFV doc toolchain.\nReviewers must be able to look also at the generated html or pdf.",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_62580efb",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Please explain the interworking between such notifications and the VNFM. In an NFV environment, it doesn\u0027t make sense to notify VMs without considering the VNFM. No VNF can react on such events without it\u0027s VNFM. This is not an issue about low level or high level, but of NFV principles.\n\nPlease explain also the relation to doctor\u0027s notifications. We do not want to introduce two conflicting mechanisms.",
+      "range": {
+        "startLine": 42,
+        "startChar": 10,
+        "endLine": 44,
+        "endChar": 50
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_825d02ec",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "The lifecycle of VMs in NFV is controlled by a VNFM. Please explain your interactions with the VNFM.",
+      "range": {
+        "startLine": 51,
+        "startChar": 7,
+        "endLine": 51,
+        "endChar": 26
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_a205a6c3",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "What about interactions with the VNFM? The VNFM is responsible for the VM\u0027s lifecycle, so it needs to be involved.",
+      "range": {
+        "startLine": 53,
+        "startChar": 50,
+        "endLine": 54,
+        "endChar": 15
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_e202beb3",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "That would mean that the VNFM takes the appropriate action. So why notify the VM directly? Wouldn\u0027t that result in race conditions between VNFC and VNFM?`\n\nAlternatively: Do you guarantee that host-to-guest messaging reports the same hearbeat failures as Doctor does? Or do you expect that host-to-guest reports more or less or quicker?",
+      "range": {
+        "startLine": 109,
+        "startChar": 35,
+        "endLine": 111,
+        "endChar": 38
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_22e77614",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Can the VNFM register as well?",
+      "range": {
+        "startLine": 121,
+        "startChar": 3,
+        "endLine": 122,
+        "endChar": 70
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_a2d36637",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "So double notifications will lead to race conditions between VNFC and VNFM. I am not sure that will increase availability.",
+      "range": {
+        "startLine": 128,
+        "startChar": 7,
+        "endLine": 128,
+        "endChar": 88
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_82b982eb",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Please use correct rst syntax, so the document can be generated. \nSee e.g.http://www.sphinx-doc.org/en/stable/rest.html \nhttp://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs/documentation-example.html",
+      "range": {
+        "startLine": 154,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 21
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_e8729d48",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Please clarify whether \"host deliverable\" means that you write OpenStack blueprint and push implementation in which upstream modules.",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 155,
+        "endChar": 20
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_888f6123",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Do you plan to provide code in OPNFV repo and build a library that is used by the VNFs? Please clarify.",
+      "range": {
+        "startLine": 169,
+        "startChar": 3,
+        "endLine": 169,
+        "endChar": 21
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_a894a537",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "I would like to review this when there is a created html/pdf document.",
+      "range": {
+        "startLine": 214,
+        "startChar": 3,
+        "endLine": 214,
+        "endChar": 79
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_4899696d",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Please compare with doctor concept.",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 22
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_689ead58",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Considering that the actions of the VIM might be initiated by the NFVO or VIM, this might lead to ugly race conditions. Please clarify interworking with MANO.",
+      "range": {
+        "startLine": 255,
+        "startChar": 0,
+        "endLine": 255,
+        "endChar": 17
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_88b681db",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-21T08:57:40Z",
+      "side": 1,
+      "message": "Please clarify what is a server group. Please use NFV terminology.\n\nPlease clarify what is a peer for a VM in case of NFV. That is we have VMs as parts of VNFs. We also have service chains and communication paths in data plane and user plane between different VNFs. Do you also want to notify there?",
+      "range": {
+        "startLine": 323,
+        "startChar": 3,
+        "endLine": 323,
+        "endChar": 15
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
