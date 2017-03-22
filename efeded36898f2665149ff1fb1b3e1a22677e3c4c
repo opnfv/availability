@@ -120,6 +120,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_bb2ce84b",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "Good to hear. I think we should not merge this patch without this being documented.",
+      "parentUuid": "9ab8dda7_8e3769b0",
+      "range": {
+        "startLine": 42,
+        "startChar": 10,
+        "endLine": 44,
+        "endChar": 50
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_825d02ec",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -155,6 +179,30 @@
       "side": 1,
       "message": "This statement is just saying that the HOST-to-GUEST messaging is available very early in the lifecycle of a VM ... its not suggesting that the protocols running over this messaging layer are managing the VM Lifecycle.\n\nHigh-level interactions of the 3 proposed capabilities with VNFM are described in the detailed sections on the capabilities.  Although currently, only the \u0027VM Heartbeating and Health Checking\u0027 capability interacts indirectly with VNFM.",
       "parentUuid": "9ab8dda7_825d02ec",
+      "range": {
+        "startLine": 51,
+        "startChar": 7,
+        "endLine": 51,
+        "endChar": 26
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_5b1dac0e",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "I think the host-to-guest message cannot be earlier than the VNFM having started the lifecycle by initiating the creation of a VM. I still don\u0027t understand what a host-to-guest message will help if you don\u0027t notify the VNFM earlier than the VM.",
+      "parentUuid": "9ab8dda7_6e46b525",
       "range": {
         "startLine": 51,
         "startChar": 7,
@@ -214,6 +262,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_dbd8bc55",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "I think they need to be covered in the overview in a high-level way.",
+      "parentUuid": "9ab8dda7_0e4b792c",
+      "range": {
+        "startLine": 53,
+        "startChar": 50,
+        "endLine": 54,
+        "endChar": 15
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_e202beb3",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -249,6 +321,30 @@
       "side": 1,
       "message": "With VM Heartbeating and Health Checking, it is the HOST monitoring the GUEST VM, and the HOST reporting the learned heartbeat/health state to DOCTOR infrastructure and ultimately to VNFM.  There is NO notification being done back to the VM in this USE CASE.  (I think you might be confusing it with the 2nd capability being proposed to notify VMs of pending cloud operations on the VM. )",
       "parentUuid": "9ab8dda7_e202beb3",
+      "range": {
+        "startLine": 109,
+        "startChar": 35,
+        "endLine": 111,
+        "endChar": 38
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_bbbaa8df",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "Happy to hear this same heartbeating will be reported via doctor. I didn\u0027t get that clearly from the text.",
+      "parentUuid": "9ab8dda7_2e6f5d94",
       "range": {
         "startLine": 109,
         "startChar": 35,
@@ -308,6 +404,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_7bb430f2",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "I think your first paragraph clarifies the main question. \nThis is the kind of explanation of relation to VNFM I would need.\nCan you add this clarification to the document?",
+      "parentUuid": "9ab8dda7_2ef67dd8",
+      "range": {
+        "startLine": 121,
+        "startChar": 3,
+        "endLine": 122,
+        "endChar": 70
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_a2d36637",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -343,6 +463,30 @@
       "side": 1,
       "message": "There is no double notification ... i\u0027ll try to re-word to make this more clear.\n\nThe Compute Node is heartbeating the Guest VM thru virtio serial device.\nIf heartbeating fails, Compute Node reports VM heartbeat failure to Vitrage.\n\nThat\u0027s it.\n\nYou can think of this Heartbeating capability as simply a new \u0027data source\u0027 for VM Faults into Vitrage.",
       "parentUuid": "9ab8dda7_a2d36637",
+      "range": {
+        "startLine": 128,
+        "startChar": 7,
+        "endLine": 128,
+        "endChar": 88
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_9bb9e4eb",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "Thanks, now I understand this part. Maybe mention this relation to vitrage as well.",
+      "parentUuid": "9ab8dda7_0e205948",
       "range": {
         "startLine": 128,
         "startChar": 7,
@@ -448,6 +592,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_3bceb884",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "OK. If this was a separate project proposal, this would be part of the deliverables section. Maybe add at least your second sentence to the document.",
+      "parentUuid": "9ab8dda7_ee1625f1",
+      "range": {
+        "startLine": 169,
+        "startChar": 3,
+        "endLine": 169,
+        "endChar": 21
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_a894a537",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -506,6 +674,30 @@
       "side": 1,
       "message": "As mentioned in introduction comments, the DOCTOR comparison is not applicable.  \n\nIn DOCTOR, OpenStack Vitrage/Congress are sending VM state change notifications thru AODH to VNFM.\n\nHere, this is OpenStack NOVA or NOVA PROXY notifying VM of impending operation on the VM.",
       "parentUuid": "9ab8dda7_4899696d",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 22
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_5bcb6c72",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2017-03-22T13:54:33Z",
+      "side": 1,
+      "message": "I think with your answers above, things get clearer. I suggest to add that information here in the overview.",
+      "parentUuid": "9ab8dda7_4eddf141",
       "range": {
         "startLine": 218,
         "startChar": 0,
