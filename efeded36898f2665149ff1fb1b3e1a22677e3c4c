@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_85f3c709",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2017-03-22T06:16:09Z",
+      "side": 1,
+      "message": "Hi, Greg. You may find more info in the following link.\nhttp://docs.opnfv.org/en/latest/how-to-use-docs/documentation-guide.html",
+      "parentUuid": "9ab8dda7_6ef8f5e5",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_62580efb",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
