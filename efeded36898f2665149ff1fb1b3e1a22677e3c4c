@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_afcfb8af",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "Ugh ... couldn\u0027t figure out how to do it from these instructions.\n\nI generated an HTML version and PDF version and included it in COMMIT along with the .rst file.",
+      "parentUuid": "9ab8dda7_85f3c709",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_62580efb",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -144,6 +168,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_4c0c0a43",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "I added more explicit indication in the INTRODUCTION that VNFM interactions were discussed in the specific sections.\n\nAND in the VM Event Notification and Feedback section, i added a note at the beginning discussing the open item that this currently solicits feedback from VM and notifies VM of upcoming command \u0027independent\u0027 of VNFM.  i.e. even for commands issued by the VNFM, this service provides an optional check on the state of the VM and a Notification to the VM for graceful handling of the command.  An alternative approach would be to go thru the VNFM to both check the state of the VM and notify the VM of the event.  More discussion is required here with the Management and Orchestration OPNFV Team.",
+      "parentUuid": "9ab8dda7_bb2ce84b",
+      "range": {
+        "startLine": 42,
+        "startChar": 10,
+        "endLine": 44,
+        "endChar": 50
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_825d02ec",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -203,6 +251,30 @@
       "side": 1,
       "message": "I think the host-to-guest message cannot be earlier than the VNFM having started the lifecycle by initiating the creation of a VM. I still don\u0027t understand what a host-to-guest message will help if you don\u0027t notify the VNFM earlier than the VM.",
       "parentUuid": "9ab8dda7_6e46b525",
+      "range": {
+        "startLine": 51,
+        "startChar": 7,
+        "endLine": 51,
+        "endChar": 26
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_6c09ce30",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "I changed the wording to say \n\"... is available very early after spawning the VM.\"\n\nThere is not intent for host-to-guest VM messaging to be used for high-level VM lifecycle management. \n\nThe intent of the sentence is to say that the messaging mechanism is quite simple and therefore can be available very early after booting the VM.  i.e. there are very few dependencies on the messaging mechanism.",
+      "parentUuid": "9ab8dda7_5b1dac0e",
       "range": {
         "startLine": 51,
         "startChar": 7,
@@ -310,6 +382,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_0c061221",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "I added a more explicit statement in this introduction to indicate that the interaction of these services with the VNFM are further explained in the following sections.",
+      "parentUuid": "9ab8dda7_1bc5f45a",
+      "range": {
+        "startLine": 53,
+        "startChar": 50,
+        "endLine": 54,
+        "endChar": 15
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_e202beb3",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -369,6 +465,30 @@
       "side": 1,
       "message": "Happy to hear this same heartbeating will be reported via doctor. I didn\u0027t get that clearly from the text.",
       "parentUuid": "9ab8dda7_2e6f5d94",
+      "range": {
+        "startLine": 109,
+        "startChar": 35,
+        "endLine": 111,
+        "endChar": 38
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_2c03d610",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "I suspect being able to see the diagrams will help with this as well.",
+      "parentUuid": "9ab8dda7_bbbaa8df",
       "range": {
         "startLine": 109,
         "startChar": 35,
@@ -452,6 +572,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_4f3abcce",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "I added this clarification",
+      "parentUuid": "9ab8dda7_7bb430f2",
+      "range": {
+        "startLine": 121,
+        "startChar": 3,
+        "endLine": 122,
+        "endChar": 70
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_a2d36637",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -523,6 +667,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_2f3188ec",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "I updated this section.",
+      "parentUuid": "9ab8dda7_9bb9e4eb",
+      "range": {
+        "startLine": 128,
+        "startChar": 7,
+        "endLine": 128,
+        "endChar": 88
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_82b982eb",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -557,6 +725,30 @@
       "writtenOn": "2017-03-21T08:57:40Z",
       "side": 1,
       "message": "Please clarify whether \"host deliverable\" means that you write OpenStack blueprint and push implementation in which upstream modules.",
+      "range": {
+        "startLine": 155,
+        "startChar": 3,
+        "endLine": 155,
+        "endChar": 20
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_af5c9826",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "Updated.",
+      "parentUuid": "9ab8dda7_e8729d48",
       "range": {
         "startLine": 155,
         "startChar": 3,
@@ -628,6 +820,30 @@
       "side": 1,
       "message": "OK. If this was a separate project proposal, this would be part of the deliverables section. Maybe add at least your second sentence to the document.",
       "parentUuid": "9ab8dda7_ee1625f1",
+      "range": {
+        "startLine": 169,
+        "startChar": 3,
+        "endLine": 169,
+        "endChar": 21
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_2f48a85a",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "Updated",
+      "parentUuid": "9ab8dda7_3bceb884",
       "range": {
         "startLine": 169,
         "startChar": 3,
@@ -734,6 +950,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_cf746c9e",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "Updated",
+      "parentUuid": "9ab8dda7_5bcb6c72",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 218,
+        "endChar": 22
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_689ead58",
         "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 4
@@ -792,6 +1032,30 @@
       "writtenOn": "2017-03-21T08:57:40Z",
       "side": 1,
       "message": "Please clarify what is a server group. Please use NFV terminology.\n\nPlease clarify what is a peer for a VM in case of NFV. That is we have VMs as parts of VNFs. We also have service chains and communication paths in data plane and user plane between different VNFs. Do you also want to notify there?",
+      "range": {
+        "startLine": 323,
+        "startChar": 3,
+        "endLine": 323,
+        "endChar": 15
+      },
+      "revId": "efeded36898f2665149ff1fb1b3e1a22677e3c4c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_4f687cba",
+        "filename": "Support_For_HA_Guest_APIs/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-03-27T16:36:03Z",
+      "side": 1,
+      "message": "Updated with description of Server Group and Peer VM",
+      "parentUuid": "9ab8dda7_88b681db",
       "range": {
         "startLine": 323,
         "startChar": 3,
