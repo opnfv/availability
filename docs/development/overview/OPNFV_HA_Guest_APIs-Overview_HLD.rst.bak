@@ -170,16 +170,16 @@ VM Heartbeating and Health Checking
 
    + a Heartbeat / Health-Check Message Specification covering
    
-   - Heartbeat / Health-Check Application Layer JSON Protocol,
-   - Base Host-to-Guest JSON Protocol,
-   - Details on the use of the underlying 'virtio serial device',
+      - Heartbeat / Health-Check Application Layer JSON Protocol,
+      - Base Host-to-Guest JSON Protocol,
+      - Details on the use of the underlying 'virtio serial device',
 
    + a Reference Implementation of the Guest-side support of
      Heartbeat / Health-check containing the peer protocol layers
      within the Guest.
 
-   - will provide code and compile instructions,
-   - Guest will compile based on its specific OS.
+      - will provide code and compile instructions,
+      - Guest will compile based on its specific OS.
 
    This proposal requires review with OPNFV's Doctor and Management & Orchestration
    teams, and OpenStack's Nova Team.
