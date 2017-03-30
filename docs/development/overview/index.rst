@@ -5,12 +5,11 @@
 .. (c) <optionally add copywriters name>
 
 
-*********************************
-OPNFV HA Guest APIs -- Overview
-*********************************
+*********************************************************************
+PROPOSAL:  Reach-thru Guest Monitoring and Services for High Availability
+*********************************************************************
 
 .. toctree::
-   :numbered:
-   :maxdepth: 2
+   :maxdepth: 4
 
    OPNFV_HA_Guest_APIs-Overview_HLD.rst

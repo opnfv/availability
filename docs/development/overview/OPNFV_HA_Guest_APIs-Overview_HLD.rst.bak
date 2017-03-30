@@ -1,9 +1,9 @@
-=========================================================================
+*********************************************************************
 PROPOSAL:  Reach-thru Guest Monitoring and Services for High Availability
-=========================================================================
---------
+*********************************************************************
+
 Overview
---------
+=====================================================================
 
 :author: Greg Waines
 :organization: Wind River Systems
@@ -28,7 +28,7 @@ Overview
 
 
 Introduction
-============
+=====================================================================
 
    This document provides an overview and rationale for a PROPOSAL
    of a set of new capabilities where the OpenStack Cloud messages
@@ -61,7 +61,7 @@ Introduction
 
 
 Messaging Layer
-===============
+========================================================================
 
    The Host-to-Guest messaging APIs used by the services discussed
    in this document use a JSON-formatted application messaging layer
@@ -92,7 +92,7 @@ Messaging Layer
 
 
 VM Heartbeating and Health Checking
-===================================
+============================================================================
 
    Normally OpenStack monitoring of the health of a Guest VM is limited
    to a black-box approach of simply monitoring the presence of the
@@ -126,7 +126,7 @@ VM Heartbeating and Health Checking
    Part of the Guest VM's registration process is the specification of the
    heartbeat interval in msecs.  I.e. the registering Guest VM specifies the
    heartbeating interval.
-   
+
    Guest heartbeat works on a challenge response model.  The OpenStack
    Guest Heartbeat Service on the compute node will challenge the registered
    Guest VM daemon with a message each interval.  The registered Guest VM daemon
@@ -169,7 +169,7 @@ VM Heartbeating and Health Checking
    - Guest Deliverables:
 
    + a Heartbeat / Health-Check Message Specification covering
-   
+ 
       - Heartbeat / Health-Check Application Layer JSON Protocol,
       - Base Host-to-Guest JSON Protocol,
       - Details on the use of the underlying 'virtio serial device',
@@ -187,7 +187,7 @@ VM Heartbeating and Health Checking
 
 
 VM Peer State Notification and Messaging
-========================================
+===================================================================================
 
    Server Group State Notification and Messaging is a service to provide
    simple low-bandwidth datagram messaging and notifications for servers that
@@ -252,7 +252,7 @@ VM Peer State Notification and Messaging
    - Guest Deliverables:
 
    + a Server Group Messaging Message Specification covering
-   
+ 
       - Server Group Messaging Application Layer JSON Protocol,
       - [ leveraging Base Host-to-Guest JSON Protocol from previous section ],
       - [ leveraging Details on the use of the underlying 'virtio serial device' from previous section ],
@@ -266,7 +266,7 @@ VM Peer State Notification and Messaging
 
 
 Conclusion
-==========
+======================================================================================
 
    The PROPOSAL of Reach-thru Guest Monitoring and Services described in this document
    leverage Host-to-Guest messaging to provide a number of extended capabilities

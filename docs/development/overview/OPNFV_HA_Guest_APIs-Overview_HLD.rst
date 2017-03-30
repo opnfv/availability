@@ -1,7 +1,3 @@
-*********************************************************************
-PROPOSAL:  Reach-thru Guest Monitoring and Services for High Availability
-*********************************************************************
-
 Overview
 =====================================================================
 
@@ -169,7 +165,7 @@ VM Heartbeating and Health Checking
    - Guest Deliverables:
 
    + a Heartbeat / Health-Check Message Specification covering
- 
+
       - Heartbeat / Health-Check Application Layer JSON Protocol,
       - Base Host-to-Guest JSON Protocol,
       - Details on the use of the underlying 'virtio serial device',
@@ -252,7 +248,7 @@ VM Peer State Notification and Messaging
    - Guest Deliverables:
 
    + a Server Group Messaging Message Specification covering
- 
+
       - Server Group Messaging Application Layer JSON Protocol,
       - [ leveraging Base Host-to-Guest JSON Protocol from previous section ],
       - [ leveraging Details on the use of the underlying 'virtio serial device' from previous section ],
