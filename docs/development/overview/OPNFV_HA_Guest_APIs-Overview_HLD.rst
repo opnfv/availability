@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) <optionally add copywriters name>
 ====================================
 OPNFV HA Guest APIs -- Overview
 ====================================
-=======
+=====================================================================
 Overview
 =====================================================================
 
@@ -69,11 +68,11 @@ Messaging Layer
 
    The Host-to-Guest messaging APIs used by the services discussed
    in this document use a JSON-formatted application messaging layer
-   on top of a ‘virtio serial device’ between QEMU on the OpenStack Host
+   on top of a ‘virtio serial device�?between QEMU on the OpenStack Host
    and the Guest VM.  JSON formatting provides a simple, humanly readable
    messaging format which can be easily parsed and formatted using any
    high level programming language being used in the Guest VM (e.g. C/C++,
-   Python, Java, etc.).  Use of the ‘virtio serial device’ provides a
+   Python, Java, etc.).  Use of the ‘virtio serial device�?provides a
    simple, direct communication channel between host and guest which is
    independent of the Guest’s L2/L3 networking.
 
@@ -82,7 +81,7 @@ Messaging Layer
    Application JSON Message Layer:
 
         - the Base Layer provides the ability to multiplex different groups
-          of message types on top of a single ‘virtio serial device’
+          of message types on top of a single ‘virtio serial device�?
           e.g.
 
            + heartbeating and healthchecks,
