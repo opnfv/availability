@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_27a66811",
+        "filename": "docs/development/overview/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 346
+      },
+      "writtenOn": "2017-04-18T14:55:42Z",
+      "side": 1,
+      "message": "I would suggest to align your figure with the one defined on slide 7 @ https://wiki.opnfv.org/download/attachments/5046291/Vitrage_Congress_OSSummit_Barcelona.final.pptx?version\u003d1\u0026modificationDate\u003d1481611382000\u0026api\u003dv2\n\nAlso if you agree with the above suggestion, replace \"Vitrage data source\" by e.g. \"Doctor SB API\".",
+      "range": {
+        "startLine": 102,
+        "startChar": 14,
+        "endLine": 102,
+        "endChar": 75
+      },
+      "revId": "d84aef34b8d3c6397fb0ef8df5bacca8c130c03d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_879f14b4",
+        "filename": "docs/development/overview/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 346
+      },
+      "writtenOn": "2017-04-18T14:55:42Z",
+      "side": 1,
+      "message": "Could you please also add Congress?",
+      "range": {
+        "startLine": 193,
+        "startChar": 52,
+        "endLine": 193,
+        "endChar": 59
+      },
+      "revId": "d84aef34b8d3c6397fb0ef8df5bacca8c130c03d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
