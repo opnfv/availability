@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_6ab8a0e5",
+        "filename": "docs/development/overview/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-04-24T17:02:03Z",
+      "side": 1,
+      "message": "Agree ... will  add suggested figure (with Guest Heartbeat/HealthCheck modifications), in addition to the existing figure i have.\n\nWill make suggested change to \u0027Doctor SouthBound (SB) API\u0027",
+      "parentUuid": "9ab8dda7_27a66811",
+      "range": {
+        "startLine": 102,
+        "startChar": 14,
+        "endLine": 102,
+        "endChar": 75
+      },
+      "revId": "d84aef34b8d3c6397fb0ef8df5bacca8c130c03d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_879f14b4",
         "filename": "docs/development/overview/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2017-04-18T14:55:42Z",
       "side": 1,
       "message": "Could you please also add Congress?",
+      "range": {
+        "startLine": 193,
+        "startChar": 52,
+        "endLine": 193,
+        "endChar": 59
+      },
+      "revId": "d84aef34b8d3c6397fb0ef8df5bacca8c130c03d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_4ab59cec",
+        "filename": "docs/development/overview/OPNFV_HA_Guest_APIs-Overview_HLD.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2017-04-24T17:02:03Z",
+      "side": 1,
+      "message": "Agree.\nWill update.",
+      "parentUuid": "9ab8dda7_879f14b4",
       "range": {
         "startLine": 193,
         "startChar": 52,
