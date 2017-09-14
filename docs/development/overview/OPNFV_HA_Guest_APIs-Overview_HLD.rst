@@ -5,16 +5,16 @@ Overview
 :organization: Wind River Systems
 :organization: OPNFV - High Availability
 :status: Draft - PROPOSAL
-:date: March 2017
-:revision: 1.5
+:date: April 2017
+:revision: 1.6
 
-:abstract: This document presents a PROPOSAL for a set of new
-   optional capabilities where the OpenStack Cloud messages
-   into the Guest VMs in order to provide improved Availability
-   of the hosted VMs.  The initial set of new capabilities
-   include: enabling the detection of and recovery from internal
-   VM faults and providing a simple out-of-band messaging service
-   to prevent scenarios such as split brain.
+:abstract: This document describes a set of new optional
+   capabilities where the OpenStack Cloud messages into the Guest
+   VMs in order to provide improved Availability of the hosted VMs.
+   The initial set of new capabilities include: enabling the
+   detection of and recovery from internal VM faults and providing
+   a simple out-of-band messaging service to prevent scenarios such
+   as split brain.
 
 
 .. sectnum::
@@ -26,8 +26,8 @@ Overview
 Introduction
 =====================================================================
 
-   This document provides an overview and rationale for a PROPOSAL
-   of a set of new capabilities where the OpenStack Cloud messages
+   This document provides an overview and rationale for a
+   set of new capabilities where the OpenStack Cloud messages
    into the Guest VMs in order to provide improved Availability
    of the hosted VMs.
 
@@ -48,10 +48,6 @@ Introduction
    the larger OpenStack and OPNFV Architectures (e.g. interactions
    with VNFM), specific OPNFV HA Team deliverables, and the use cases
    for how availability of the hosted VM is improved.
-
-   The intent is for the OPNFV HA Team to review the proposals of this
-   document with the related other teams in OPNFV (Doctor and Management
-   & Orchestration (MANO)) and OpenStack (Nova).
 
 
 
@@ -92,17 +88,22 @@ VM Heartbeating and Health Checking
 
    Normally OpenStack monitoring of the health of a Guest VM is limited
    to a black-box approach of simply monitoring the presence of the
-   QEMU/KVM PID containing the VM.
+   QEMU/KVM PID containing the VM, and/or by enabling libvirt's emulated
+   hardware watchdog.
 
-   VM Heartbeating and Health Checking provides a heartbeat service to monitor
-   the health of guest application(s) within a VM running under the OpenStack
-   Cloud.  Loss of heartbeat or a failed health check status will result in a
-   fault event being reported to OPNFV's DOCTOR infrastructure for alarm
-   identification, impact analysis and reporting.  This would then enable VNF
-   Managers (VNFMs) listening to OPNFV's DOCTOR External Alarm Reporting through
+   VM Heartbeating and Health Checking provides a heartbeat service to enhance
+   the monitoring of the health of guest application(s) within a VM running
+   under the OpenStack Cloud.  Loss of heartbeat or a failed health check status
+   will result in a fault event being reported to OPNFV's DOCTOR infrastructure
+   for alarm identification, impact analysis and reporting.  This would then enable
+   VNF Managers (VNFMs) listening to OPNFV's DOCTOR External Alarm Reporting through
    Telemetry's AODH, to initiate any required fault recovery actions.
 
    .. image:: OPNFV_HA_Guest_APIs-Overview_HLD-Guest_Heartbeat-FIGURE-1.png
+
+   Or, in the context of the OPNFV DOCTOR's Fault Management Architecture:
+
+   .. image:: OPNFV_HA_Guest_APIs-Overview_HLD-Guest_Heartbeat-FIGURE-1b.png
 
    The VM Heartbeating and Health Checking functionality is enabled on
    a VM through a new flavor extraspec indicating that the VM supports
@@ -115,8 +116,8 @@ VM Heartbeating and Health Checking
    (i.e. the Guest VM).  The OpenStack Compute Node will start heartbeating the
    Guest VM, and if the heartbeat fails, the OpenStack Compute Node will report
    the VM Fault thru DOCTOR and ultimately VNFM will see this thru NOVA VM
-   State Chagne Notifications thru AODH.  I.e. VNFM wouild see the VM Heartbeat
-   Failure events in teh same way it sees all other VM Faults, thru DOCTOR
+   State Change Notifications thru AODH.  I.e. VNFM wouild see the VM Heartbeat
+   Failure events in the same way it sees all other VM Faults, thru DOCTOR
    initiated VM state changes.
 
    Part of the Guest VM's registration process is the specification of the
@@ -130,8 +131,13 @@ VM Heartbeating and Health Checking
    If the OpenStack Host does not receive a valid response, or if the response
    specifies that the VM is in ill health, then a fault event for the Guest VM
    is reported to the OpenStack Guest Heartbeat Service on the controller node which
-   will report the event to OPNFV's DOCTOR (i.e. thru the OpenStack Vitrage data
-   source APIs).
+   will report the event to OPNFV's DOCTOR (i.e. thru the Doctor SouthBound (SB)
+   APIs).
+
+   In summary, the Guest Heartbeating Messaging Specification is quite simple,
+   including the following PDUs: Init, Init-Ack, Challenge-Request,
+   Challenge-Response, Exit.  The Challenge-Response returning a healthy /
+   not-healthy boolean.
 
    The registered Guest VM daemon's response to the challenge can be as simple
    as just immediately responding with OK.  This alone allows for detection of
@@ -177,8 +183,19 @@ VM Heartbeating and Health Checking
       - will provide code and compile instructions,
       - Guest will compile based on its specific OS.
 
-   This proposal requires review with OPNFV's Doctor and Management & Orchestration
-   teams, and OpenStack's Nova Team.
+   NOTE that the described VM Heartbeating and Healthchecking functionality provides
+   enhanced monitoring over and above libvirt's emulated hardware watchdog.  VM
+   Heartbeating and Healthchecking can detect a wider range of issues than simply
+   lack of cpu time scheduling for a lower priority process feeding the hardware
+   watchdog.  VM Heartbeating and Healthchecking can ensure that specific key processes
+   within the application are not blocked, kernel resources for basic IO within
+   the Guest VM are available, and/or ensure the application-specific health of the VM
+   is good.
+
+   This proposal has been reviewed with both the OPNFV's Doctor and Management
+   and Orchestration teams, and general agreement was that the proposal integrated
+   / inter-worked correctly with the OPNFV DOCTOR's Vitrage, Congress and the overall
+   OPNFV fault reporting architecture.
 
 
 
@@ -257,19 +274,23 @@ VM Peer State Notification and Messaging
      Server Group Messaging containing the peer protocol layers
      and Guest Application hooks within the Guest.
 
-   This proposal requires review with OPNFV's Management & Orchestration team and
-   OpenStack's Nova Team.
+   This proposal has been reviewed with both the OPNFV's Doctor and Management
+   and Orchestration teams, and general agreement was that the proposal did not
+   conflict with the OPNFV Doctor Architecture, and provided, at the very least,
+   an alternative messaging and state-change-notification mechanism for hosted
+   VMs in various HA use cases.
+
 
 
 Conclusion
 ======================================================================================
 
-   The PROPOSAL of Reach-thru Guest Monitoring and Services described in this document
+   The Reach-thru Guest Monitoring and Services described in this document
    leverage Host-to-Guest messaging to provide a number of extended capabilities
    that improve the Availability of the hosted VMs.  These new capabilities
    enable detection of and recovery from internal VM faults and provides a simple
    out-of-band messaging service to prevent scenarios such as split brain.
 
-   The integration of these proposed new capabilities into the larger OpenStack and OPNFV
-   Architectures need to be reviewed with the other related teams in OPNFV (Doctor and
-   Management & Orchestration (MANO)) and OpenStack (Nova).
+   The next steps in progressing this proposal will be to submit blueprints to
+   the appropriate OpenStack working groups;  Vitrage for VM Heartbeating and
+   Healthchecking and Nova for VM Server Group Messaging.
