@@ -6,7 +6,7 @@
 
 
 *********************************************************************************
-Reach-thru Guest Monitoring and Services for High Availability (Work in Progress)
+Reach-thru Guest Monitoring and Services for High Availability
 *********************************************************************************
 
 .. toctree::
