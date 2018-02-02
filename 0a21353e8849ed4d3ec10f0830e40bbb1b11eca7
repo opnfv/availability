@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a3d3df0_7b000802",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "general formatting comment on this document ... the lines are not wrapping in the standard browser editor ... a little annoying for reviewing this.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 62
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_5b0f0437",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "target",
+      "range": {
+        "startLine": 22,
+        "startChar": 43,
+        "endLine": 22,
+        "endChar": 49
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_3b0a0026",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "constraints",
+      "range": {
+        "startLine": 68,
+        "startChar": 289,
+        "endLine": 68,
+        "endChar": 299
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_9b050c16",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "I think there should be an additional more-strict SAL that applies to typical Telecom requirements.\ni.e.\n\nFailure Detection Time: \u003c 0.5 s\nFailure Recovery Time: \u003c 0.5 s\n\nNOTE - i am assuming here that after Failure Recovery the \u0027service\u0027 is no longer experiencing any outage.\ne.g. for this more strict SAL, the overall service outage would be 0.5s + 0.5s \u003d 1s",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 88
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_d602cb08",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "balancer",
+      "range": {
+        "startLine": 140,
+        "startChar": 48,
+        "endLine": 140,
+        "endChar": 55
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_36117752",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "balanced",
+      "range": {
+        "startLine": 163,
+        "startChar": 335,
+        "endLine": 163,
+        "endChar": 342
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_961cc36b",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "balancer",
+      "range": {
+        "startLine": 163,
+        "startChar": 379,
+        "endLine": 163,
+        "endChar": 386
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_1620b399",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 6367
+      },
+      "writtenOn": "2018-02-02T20:38:07Z",
+      "side": 1,
+      "message": "Some implementations of VIM could use Active / Standby for these components\n\nThere is no requirement that active/active be used for these components.",
+      "range": {
+        "startLine": 187,
+        "startChar": 1,
+        "endLine": 220,
+        "endChar": 100
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
