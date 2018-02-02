@@ -1,0 +1,76 @@
+---
+project: 'High Availability for OPNFV (availability)'
+project_creation_date: ''
+project_category: 'Requirements'
+lifecycle_state: ''
+project_lead: &opnfv_availability_ptl
+    name: 'Qiao Fu'
+    email: 'fuqiao@chinamobile.com'
+    id: 'fuqiao'
+    company: 'chinamobile.com'
+    timezone: 'Unknown'
+primary_contact: *opnfv_availability_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opnfv.org/projects/HA'
+    key: 'HA'
+mailing_list:
+    type: 'mailman2'
+    url: 'opnfv-tech-discuss@lists.opnfv.org'
+    tag: '[availability]'
+realtime_discussion:
+    type: irc
+    server: 'freenode.net'
+    channel: '#opnfv-availability'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda:  # eg: 'https://wiki.opnfv.org/display/'
+      url:  # eg: 'https://global.gotomeeting.com/join/819733085'
+      server: 'freenode.net'
+      channel: '#opnfv-meeting'
+      repeats: 'weekly'
+      time:  # eg: '16:00 UTC'
+repositories:
+    - 'availability'
+committers:
+    - <<: *opnfv_availability_ptl
+    - name: 'Palani Chinnakannan'
+      email: 'pals@cisco.com'
+      company: 'cisco.com'
+      id: 'pals'
+    - name: 'Jonas Bjurel'
+      email: 'jonas.bjurel@ericsson.com'
+      company: 'ericsson.com'
+      id: 'jonasbjurel'
+    - name: 'Stefan Arntzen'
+      email: 'stefan.arntzen@huawei.com'
+      company: 'huawei.com'
+      id: 'sta'
+    - name: 'Yifei Xue'
+      email: 'xueyifei@huawei.com'
+      company: 'huawei.com'
+      id: 'xueyifei1988'
+    - name: 'Maria Toeroe'
+      email: 'maria.toeroe@ericsson.com'
+      company: 'ericsson.com'
+      id: 'Marika'
+    - name: 'Edgar StPierre'
+      email: 'edgar.stpierre@dell.com'
+      company: 'dell.com'
+      id: 'estpierre'
+    - name: 'Ian Jolliffe'
+      email: 'ian.jolliffe@windriver.com'
+      company: 'windriver.com'
+      id: 'Ian_Jolliffe'
+    - name: 'Yue Yuan'
+      email: 'yuan.yue@zte.com.cn'
+      company: 'zte.com.cn'
+      id: 'yuan.yue'
+    - name: 'Aric Gardner'
+      email: 'agardner@linuxfoundation.org'
+      company: 'linuxfoundation.org'
+      id: 'agardner'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'http//meetbot.opnfv.org/meetings/'
+    # yamllint enable rule:line-length
