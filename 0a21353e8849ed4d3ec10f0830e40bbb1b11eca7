@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_67eb4bdc",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_7b000802",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 62
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_5b0f0437",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2018-02-02T20:38:07Z",
       "side": 1,
       "message": "target",
+      "range": {
+        "startLine": 22,
+        "startChar": 43,
+        "endLine": 22,
+        "endChar": 49
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_c7bdf7d9",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_5b0f0437",
       "range": {
         "startLine": 22,
         "startChar": 43,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_a7c0b350",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_3b0a0026",
+      "range": {
+        "startLine": 68,
+        "startChar": 289,
+        "endLine": 68,
+        "endChar": 299
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_9b050c16",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 1
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_07ab5f89",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "The metrics here is just copied form existing HA document in HA project. And I wonder from where to get a reference value for these metrics is better. Moreover, I think more metrics can be added in this section in future versions of this document.",
+      "parentUuid": "9a3d3df0_9b050c16",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 88
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_d602cb08",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 1
@@ -105,6 +201,30 @@
       "writtenOn": "2018-02-02T20:38:07Z",
       "side": 1,
       "message": "balancer",
+      "range": {
+        "startLine": 140,
+        "startChar": 48,
+        "endLine": 140,
+        "endChar": 55
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_e7ad9b9c",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_d602cb08",
       "range": {
         "startLine": 140,
         "startChar": 48,
@@ -163,6 +283,54 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_2793035c",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_961cc36b",
+      "range": {
+        "startLine": 163,
+        "startChar": 379,
+        "endLine": 163,
+        "endChar": 386
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_4798c777",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_36117752",
+      "range": {
+        "startLine": 163,
+        "startChar": 335,
+        "endLine": 163,
+        "endChar": 342
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_1620b399",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 1
@@ -174,6 +342,30 @@
       "writtenOn": "2018-02-02T20:38:07Z",
       "side": 1,
       "message": "Some implementations of VIM could use Active / Standby for these components\n\nThere is no requirement that active/active be used for these components.",
+      "range": {
+        "startLine": 187,
+        "startChar": 1,
+        "endLine": 220,
+        "endChar": 100
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_8775af33",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "This table is used to show HA mechanisms used in current OPNFV installers(I\u0027ll add a column for installer later if I find different HA implementations on different installers), and HA test cases can be traced. So it\u0027s not a table that what HA mechanism is required to implement for different VIM components.",
+      "parentUuid": "9a3d3df0_1620b399",
       "range": {
         "startLine": 187,
         "startChar": 1,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_c78b371d",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_f6df0f38",
+      "range": {
+        "startLine": 225,
+        "startChar": 26,
+        "endLine": 225,
+        "endChar": 35
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_96f043ca",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 1
@@ -232,6 +448,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_67998b78",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_96f043ca",
+      "range": {
+        "startLine": 246,
+        "startChar": 54,
+        "endLine": 246,
+        "endChar": 60
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_36e5f708",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 1
@@ -243,6 +483,30 @@
       "writtenOn": "2018-02-02T22:35:37Z",
       "side": 1,
       "message": "balance",
+      "range": {
+        "startLine": 253,
+        "startChar": 27,
+        "endLine": 253,
+        "endChar": 33
+      },
+      "revId": "0a21353e8849ed4d3ec10f0830e40bbb1b11eca7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_879e4f61",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-02-05T11:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_36e5f708",
       "range": {
         "startLine": 253,
         "startChar": 27,
