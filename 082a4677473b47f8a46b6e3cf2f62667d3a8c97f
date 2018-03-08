@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5a3f45e8_43ba28df",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-03-08T05:24:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a3f45e8_a53a3034",
+      "range": {
+        "startLine": 37,
+        "startChar": 15,
+        "endLine": 37,
+        "endChar": 27
+      },
+      "revId": "082a4677473b47f8a46b6e3cf2f62667d3a8c97f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a3f45e8_053fa426",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2018-02-24T02:38:32Z",
       "side": 1,
       "message": "linked",
+      "range": {
+        "startLine": 48,
+        "startChar": 47,
+        "endLine": 48,
+        "endChar": 54
+      },
+      "revId": "082a4677473b47f8a46b6e3cf2f62667d3a8c97f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_a3ce8c81",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-03-08T05:24:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a3f45e8_053fa426",
       "range": {
         "startLine": 48,
         "startChar": 47,
@@ -65,6 +113,24 @@
     },
     {
       "key": {
+        "uuid": "5a3f45e8_83cb9071",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-03-08T05:24:44Z",
+      "side": 1,
+      "message": "I\u0027m afraid it might be too long and dull if I give the full description of architecture decomposition. There is already a figured attached to show the whole decomposition and VIM decomposition is included in the figure.",
+      "parentUuid": "5a3f45e8_4549accf",
+      "revId": "082a4677473b47f8a46b6e3cf2f62667d3a8c97f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a3f45e8_657e68e6",
         "filename": "R4_HA_Analysis/HA_Analysis.rst",
         "patchSetId": 2
@@ -76,6 +142,24 @@
       "writtenOn": "2018-02-24T02:38:32Z",
       "side": 1,
       "message": "dose messagemq has its own HA mechenism to mase sure message send to it won\u0027t lost?",
+      "revId": "082a4677473b47f8a46b6e3cf2f62667d3a8c97f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_a37ccc21",
+        "filename": "R4_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-03-08T05:24:44Z",
+      "side": 1,
+      "message": "It should be, but I\u0027m not sure how it is implemented. I thick such HA mechanism is also the HA requirement but analysed in another scenario since message lost is another failure type. This can be added in later versions of this document.",
+      "parentUuid": "5a3f45e8_657e68e6",
       "revId": "082a4677473b47f8a46b6e3cf2f62667d3a8c97f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
