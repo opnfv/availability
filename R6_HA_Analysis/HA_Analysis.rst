@@ -256,9 +256,9 @@ HA test cases to verify them.
 +-------------------+-------------------------------------------------------+----------------------+
 | horizon           | component of Openstack Dashboard Service Horizon      |                      |
 +-------------------+-------------------------------------------------------+----------------------+
-| heat-api          | endpoint component of Openstack Stack Service Heat    |                      |
+| heat-api          | endpoint component of Openstack Stack Service Heat    | yardstick_tc091      |
 +-------------------+-------------------------------------------------------+----------------------+
-| mysqld            | database service of VIM components                    |                      |
+| mysqld            | database service of VIM components                    | yardstick_tc090      |
 +-------------------+-------------------------------------------------------+----------------------+
 
 Active/Passive Redundancy
@@ -342,10 +342,10 @@ to verify them.
 +-------------------+-------------------------------------------------------+----------------------+
 | Component         | Description                                           | Related HA Test Case |
 +===================+=======================================================+======================+
-| nova-scheduler    | Openstack compute component determines how to         |                      |
+| nova-scheduler    | Openstack compute component determines how to         | yardstick_tc088      |
 |                   | dispatch compute requests                             |                      |
 +-------------------+-------------------------------------------------------+----------------------+
-| nova-cert         | Openstack compute component that serves the Nova Cert |                      |
+| nova-cert         | Openstack compute component that serves the Nova Cert | yardstick_tc089      |
 |                   | service for X509 certificates. Used to generate       |                      |
 |                   | certificates for euca-bundle-image.                   |                      |
 +-------------------+-------------------------------------------------------+----------------------+
