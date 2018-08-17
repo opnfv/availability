@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a561d44_5c2cc8ab",
+        "filename": "R6_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2018-08-17T14:31:05Z",
+      "side": 1,
+      "message": "General observation: Version 1 contains a lot of typos not present in the base version",
+      "range": {
+        "startLine": 8,
+        "startChar": 42,
+        "endLine": 8,
+        "endChar": 47
+      },
+      "revId": "0f4e422b1ee85a8644efade1eb93177b7f1fb152",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_fc6ddc05",
+        "filename": "R6_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2018-08-17T14:31:05Z",
+      "side": 1,
+      "message": "Really \u0027hosted\u0027? isn\u0027t it \u0027host\u0027 VM?",
+      "range": {
+        "startLine": 156,
+        "startChar": 75,
+        "endLine": 156,
+        "endChar": 77
+      },
+      "revId": "0f4e422b1ee85a8644efade1eb93177b7f1fb152",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_bc4a4481",
+        "filename": "R6_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2018-08-17T14:31:05Z",
+      "side": 1,
+      "message": "This is unclear. Even in case of a more complex health check, the return will be just \u0027OK\u0027? It can be understood, as if there is more data returned about the internal state of the guest VM",
+      "range": {
+        "startLine": 243,
+        "startChar": 29,
+        "endLine": 243,
+        "endChar": 43
+      },
+      "revId": "0f4e422b1ee85a8644efade1eb93177b7f1fb152",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_9c366002",
+        "filename": "R6_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2018-08-17T14:31:05Z",
+      "side": 1,
+      "message": "I\u0027m not sure, whether this is really contributing to higher availability. If there are two concurrent mechanisms, it would be an additional task, to keep them in sync. Why should this server group messaging notification be more accurate? and if it is more accurate, what will you do with the less accurate notifications from the network?",
+      "range": {
+        "startLine": 273,
+        "startChar": 76,
+        "endLine": 275,
+        "endChar": 76
+      },
+      "revId": "0f4e422b1ee85a8644efade1eb93177b7f1fb152",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_1c2250b9",
+        "filename": "R6_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1334
+      },
+      "writtenOn": "2018-08-17T14:31:05Z",
+      "side": 1,
+      "message": "This is the key point. If you cannot talk to your peer server, it is impossible to decide, whther the peer server is down, or whether the communication is currently unavailable. Both servers MAY assume, the other one is dead, producing incompatible state changes. In this situation it is very helpfull to have an out of band communication mechanism available. So you can make a difference between \"remote server down\" and \"communication to remote server broken\"",
+      "range": {
+        "startLine": 276,
+        "startChar": 46,
+        "endLine": 278,
+        "endChar": 27
+      },
+      "revId": "0f4e422b1ee85a8644efade1eb93177b7f1fb152",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
