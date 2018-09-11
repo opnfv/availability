@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a682502_aff505cd",
+        "filename": "R6_HA_Analysis/HA_Analysis.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 4321
+      },
+      "writtenOn": "2018-09-11T07:33:33Z",
+      "side": 1,
+      "message": "test case updates belongs to another patch ,please to remove them in this patch",
+      "range": {
+        "startLine": 405,
+        "startChar": 78,
+        "endLine": 405,
+        "endChar": 93
+      },
+      "revId": "b75c5f2c413c9449335737d9854fb018b6d680a4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
