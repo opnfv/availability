@@ -153,7 +153,55 @@ The next section will illustrate detailed analysis of HA requirements on these l
 5.3 Virtual Infrastructure HA
 >>>>>>>>>>>>>>>>>>
 
-.. TBD
+
+The Virtual Infrastructure HA in OPNFV includes container HA and VM HA.
+
+Container HA
+::::::::::::::::::::::::::::
+
+The container HA in OPNFV is mainly focus on Kubernetes(K8s) platform. And using the Pod as
+the smallest unit of management, creation, and planning, the K8s' container HA actually means
+the High Availability of running Pods.
+
+Table 2 shows the potential faults of running pods in K8s. when it happens, the ReplicationController
+or ReplicaSet can prevent the services provided by the pod from being unavailable, as is shown in
+figure 3.
+
+*Table 2. Potential Faults in VIM level*
+
++------------+--------------+----------------------------------------------------+----------------+
+| Service    | Fault        | Description                                        | Severity       |
++============+==============+====================================================+================+
+|            |              | All Containers in the Pod have terminated, and     |                |
+| Running by | Pod failure  | at least one Container has terminated in failure.  | Critical       |
+| pods       |              | That is, the Container either exited with non-zero |                |
+|            |              | status or was terminated by the system.            |                |
++------------+--------------+----------------------------------------------------+----------------+
+
+.. figure:: images/Container_HA_analysis_in_K8s.png
+    :alt: VIM HA Analysis
+    :figclass: align-center
+
+    Fig 3. Container HA analysis in K8s
+    
+    
+The Replication Controller or ReplicaSet (ReplicaSet is the next-generation Replication Controller) 
+is a kind of K8s Master Components, which ensures that a specified number of pod replicas are running 
+at any one time.
+
+The following requirements are elicited for Pod HA:
+
+**[Req 5.3.1]** A pod or a homogeneous set of pods is always up and available until terminated properly.
+
+**[Req 5.3.2]** The ReplicationController or ReplicaSet should terminate the extra pods If there are 
+more pods than specified number.
+
+**[Req 5.3.3]** The ReplicationController or ReplicaSet should start more pods If there are fewer pods 
+than specified number. 
+
+**[Req 5.3.4]** The new Pod should be scheduled to other Nodes, if detecting the failure state of the 
+host or container.
+
 
 5.4 VIM HA
 >>>>>>>>>>>>>>>>>>
@@ -171,13 +219,13 @@ types:
 - **Subcomponents**: Components that implement VIM functions, which are called by Entry Point
   Components but not by users directly.
 
-Table 2 shows the potential faults that may happen on VIM layer. Currently the main focus of
+Table 3 shows the potential faults that may happen on VIM layer. Currently the main focus of
 VIM HA is the service crash of VIM components, which may occur on all types of VIM components.
 To prevent VIM services from being unavailable, Active/Active Redundancy, Active/Passive
 Redundancy and Message Queue are used for different types of VIM components, as is shown in
-figure 3.
+figure 4.
 
-*Table 2. Potential Faults in VIM level*
+*Table 3. Potential Faults in VIM level*
 
 +------------+------------------+-------------------------------------------------+----------------+
 | Service    | Fault            | Description                                     | Severity       |
@@ -189,7 +237,7 @@ figure 3.
     :alt: VIM HA Analysis
     :figclass: align-center
 
-    Fig 3. VIM HA Analysis
+    Fig 4. VIM HA Analysis
 
 
 Active/Active Redundancy
@@ -202,13 +250,13 @@ load balancer such as HAProxy.
 
 When one of the redundant VIM component fails, the load balancer should be aware of the
 instance failure, and then isolate the failed instance from being called until it is recovered.
-The requirement decomposition of Active/Active Redundancy is shown in Figure 4.
+The requirement decomposition of Active/Active Redundancy is shown in Figure 5.
 
 .. figure:: images/Active_Active_Redundancy.png
     :alt: Active/Active Redundancy Requirement Decomposition
     :figclass: align-center
 
-    Fig 4. Active/Active Redundancy Requirement Decomposition
+    Fig 5. Active/Active Redundancy Requirement Decomposition
 
 The following requirements are elicited for VIM Active/Active Redundancy:
 
@@ -223,10 +271,10 @@ recovered.
 
 **[Req 5.4.5]** Failed VIM component instances should be recovered by a cluster manager.
 
-Table 3 shows the current VIM components using Active/Active Redundancy and the corresponding
+Table 4 shows the current VIM components using Active/Active Redundancy and the corresponding
 HA test cases to verify them.
 
-*Table 3. VIM Components using Active/Active Redundancy*
+*Table 4. VIM Components using Active/Active Redundancy*
 
 +-------------------+-------------------------------------------------------+----------------------+
 | Component         | Description                                           | Related HA Test Case |
@@ -273,13 +321,13 @@ Pacemaker or Corosync) monitors these components, bringing the backup online as 
 When the main instance of a VIM component is failed, the cluster manager should be aware of the
 failure and switch the backup instance online. And the failed instance should also be recovered
 to another backup instance. The requirement decomposition of Active/Passive Redundancy is shown
-in Figure 5.
+in Figure 6.
 
 .. figure:: images/Active_Passive_Redundancy.png
     :alt: Active/Passive Redundancy Requirement Decomposition
     :figclass: align-center
 
-    Fig 5. Active/Passive Redundancy Requirement Decomposition
+    Fig 6. Active/Passive Redundancy Requirement Decomposition
 
 The following requirements are elicited for VIM Active/Passive Redundancy:
 
@@ -293,10 +341,10 @@ a backup instance.
 **[Req 5.4.9]** The alarm information of VIM component failure should be reported.
 
 
-Table 4 shows the current VIM components using Active/Passive Redundancy and the corresponding
+Table 5 shows the current VIM components using Active/Passive Redundancy and the corresponding
 HA test cases to verify them.
 
-*Table 4. VIM Components using Active/Passive Redundancy*
+*Table 5. VIM Components using Active/Passive Redundancy*
 
 +-------------------+-------------------------------------------------------+----------------------+
 | Component         | Description                                           | Related HA Test Case |
@@ -316,14 +364,14 @@ itself is not an HA mechanism, how it works ensures the high availability when r
 components subscribe to the Message Queue. When a VIM sub component fails, since there are
 other redundant components are subscribing to the Message Queue, requests still can be processed.
 And fault isolation can also be archived since failed components won't fetch requests actively.
-Also, the recovery of failed components is required. Figure 6 shows the requirement
+Also, the recovery of failed components is required. Figure 7 shows the requirement
 decomposition of Message Queue.
 
 .. figure:: images/Message_Queue.png
     :alt: Message Queue Requirement Decomposition
     :figclass: align-center
 
-    Fig 6. Message Queue Redundancy Requirement Decomposition
+    Fig 7. Message Queue Redundancy Requirement Decomposition
 
 The following requirements are elicited for Message Queue:
 
@@ -334,10 +382,10 @@ implemented by the installer.
 
 **[Req 5.4.12]** The alarm information of VIM component failure should be reported.
 
-Table 5 shows the current VIM components using Message Queue and the corresponding HA test cases
+Table 6 shows the current VIM components using Message Queue and the corresponding HA test cases
 to verify them.
 
-*Table 5. VIM Components using Messaging Queue*
+*Table 6. VIM Components using Messaging Queue*
 
 +-------------------+-------------------------------------------------------+----------------------+
 | Component         | Description                                           | Related HA Test Case |
@@ -404,3 +452,5 @@ to verify them.
 - Openstack High Availability Guide: https://docs.openstack.org/ha-guide/
 
 - Highly Available (Mirrored) Queues: https://www.rabbitmq.com/ha.html
+
+- Kubernetes Official Documentation: https://kubernetes.io/docs/concepts/
