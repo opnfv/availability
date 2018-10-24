@@ -153,7 +153,55 @@ The next section will illustrate detailed analysis of HA requirements on these l
 5.3 Virtual Infrastructure HA
 >>>>>>>>>>>>>>>>>>
 
-.. TBD
+
+The Virtual Infrastructure HA in OPNFV includes container HA and VM HA.
+
+Container HA
+::::::::::::::::::::::::::::
+
+The container HA in OPNFV is mainly focus on Kubernetes(K8s) platform. And using the Pod as
+the smallest unit of management, creation, and planning, the K8s' container HA actually means
+the High Availability of running Pods.
+
+Table 2 shows the potential faults of running pods in K8s. when it happens, the ReplicationController
+or ReplicaSet can prevent the services provided by the pod from being unavailable, as is shown in
+figure 3.
+
+*Table 2. Potential Faults in VIM level*
+
++------------+--------------+----------------------------------------------------+----------------+
+| Service    | Fault        | Description                                        | Severity       |
++============+==============+====================================================+================+
+|            |              | All Containers in the Pod have terminated, and     |                |
+| Running by | Pod failure  | at least one Container has terminated in failure.  | Critical       |
+| pods       |              | That is, the Container either exited with non-zero |                |
+|            |              | status or was terminated by the system.            |                |
++------------+--------------+----------------------------------------------------+----------------+
+
+.. figure:: images/Container_HA_analysis_in_K8s.png
+    :alt: VIM HA Analysis
+    :figclass: align-center
+
+    Fig 3. Container HA analysis in K8s
+    
+    
+The Replication Controller or ReplicaSet (ReplicaSet is the next-generation Replication Controller) 
+is a kind of K8s Master Components, which ensures that a specified number of pod replicas are running 
+at any one time.
+
+The following requirements are elicited for Pod HA:
+
+**[Req 5.3.1]** A pod or a homogeneous set of pods is always up and available until terminated properly.
+
+**[Req 5.3.2]** The ReplicationController or ReplicaSet should terminate the extra pods If there are 
+more pods than specified number.
+
+**[Req 5.3.3]** The ReplicationController or ReplicaSet should start more pods If there are fewer pods 
+than specified number. 
+
+**[Req 5.3.4]** The new Pod should be scheduled to other Nodes, if detecting the failure state of the 
+host or container.
+
 
 5.4 VIM HA
 >>>>>>>>>>>>>>>>>>
