@@ -375,6 +375,70 @@ to verify them.
 |                   | api called by the heat-api server.                    |                      |
 +-------------------+-------------------------------------------------------+----------------------+
 
+VIM HA in K8s
+::::::::::::::::::::::::::::
+
+The VIM HA in K8s can be generally analyzed from the following two concepts:
+
+- **Master Components HA**: the HA of k8s components in Master. (for example, Kube-apiserver, 
+  Kube-scheduler, Kube-controller-manager)
+  
+- **Data Storage HA**: the HA of etcd cluster. Actually etcd is a master component used as 
+  Kubernetes' backing store for all cluster data. Considering that etcd is the only stateful service
+  in k8s and that its HA policy can be deployed independent on K8s, it is necessary to discuss the 
+  HA of etcd separately.
+
+Table 6 shows the potential faults that may happen in K8s.
+
+*Table 6. Potential Faults in K8s*
+
++--------------------+------------------+----------------------------------------+----------------+
+| Service            | Fault            | Description                            | Severity       |
++====================+==================+========================================+================+
+| Provided by Master | Master           | A Master component crashed and can't   | Critical       |
+| Components         | Component crash  | provide normal service.                |                |
++--------------------+------------------+----------------------------------------+----------------+
+| Data storage       | Etcd Crash       | The Etcd cluster crashed unnormally.   | Critical       |
++--------------------+------------------+----------------------------------------+----------------+
+
+
+.. figure:: images/VIM_HA_analysis_in_K8s.png
+    :alt: Message Queue Requirement Decomposition
+    :figclass: align-center
+
+    Fig 7. VIM HA analysis in K8s
+    
+Master components can be run on any machine in the cluster. However, for simplicity, all master 
+components are typically started on the same machine, and do not run user containers on this machine.
+In this case, the K8s is based on a single Master, and only has container HA on application layer 
+realized by ReplicationController or ReplicaSet Master Component as mentioned in the container HA 
+part above.
+
+The HA of Mater and its components in K8s must depend on the multi-master setup. 
+
+The Data Storage HA can use an existing Etcd HA cluster to realize, or can be realized as a master
+component through multiple master implementation.
+
+.. figure:: images/VIM_HA_analysis_in_K8s_2.png
+    :alt: Message Queue Requirement Decomposition
+    :figclass: align-center
+
+    Fig 8. VIM HA analysis in K8s(2)
+
+In Multi-Master K8s, the Master Components HA is mainly based on the Leader Election function of Etcd 
+cluster. And load balancer is used to realize the HA of Kube-apiserver Master component.
+
+The following requirements are elicited for Master components HA:
+
+**[Req 5.4.13]** The Load Balancer should always forward the request to an available Kube-apiserver 
+instance. 
+
+**[Req 5.4.14]** The Master Component in the Leader state should confirm its Leader state to all 
+follower Components regularly through Heatbeat.
+
+**[Req 5.4.15]** When a Master Component in the Leader state crashed, an available Master Component 
+should be elected as Leader.
+
 
 5.5 Hypervisor HA
 >>>>>>>>>>>>>>>>>>
@@ -404,3 +468,5 @@ to verify them.
 - Openstack High Availability Guide: https://docs.openstack.org/ha-guide/
 
 - Highly Available (Mirrored) Queues: https://www.rabbitmq.com/ha.html
+
+- Kubernetes Official Documentation: https://kubernetes.io/docs/concepts/
