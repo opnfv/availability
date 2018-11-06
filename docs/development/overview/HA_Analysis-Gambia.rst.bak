@@ -382,7 +382,7 @@ figure 7.
 | General    | Service Crash    | The processes of a service crashed unnormally.  | Critical       |
 +------------+------------------+-------------------------------------------------+----------------+
 
-.. figure:: images/fig7_VIM_Analysis.png
+.. figure:: images/VIM_Analysis.png
     :alt: VIM HA Analysis
     :figclass: align-center
 
