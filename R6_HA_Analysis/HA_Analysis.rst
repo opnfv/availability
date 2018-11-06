@@ -256,9 +256,9 @@ HA test cases to verify them.
 +-------------------+-------------------------------------------------------+----------------------+
 | horizon           | component of Openstack Dashboard Service Horizon      |                      |
 +-------------------+-------------------------------------------------------+----------------------+
-| heat-api          | endpoint component of Openstack Stack Service Heat    | yardstick_tc091      |
+| heat-api          | endpoint component of Openstack Stack Service Heat    |                      |
 +-------------------+-------------------------------------------------------+----------------------+
-| mysqld            | database service of VIM components                    | yardstick_tc090      |
+| mysqld            | database service of VIM components                    |                      |
 +-------------------+-------------------------------------------------------+----------------------+
 
 Active/Passive Redundancy
@@ -342,14 +342,14 @@ to verify them.
 +-------------------+-------------------------------------------------------+----------------------+
 | Component         | Description                                           | Related HA Test Case |
 +===================+=======================================================+======================+
-| nova-scheduler    | Openstack compute component determines how to         | yardstick_tc088      |
+| nova-scheduler    | Openstack compute component determines how to         |                      |
 |                   | dispatch compute requests                             |                      |
 +-------------------+-------------------------------------------------------+----------------------+
 | nova-cert         | Openstack compute component that serves the Nova Cert |                      |
 |                   | service for X509 certificates. Used to generate       |                      |
 |                   | certificates for euca-bundle-image.                   |                      |
 +-------------------+-------------------------------------------------------+----------------------+
-| nova-conductor    | server daemon that serves the Nova Conductor service, | yardstick_tc089      |
+| nova-conductor    | server daemon that serves the Nova Conductor service, |                      |
 |                   | which provides coordination and database query        |                      |
 |                   | support for Nova.                                     |                      |
 +-------------------+-------------------------------------------------------+----------------------+
