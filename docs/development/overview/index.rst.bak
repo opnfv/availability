@@ -6,10 +6,10 @@
 
 
 *********************************************************************************
-High Availability Requirement Analysis in OPNFV
+Reach-thru Guest Monitoring and Services for High Availability
 *********************************************************************************
 
 .. toctree::
    :maxdepth: 4
 
-   HA_Analysis-Gambia.rst
+   OPNFV_HA_Guest_APIs-Overview_HLD.rst
