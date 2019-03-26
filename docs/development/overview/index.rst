@@ -12,4 +12,4 @@ High Availability Requirement Analysis in OPNFV
 .. toctree::
    :maxdepth: 4
 
-   HA_Analysis-Gambia.rst
+   HA_Analysis-H.rst
